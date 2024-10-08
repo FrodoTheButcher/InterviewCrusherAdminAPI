@@ -1,0 +1,6 @@
+@InterviewCrusherAdmin_HostAddress = http://localhost:5190
+
+GET {{InterviewCrusherAdmin_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
