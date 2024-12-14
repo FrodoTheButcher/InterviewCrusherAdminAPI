@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ImzMjtPTJzY=",
+  "dgSpecHash": "04clK2J7aEY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
+  "projectFilePath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Robi\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",

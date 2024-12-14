@@ -6,10 +6,8 @@ namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument
   public class InsertDocumentResponse : CreateResponse
   {
     public InsertDocumentResponse(string id)
+      :base(id)
     {
-      Id = id;
-      IsCreated = id.IsValidObjectId();
-      Message = IsCreated ? "Document created successfully" : "Document creation failed";
     }
   }
 }

@@ -5,8 +5,8 @@ using MediatR;
 
 namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.DeleteDocument
 {
-  public class DeleteDocumentRequest<DtoRepresentation, DbEntityRepresentation> 
-    : DeleteRequest, IRequest<DeleteDocumentResponse> where DtoRepresentation : IDtoRepresentation where DbEntityRepresentation : IDatabaseEntityRepresentation
+  public class DeleteDocumentRequest<DbEntityRepresentation> 
+    : DeleteRequest, IRequest<DeleteDocumentResponse>where DbEntityRepresentation : IDatabaseEntityRepresentation
   {
   }
 }

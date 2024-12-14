@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InterviewCrusherAdmin.CommonDomain\InterviewCrusherAdmin.CommonDomain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controller\Algorithm\" />
+    <Folder Include="Controller\Video\" />
+    <Folder Include="Controller\Quiz\" />
+    <Folder Include="Controller\Template\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+</Project>

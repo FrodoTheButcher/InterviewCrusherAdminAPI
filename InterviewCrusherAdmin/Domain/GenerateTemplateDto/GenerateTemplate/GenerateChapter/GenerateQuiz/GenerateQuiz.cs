@@ -1,6 +1,8 @@
-﻿namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz
+﻿using InterviewCrusherAdmin.DataAbstraction;
+
+namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz
 {
-  public class GenerateQuiz
+  public class GenerateQuiz : IDatabaseEntityRepresentation
   {
     public string Name { get; set; } = string.Empty;
 
@@ -9,5 +11,7 @@
     public string Difficulty { get; set; } = string.Empty;
 
     public string Hint { get; set; } = string.Empty;
+
+    public List<GenerateQuizAnswer> QuizAnswers { get; set; }
   }
 }

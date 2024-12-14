@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
+using InterviewCrusherAdmin.DataAbstraction;
+using InterviewCrusherAdmin.DataAbstraction.Extensions;
+using InterviewCrusherAdmin.DataAbstraction.Repositories;
+using MediatR;
 
 namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.DeleteDocument
 {
-  internal class DeleteDocumentHandler
+  public class DeleteDocumentHandler<DbEntityRepresentation> : IRequestHandler<DeleteDocumentRequest<DbEntityRepresentation>, DeleteDocumentResponse>
+    where DbEntityRepresentation : IDatabaseEntityRepresentation
   {
+    private readonly IRepository<DbEntityRepresentation> _repository;
+
+    public DeleteDocumentHandler(IRepository<DbEntityRepresentation> repository)
+    {
+      _repository = repository ?? throw new DependencyException<IRepository<DbEntityRepresentation>>();
+    }
+    public async Task<DeleteDocumentResponse> Handle(DeleteDocumentRequest<DbEntityRepresentation> request, CancellationToken cancellationToken)
+    {
+      bool deleted = await this._repository.DeleteAsync(request.Id, cancellationToken);
+      return new DeleteDocumentResponse(deleted);
+    }
   }
 }

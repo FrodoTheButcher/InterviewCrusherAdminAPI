@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterviewCrusherAdmin.CommonDomain.Requests
+﻿namespace InterviewCrusherAdmin.CommonDomain.Requests
 {
-  internal class DeleteRequest
+  public class DeleteRequest
   {
+    public string Id { get; set; }
   }
 }

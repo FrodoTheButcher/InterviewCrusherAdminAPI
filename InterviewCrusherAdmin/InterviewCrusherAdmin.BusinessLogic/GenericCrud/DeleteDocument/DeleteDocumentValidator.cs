@@ -5,8 +5,7 @@ using InterviewCrusherAdmin.DataAbstraction.Extensions;
 
 namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.DeleteDocument
 {
-  public class DeleteDocumentValidator<DtoRepresentation, DbEntityRepresentation> : AbstractValidator<DeleteDocumentRequest<DtoRepresentation, DbEntityRepresentation>>
-    where DtoRepresentation : IDtoRepresentation
+  public class DeleteDocumentValidator<DbEntityRepresentation> : AbstractValidator<DeleteDocumentRequest<DbEntityRepresentation>>
     where DbEntityRepresentation : IDatabaseEntityRepresentation
   {
     public DeleteDocumentValidator()

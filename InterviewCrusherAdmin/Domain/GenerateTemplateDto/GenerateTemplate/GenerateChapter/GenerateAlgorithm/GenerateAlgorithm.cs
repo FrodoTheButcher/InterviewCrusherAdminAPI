@@ -1,6 +1,8 @@
-﻿namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm
+﻿using InterviewCrusherAdmin.DataAbstraction;
+
+namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm
 {
-  public class GenerateAlgorithm
+  public class GenerateAlgorithm : IDatabaseEntityRepresentation
   {
     public string Name { get; set; } = string.Empty;
 

@@ -1,0 +1,16 @@
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\InterviewCrusherAdmin.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\InterviewCrusherAdmin.Domain.AssemblyInfoInputs.cache
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\InterviewCrusherAdmin.Domain.AssemblyInfo.cs
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\InterviewCrusherAdmin.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\InterviewCrusherAdmin.Domain.sourcelink.json
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\bin\Debug\net8.0\InterviewCrusherAdmin.Domain.deps.json
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\bin\Debug\net8.0\InterviewCrusherAdmin.Domain.dll
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\bin\Debug\net8.0\InterviewCrusherAdmin.Domain.pdb
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\bin\Debug\net8.0\InterviewCrusherAdmin.DataAbstraction.dll
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\bin\Debug\net8.0\InterviewCrusherAdmin.DataAbstraction.pdb
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\InterviewCrusherAdmin.Domain.csproj.AssemblyReference.cache
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\Intervie.2617AE14.Up2Date
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\InterviewCrusherAdmin.Domain.dll
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\refint\InterviewCrusherAdmin.Domain.dll
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\InterviewCrusherAdmin.Domain.pdb
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\Domain\obj\Debug\net8.0\ref\InterviewCrusherAdmin.Domain.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NFBwz5ugNsg=",
+  "dgSpecHash": "Fu2Ll0UlcyM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj",
+  "projectFilePath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robi\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Robi\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

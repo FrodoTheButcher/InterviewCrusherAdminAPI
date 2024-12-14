@@ -1,0 +1,114 @@
+[
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "DeleteDocument",
+    "RelativePath": "api/Generic/DeleteGeneratedTemplate",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.DeleteDocument.DeleteDocumentRequest\u00601[[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateTemplate, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GenerateAlgorithm",
+    "RelativePath": "api/Generic/GenerateAlgorithm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm.GeneratedAlgorithmDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm.GenerateAlgorithm, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GenerateQuiz",
+    "RelativePath": "api/Generic/GenerateQuiz",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto.GenerateQuizDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz.GenerateQuiz, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GenerateQuiz",
+    "RelativePath": "api/Generic/GenerateTemplate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto.GenerateTemplateDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateTemplate, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GenerateVideo",
+    "RelativePath": "api/Generic/GenerateVideo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo.GeneratedVideoDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateVideo, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GetDocument",
+    "RelativePath": "api/Generic/GetGeneratedTemplate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "ReplaceDocument",
+    "RelativePath": "api/Generic/ReplaceGeneratedTemplate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.ReplaceDocument.ReplaceDocumentRequest\u00601[[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateTemplate, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

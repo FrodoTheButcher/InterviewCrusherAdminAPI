@@ -1,6 +1,6 @@
 ﻿namespace InterviewCrusherAdmin.DataAbstraction.Repositories
 {
-  public interface IRepository <T>
+  public interface IRepository <T> : IDependencyRepresentation
     where T : IDatabaseEntityRepresentation
   {
     Task<string> CreateAsync(T entity, CancellationToken cancellationToken);
