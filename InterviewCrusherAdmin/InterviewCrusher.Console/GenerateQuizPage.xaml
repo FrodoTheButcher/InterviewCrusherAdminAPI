@@ -3,12 +3,57 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:InterviewCrusher.Console"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="GenerateQuizPage">
 
-    <Grid>
-        
-    </Grid>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="20">
+            <!-- Quiz Name -->
+            <TextBlock Text="Quiz Name" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="QuizNameTextBox" Width="300" Height="25"/>
+
+            <!-- Quiz Description -->
+            <TextBlock Text="Quiz Description" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="QuizDescriptionTextBox" Width="300" Height="25"/>
+
+            <!-- Difficulty -->
+            <TextBlock Text="Difficulty" FontWeight="Bold" Margin="0,10,0,5"/>
+            <ComboBox x:Name="DifficultyComboBox" Width="300" Height="25">
+                <ComboBoxItem Content="Easy"/>
+                <ComboBoxItem Content="Medium"/>
+                <ComboBoxItem Content="Hard"/>
+            </ComboBox>
+
+            <!-- Hint -->
+            <TextBlock Text="Hint" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="HintTextBox" Width="300" Height="25"/>
+
+            <!-- Quiz Answers -->
+            <TextBlock Text="Quiz Answers" FontWeight="Bold" Margin="0,20,0,5"/>
+            <ListView x:Name="AnswersListView" Height="200" Margin="0,10,0,5">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Answer Name" Width="150" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Header="Is Correct" Width="75" DisplayMemberBinding="{Binding IsCorrect}"/>
+                        <GridViewColumn Header="Explanation" Width="200" DisplayMemberBinding="{Binding Explanation}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <!-- Add New Answer -->
+            <TextBlock Text="New Answer Name" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="NewAnswerNameTextBox" Width="300" Height="25"/>
+
+            <TextBlock Text="Explanation" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="NewAnswerExplanationTextBox" Width="300" Height="25"/>
+
+            <CheckBox x:Name="NewAnswerIsCorrectCheckBox" Content="Is Correct" Margin="0,10,0,5"/>
+
+            <Button Content="Add Answer" Width="150" Height="30" Click="AddAnswerButton_Click" Margin="0,10,0,0"/>
+
+            <!-- Submit Quiz -->
+            <Button Content="Submit Quiz" Width="150" Height="30" Click="SubmitQuizButton_Click" Margin="0,20,0,0"/>
+        </StackPanel>
+    </ScrollViewer>
 </Page>

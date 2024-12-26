@@ -33,7 +33,7 @@ namespace InterviewCrusherAdmin.CommonDomain
         cfg.CreateMap<GeneratedVideoDto, GenerateVideo>().ReverseMap();
         cfg.CreateMap<GeneratedAlgorithmDto, GeneratedAlgorithm>().ReverseMap();
         cfg.CreateMap<GenerateTemplate, GenerateTemplateDto>().ReverseMap();
-        cfg.CreateMap<GenerateQuiz, GenerateQuizDto>().ReverseMap();
+        cfg.CreateMap<GenerateQuiz, GeneratedQuizDto>().ReverseMap();
       });
 
       return config.CreateMapper();

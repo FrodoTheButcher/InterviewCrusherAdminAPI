@@ -1,0 +1,44 @@
+# Ignore Visual Studio temporary files, build results, and
+# project-specific files such as .vs, bin, obj, etc.
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+.vs/
+
+# Backup & logs
+*.log
+*.tmp
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Rider settings
+.idea/
+
+# Temporary files
+*.cache
+*.diff
+*.patch
+~$*
+
+# Database
+*.mdf
+*.ldf
+
+# Resharper settings
+_ReSharper*/
+*.DotSettings.user
+
+# Include any additional directories/files you want to exclude

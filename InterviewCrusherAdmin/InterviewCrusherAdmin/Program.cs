@@ -3,11 +3,14 @@ using AutoMapper;
 using FluentValidation.AspNetCore;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
 using InterviewCrusherAdmin.CommonDomain;
+using InterviewCrusherAdmin.CommonDomain.ChapterDto;
+using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
 using InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo;
 using InterviewCrusherAdmin.DataAbstraction.Database;
 using InterviewCrusherAdmin.DataAbstraction.Repositories;
 using InterviewCrusherAdmin.Database;
 using InterviewCrusherAdmin.Database.DatabaseConfiguration;
+using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter;
 using InterviewCrusherAdmin.Repositories.GenericCrudRepository;
 using MediatR;
@@ -21,7 +24,6 @@ namespace InterviewCrusherAdmin
     public static void Main(string[] args)
     {
       var builder = WebApplication.CreateBuilder(args);
-
       assemblies = RegisterServices(builder.Services);
 
       builder.Services.AddControllers();
@@ -40,6 +42,8 @@ namespace InterviewCrusherAdmin
       });
 
       builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericCrudRepository<>));
+      builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GeneratedVideoDto, GenerateVideo>, InsertDocumentResponse>, InsertDocumentHandler<GeneratedVideoDto, GenerateVideo>>();
+      builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate>, InsertDocumentResponse>, InsertDocumentHandler<GenerateTemplateDto, GenerateTemplate>>();
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GeneratedVideoDto, GenerateVideo>, InsertDocumentResponse>, InsertDocumentHandler<GeneratedVideoDto, GenerateVideo>>();
 
       var mapper = AutoMapperWrapper.ConfigureMapper();

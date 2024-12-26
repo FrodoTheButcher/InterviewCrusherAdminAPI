@@ -3,7 +3,7 @@ using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Generate
 
 namespace InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto
 {
-  public class GenerateQuizDto : IDtoRepresentation
+  public class GeneratedQuizDto : IDtoRepresentation
   {
     public string Name { get; set; } = string.Empty;
 

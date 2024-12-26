@@ -3,24 +3,27 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       Title="Generate Video Page">
 
-    <StackPanel Margin="20">
-        <!-- Video Name -->
-        <TextBlock Text="Video Name" FontWeight="Bold" Margin="0,10,0,5"/>
-        <TextBox x:Name="VideoNameTextBox" Width="300" Height="25"/>
+    <!-- Add a ScrollViewer -->
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="20,50,20,20">
+            <!-- Video Name -->
+            <TextBlock Text="Video Name" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="VideoNameTextBox" Width="300" Height="25"/>
 
-        <!-- Video Description -->
-        <TextBlock Text="Video Description" FontWeight="Bold" Margin="0,10,0,5"/>
-        <TextBox x:Name="VideoDescriptionTextBox" Width="300" Height="25"/>
+            <!-- Video Description -->
+            <TextBlock Text="Video Description" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="VideoDescriptionTextBox" Width="300" Height="25"/>
 
-        <!-- Video URL -->
-        <TextBlock Text="Video URL" FontWeight="Bold" Margin="0,10,0,5"/>
-        <TextBox x:Name="VideoUrlTextBox" Width="300" Height="25"/>
+            <!-- Video URL -->
+            <TextBlock Text="Video URL" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="VideoUrlTextBox" Width="300" Height="25"/>
 
-        <!-- Chapter ID -->
-        <TextBlock Text="Chapter ID" FontWeight="Bold" Margin="0,10,0,5"/>
-        <TextBox x:Name="ChapterIdTextBox" Width="300" Height="25"/>
+            <!-- Video Length -->
+            <TextBlock Text="Video Length" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBox x:Name="VideoLengthTextBox" Width="300" Height="25"/>
 
-        <!-- Submit Button -->
-        <Button Content="Add Video" Width="100" Height="30" Margin="0,20,0,0" Click="AddVideoButton_Click"/>
-    </StackPanel>
+            <!-- Submit Button -->
+            <Button Content="Add Video" Width="100" Height="30" Margin="0,20,0,0" Click="AddVideoButton_Click"/>
+        </StackPanel>
+    </ScrollViewer>
 </Page>

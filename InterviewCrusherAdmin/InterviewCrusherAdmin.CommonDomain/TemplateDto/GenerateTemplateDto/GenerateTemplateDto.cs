@@ -1,4 +1,5 @@
-﻿using InterviewCrusherAdmin.DataAbstraction;
+﻿using InterviewCrusherAdmin.CommonDomain.ChapterDto;
+using InterviewCrusherAdmin.DataAbstraction;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter;
 
 namespace InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto
@@ -15,6 +16,6 @@ namespace InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto
 
     public int Difficulty { get; set; }
 
-    public List<GenerateChapter> Chapters { get; set; }
+    public List<GeneratedChapterDto> GeneratedChaptersDtos { get; set; }
   }
 }

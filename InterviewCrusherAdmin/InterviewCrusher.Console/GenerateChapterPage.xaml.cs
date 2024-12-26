@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InterviewCrusher.Console.Singleton;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,19 +27,12 @@ namespace InterviewCrusher.Console
     }
     private void AddChapterButton_Click(object sender, RoutedEventArgs e)
     {
-      string templateId = TemplateIdTextBox.Text;
       string chapterName = ChapterNameTextBox.Text;
-      string description = DescriptionTextBox.Text;
+      string chapterDescription = DescriptionTextBox.Text;
 
-      if (string.IsNullOrWhiteSpace(templateId) || string.IsNullOrWhiteSpace(chapterName))
-      {
-        MessageBox.Show("Template ID and Chapter Name are required fields.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
-        return;
-      }
-
-      MessageBox.Show($"Chapter Added:\nTemplate ID: {templateId}\nChapter Name: {chapterName}\nDescription: {description}",
-          "Chapter Information", MessageBoxButton.OK, MessageBoxImage.Information);
-
+      TemplateDataStorage templateDataStorage = TemplateDataStorage.Instance;
+      templateDataStorage.AddGeneratedChapterDtoWithPreviousDataAndCleanIt(chapterName, chapterDescription);
+      MessageBox.Show("Chapter added successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
     }
   }
 }

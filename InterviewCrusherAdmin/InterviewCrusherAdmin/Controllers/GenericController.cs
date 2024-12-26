@@ -41,17 +41,25 @@ namespace InterviewCrusherAdmin.Controllers
     }
 
     [HttpPost("GenerateQuiz")]
-    public async Task<IActionResult> GenerateQuiz([FromBody] InsertDocumentRequest<GenerateQuizDto, GenerateQuiz> request, CancellationToken cancellationToken)
+    public async Task<IActionResult> GenerateQuiz([FromBody] InsertDocumentRequest<GeneratedQuizDto, GenerateQuiz> request, CancellationToken cancellationToken)
     {
       var response = await this.mediator.Send(request);
       return this.ToActionResult(response);
     }
 
     [HttpPost("GenerateTemplate")]
-    public async Task<IActionResult> GenerateQuiz([FromBody] InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate> request, CancellationToken cancellationToken)
+    public async Task<IActionResult> GenerateTemplate([FromBody] InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate> request, CancellationToken cancellationToken)
     {
-      var response = await this.mediator.Send(request);
-      return this.ToActionResult(response);
+      try
+      {
+        var response = await this.mediator.Send(request);
+        return this.ToActionResult(response);
+      }
+      catch(Exception e)
+      {
+        return this.Ok();
+      }
+  
     }
 
     [HttpDelete("DeleteGeneratedTemplate")]

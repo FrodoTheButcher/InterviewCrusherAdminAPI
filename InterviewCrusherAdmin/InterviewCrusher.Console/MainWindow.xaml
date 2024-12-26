@@ -14,15 +14,12 @@
         </Grid.RowDefinitions>
 
         <!-- Toolbar with navigation buttons -->
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Background="LightGray" Height="50" Grid.Row="0">
-            <Button Content="Generate Video" Width="150" Height="40" Click="NavigateToVideo"/>
-            <Button Content="Generate Quiz" Width="150" Height="40" Click="NavigateToQuiz"/>
-            <Button Content="Generate Algorithm" Width="150" Height="40" Click="NavigateToAlgorithm"/>
-            <Button Content="Generate Chapter" Width="150" Height="40" Click="NavigateToChapter"/>
-            <Button Content="Generate Template" Width="150" Height="40" Click="NavigateToTemplate"/>
-        </StackPanel>
+
 
         <!-- Main content area where pages will load -->
         <Frame Name="MainContentFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Background="LightGray" Height="20" Grid.Row="0">
+            <Button Content="Generate Template" Width="150" Height="20" Click="NavigateToGenerateTemplate"/>
+        </StackPanel>
     </Grid>
 </Window>

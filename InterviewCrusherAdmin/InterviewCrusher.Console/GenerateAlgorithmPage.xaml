@@ -3,12 +3,122 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:InterviewCrusher.Console"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="GenerateAlgorithmPage">
 
     <Grid>
-        
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="20">
+                <!-- Algorithm Name -->
+                <TextBlock Text="Algorithm Name" FontWeight="Bold" Margin="0,10,0,5"/>
+                <TextBox x:Name="AlgoNameTextBox" Width="300" Height="25"/>
+
+                <!-- Algorithm Description -->
+                <TextBlock Text="Algorithm Description" FontWeight="Bold" Margin="0,10,0,5"/>
+                <TextBox x:Name="AlgoDescriptionTextBox" Width="300" Height="25"/>
+
+                <!-- Algorithm Solution -->
+                <TextBlock Text="Algorithm Solution" FontWeight="Bold" Margin="0,10,0,5"/>
+                <TextBox x:Name="AlgoSolutionB64" Width="300" Height="25"/>
+
+                <!-- Algorithm Hint -->
+                <TextBlock Text="Algorithm Hint" FontWeight="Bold" Margin="0,10,0,5"/>
+                <TextBox x:Name="AlgoHint" Width="300" Height="25"/>
+
+                <!-- All Languages -->
+                <CheckBox x:Name="AlLanguagesAreAvailable" Content="All languages available" Margin="0,10,0,5"/>
+
+                <!-- Completed Code -->
+                <TextBlock Text="Completed Code" FontWeight="Bold" Margin="0,10,0,5"/>
+                <TextBox x:Name="CompletedCode" Width="300" Height="25"/>
+
+                <!-- Difficulty -->
+                <TextBlock Text="Difficulty" FontWeight="Bold" Margin="0,10,0,5"/>
+                <ComboBox x:Name="DifficultyComboBox" Width="300" Height="25">
+                    <ComboBoxItem Content="Easy"/>
+                    <ComboBoxItem Content="Medium"/>
+                    <ComboBoxItem Content="Hard"/>
+                </ComboBox>
+
+                <!-- Test Cases -->
+                <TextBlock Text="Algorithm Test Cases" FontWeight="Bold" Margin="0,20,0,5"/>
+                <ListView x:Name="AlgoTestcasesView" Height="150" Margin="0,10,0,5">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Input Data" Width="150" DisplayMemberBinding="{Binding InputData}"/>
+                            <GridViewColumn Header="Expected Output" Width="150" DisplayMemberBinding="{Binding ExpectedOutput}"/>
+                            <GridViewColumn Header="Tip" Width="150" DisplayMemberBinding="{Binding Tip}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Input Data" FontWeight="Bold" Margin="0,0,0,2"/>
+                        <TextBox x:Name="TestCaseInputData" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Expected Output" FontWeight="Bold" Margin="0,0,0,2"/>
+                        <TextBox x:Name="TestCaseOutput" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Tip" FontWeight="Bold" Margin="0,0,0,2"/>
+                        <TextBox x:Name="TestCaseTip" Width="150"/>
+                    </StackPanel>
+                    <Button Content="Add Test Case" Click="AddTestCaseButton_Click" Width="100" Margin="10,0,0,0"/>
+                </StackPanel>
+
+                <!-- Examples -->
+                <TextBlock Text="Algorithm Examples" FontWeight="Bold" Margin="0,20,0,5"/>
+                <ListView x:Name="AlgoExamplesView" Height="150" Margin="0,10,0,5">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Explanation" Width="150" DisplayMemberBinding="{Binding Explanation}"/>
+                            <GridViewColumn Header="Input Data" Width="150" DisplayMemberBinding="{Binding InputData}"/>
+                            <GridViewColumn Header="Expected Output" Width="150" DisplayMemberBinding="{Binding ExpectedOutput}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Explanation" FontWeight="Bold" Margin="0,0,0,2"/>
+                        <TextBox x:Name="ExampleExplanation" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Input Data" FontWeight="Bold" Margin="0,0,0,2"/>
+                        <TextBox x:Name="ExampleInputData" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Expected Output" FontWeight="Bold" Margin="0,0,0,2"/>
+                        <TextBox x:Name="ExampleOutput" Width="150"/>
+                    </StackPanel>
+                    <Button Content="Add Example" Click="AddExampleButton_Click" Width="100" Margin="10,0,0,0"/>
+                </StackPanel>
+
+                <!-- Restrictions -->
+                <TextBlock Text="Algorithm Restrictions" FontWeight="Bold" Margin="0,20,0,5"/>
+                <ListView x:Name="AlgoRestrictionsView" Height="150" Margin="0,10,0,5">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Restriction Name" Width="150" DisplayMemberBinding="{Binding RestrictionName}"/>
+                            <GridViewColumn Header="Restriction Description" Width="150" DisplayMemberBinding="{Binding RestrictionDescription}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Restriction Name" FontWeight="Bold" Margin="0,0,0,2"/>
+                        <TextBox x:Name="RestrictionName" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Restriction Description" FontWeight="Bold" Margin="0,0,0,2"/>
+                        <TextBox x:Name="RestrictionDescription" Width="150"/>
+                    </StackPanel>
+                    <Button Content="Add Restriction" Click="AddRestrictionButton_Click" Width="100" Margin="10,0,0,0"/>
+                </StackPanel>
+                <Button Content="Add Algorithm" Width="100" Height="30" Margin="0,20,0,0" Click="AddAlgoButton_Click"/>
+            </StackPanel>
+
+        </ScrollViewer>
     </Grid>
 </Page>

@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using InterviewCrusher.Console.Singleton;
+using InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace InterviewCrusher.Console
@@ -12,23 +14,22 @@ namespace InterviewCrusher.Console
 
     private void AddVideoButton_Click(object sender, RoutedEventArgs e)
     {
-      
-      string videoName = VideoNameTextBox.Text;
-      string videoDescription = VideoDescriptionTextBox.Text;
-      string videoUrl = VideoUrlTextBox.Text;
-      string chapterId = ChapterIdTextBox.Text;
-
-      // Validate and use the collected data
-      if (string.IsNullOrWhiteSpace(videoName) || string.IsNullOrWhiteSpace(videoUrl))
+      try
       {
-        MessageBox.Show("Video Name and Video URL are required fields.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
-        return;
-      }
+        string videoName = VideoNameTextBox.Text;
+        string videoDescription = VideoDescriptionTextBox.Text;
+        string videoUrl = VideoUrlTextBox.Text;
+        float videoLength = float.Parse(VideoLengthTextBox.Text);
 
-      // Here you can add logic to handle these values, such as storing them in a database
-      // For now, we’ll just display the information in a message box
-      MessageBox.Show($"Video Added:\nName: {videoName}\nDescription: {videoDescription}\nURL: {videoUrl}\nChapter ID: {chapterId}",
-          "Video Information", MessageBoxButton.OK, MessageBoxImage.Information);
+        TemplateDataStorage templateDataStorage = TemplateDataStorage.Instance;
+        templateDataStorage.AddGeneratedVideoDto(new GeneratedVideoDto(videoName, videoUrl, videoLength, videoDescription));
+
+        MessageBox.Show("Video added successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+      }
+      catch (System.Exception ex)
+      {
+        MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+      }
     }
   }
 }

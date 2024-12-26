@@ -11,5 +11,17 @@ namespace InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo
     public float VideoLength { get; set; }
 
     public string Description { get; set; } = string.Empty;
+
+    public GeneratedVideoDto()
+    {
+    }
+
+    public GeneratedVideoDto(string name, string url, float videoLength, string description)
+    {
+      Name = name;
+      Url = url;
+      VideoLength = videoLength;
+      Description = description;
+    }
   }
 }

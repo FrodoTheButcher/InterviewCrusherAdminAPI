@@ -16,6 +16,9 @@
     <Compile Update="GenerateQuizPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="GenerateTemplateRoute.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="GenerateTemplatePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

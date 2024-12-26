@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\InterviewCrusherAdmin.BusinessLogic\InterviewCrusherAdmin.BusinessLogic.csproj" />
     <ProjectReference Include="..\InterviewCrusherAdmin.CommonDomain\InterviewCrusherAdmin.CommonDomain.csproj" />
   </ItemGroup>
 

@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using InterviewCrusher.Console.Singleton;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace InterviewCrusher.Console
@@ -9,30 +10,10 @@ namespace InterviewCrusher.Console
     {
       InitializeComponent();
     }
-
-    private void NavigateToVideo(object sender, RoutedEventArgs e)
+    private void NavigateToGenerateTemplate(object sender, RoutedEventArgs e)
     {
-      MainContentFrame.Navigate(new GenerateVideoPage());
-    }
-
-    private void NavigateToQuiz(object sender, RoutedEventArgs e)
-    {
-      MainContentFrame.Navigate(new GenerateQuizPage());
-    }
-
-    private void NavigateToAlgorithm(object sender, RoutedEventArgs e)
-    {
-      MainContentFrame.Navigate(new GenerateAlgorithmPage());
-    }
-
-    private void NavigateToChapter(object sender, RoutedEventArgs e)
-    {
-      MainContentFrame.Navigate(new GenerateChapterPage());
-    }
-
-    private void NavigateToTemplate(object sender, RoutedEventArgs e)
-    {
-      MainContentFrame.Navigate(new GenerateTemplatePage());
+      MainContentFrame.Navigate(new GenerateTemplateRoute());
+      TemplateDataStorage templateDataStorage = TemplateDataStorage.Instance;
     }
   }
 }

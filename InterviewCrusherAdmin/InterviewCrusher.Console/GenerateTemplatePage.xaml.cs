@@ -1,4 +1,8 @@
-﻿using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
+﻿using InterviewCrusher.Console.Controller.Generic;
+using InterviewCrusher.Console.Singleton;
+using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
+using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
+using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,29 +42,35 @@ namespace InterviewCrusher.Console
       }
     }
 
-    private void AddTemplateButton_Click(object sender, RoutedEventArgs e)
+    private async void AddTemplateButton_Click(object sender, RoutedEventArgs e)
     {
-      string image = TemplateImage.Source.ToString();
+      string image = string.Empty;
+      try
+      {
+        image = TemplateImage.Source.ToString();
+
+      }
+      catch (Exception ex)
+      {
+      }
       string templateName = TemplateNameTextBox.Text;
       string templateDescription = TemplateDescriptionTextBox.Text;
       string averageTimeText = AverageTimeTextBox.Text;
 
-      List<string> selectedChapterIds = ChapterIdsListBox.SelectedItems
-          .OfType<ListBoxItem>()
-          .Select(item => item.Content.ToString())
-          .ToList();
-
-
+      TemplateDataStorage templateDataStorage = TemplateDataStorage.Instance;
       var generateTemplateDto = new GenerateTemplateDto
       {
         Title = templateName,
-       // Chapters = selectedChapterIds,
         Difficulty = 10,
         Description = templateDescription,
-        Image = image
+        Image = image,
+        GeneratedChaptersDtos = templateDataStorage.GetGeneratedChaptersAndClearEverything(),
       };
-      //call the controller from the ASP.NET API 
+      InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate> insertDocumentRequest = new InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate>();
+      insertDocumentRequest.DocumentToInsert = generateTemplateDto;
 
+      GenericCall genericCall = new GenericCall();
+      await genericCall.InsertGeneric<GenerateTemplateDto, GenerateTemplate>(insertDocumentRequest, CancellationToken.None);
     }
   }
 }
