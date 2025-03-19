@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\InterviewCrusherAdmin.CommonDomain\InterviewCrusherAdmin.CommonDomain.csproj" />
     <ProjectReference Include="..\InterviewCrusherAdmin.DataAbstraction\InterviewCrusherAdmin.DataAbstraction.csproj" />
   </ItemGroup>
 

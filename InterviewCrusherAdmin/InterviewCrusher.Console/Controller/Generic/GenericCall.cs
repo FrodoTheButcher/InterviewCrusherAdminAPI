@@ -2,14 +2,17 @@
 using InterviewCrusherAdmin.CommonDomain;
 using InterviewCrusherAdmin.CommonDomain.Responses;
 using InterviewCrusherAdmin.DataAbstraction;
+using MongoDB.Bson.IO;
+using System.IO;
 using System.Net.Http;
+using Newtonsoft.Json;
 using System.Net.Http.Json;
 
 namespace InterviewCrusher.Console.Controller.Generic
 {
   internal class GenericCall
   {
-    public async Task<Response> InsertGeneric<TDto, TDb>(InsertDocumentRequest<TDto, TDb> request, CancellationToken token)
+    public async Task<Response> InsertGeneric<TDto, TDb>(InsertDocumentRequest<TDto, TDb> request, string path,  CancellationToken token)
       where TDto : IDtoRepresentation
       where TDb : IDatabaseEntityRepresentation
     {
@@ -18,7 +21,7 @@ namespace InterviewCrusher.Console.Controller.Generic
       {
         using (var httpClient = new HttpClient())
         {
-          var dataresponse = await httpClient.PostAsJsonAsync("https://localhost:7235/api/Generic/GenerateTemplate", request);
+          var dataresponse = await httpClient.PostAsJsonAsync(path, request);
           response = await dataresponse.Content.ReadFromJsonAsync<Response>();
           return response;
         }
@@ -29,6 +32,39 @@ namespace InterviewCrusher.Console.Controller.Generic
         response.Message = ex.Message;
       }
       return response;
+    }
+
+    public async Task<CreateResponse?> InsertGeneric(Request request, string path, CancellationToken token)
+    {
+      CreateResponse response = null;
+      try
+      {
+        using (var httpClient = new HttpClient())
+        {
+          var dataresponse = await httpClient.PostAsJsonAsync(path, request);
+          response = await dataresponse.Content.ReadFromJsonAsync<CreateResponse>();
+          return response;
+        }
+      }
+      catch (Exception ex)
+      {
+        response.StatusCode = System.Net.HttpStatusCode.InternalServerError;
+        response.Message = ex.Message;
+      }
+      return response;
+    }
+    public async Task<TResponse> GetAllGeneric<TResponse>(string path, CancellationToken token)
+      where TResponse : Response
+    {
+        using (var httpClient = new HttpClient())
+        {
+
+        var dataresponse = await httpClient.GetAsync(path);
+        string rawJson = await dataresponse.Content.ReadAsStringAsync();
+
+        var response = Newtonsoft.Json.JsonConvert.DeserializeObject<TResponse>(rawJson);
+        return response;
+        }      
     }
   }
 }

@@ -4,18 +4,13 @@ using MongoDB.Bson.Serialization.IdGenerators;
 
 namespace InterviewCrusherAdmin.DataAbstraction
 {
-  public abstract class IDatabaseEntityRepresentation
+  public class IDatabaseEntityRepresentation
   {
-    [BsonId(IdGenerator = typeof(StringObjectIdGenerator))]
+    [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; }
+    public string Id { get; set; } = string.Empty;
 
-    public bool Deleted { get; set; }
+    public bool Deleted { get; set; } = false;
 
-    public IDatabaseEntityRepresentation()
-    {
-      Deleted = false;
-      Id = ObjectId.GenerateNewId().ToString();
-    }
   }
 }

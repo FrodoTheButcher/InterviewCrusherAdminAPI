@@ -4,6 +4,7 @@ namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Gene
 {
   public class GenerateAlgorithm : IDatabaseEntityRepresentation
   {
+    public short ExerciseNumber { get; set; } = 0;
     public string Name { get; set; } = string.Empty;
 
     public string Description { get; set; } = string.Empty;

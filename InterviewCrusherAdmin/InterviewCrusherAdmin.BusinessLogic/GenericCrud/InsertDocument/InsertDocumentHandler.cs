@@ -3,6 +3,7 @@ using InterviewCrusherAdmin.CommonDomain;
 using InterviewCrusherAdmin.DataAbstraction;
 using InterviewCrusherAdmin.DataAbstraction.Extensions;
 using InterviewCrusherAdmin.DataAbstraction.Repositories;
+using InterviewCrusherAdmin.Domain;
 using MediatR;
 
 namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument

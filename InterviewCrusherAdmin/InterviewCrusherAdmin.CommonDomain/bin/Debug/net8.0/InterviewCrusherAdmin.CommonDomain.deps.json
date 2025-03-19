@@ -9,8 +9,7 @@
       "InterviewCrusherAdmin.CommonDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "InterviewCrusherAdmin.DataAbstraction": "1.0.0",
-          "InterviewCrusherAdmin.Domain": "1.0.0"
+          "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
         },
         "runtime": {
           "InterviewCrusherAdmin.CommonDomain.dll": {}
@@ -217,17 +216,6 @@
             "fileVersion": "1.0.0.0"
           }
         }
-      },
-      "InterviewCrusherAdmin.Domain/1.0.0": {
-        "dependencies": {
-          "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
-        },
-        "runtime": {
-          "InterviewCrusherAdmin.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -392,11 +380,6 @@
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
     "InterviewCrusherAdmin.DataAbstraction/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "InterviewCrusherAdmin.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

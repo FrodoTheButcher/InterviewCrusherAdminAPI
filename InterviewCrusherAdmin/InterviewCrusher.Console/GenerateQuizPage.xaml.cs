@@ -10,7 +10,7 @@ namespace InterviewCrusher.Console
   public partial class GenerateQuizPage : Page
   {
     public GeneratedQuizDto Quiz { get; set; }
-    public ObservableCollection<GenerateQuizAnswer> QuizAnswers { get; set; }
+    public ObservableCollection<GenerateQuizAnswerDto> QuizAnswers { get; set; }
 
     public GenerateQuizPage()
     {
@@ -18,7 +18,7 @@ namespace InterviewCrusher.Console
 
       // Initialize Quiz DTO and the Answers collection
       Quiz = new GeneratedQuizDto();
-      QuizAnswers = new ObservableCollection<GenerateQuizAnswer>();
+      QuizAnswers = new ObservableCollection<GenerateQuizAnswerDto>();
 
       // Bind the Answers collection to the ListView
       AnswersListView.ItemsSource = QuizAnswers;
@@ -40,7 +40,7 @@ namespace InterviewCrusher.Console
       }
 
       // Add a new answer to the collection
-      var newAnswer = new GenerateQuizAnswer
+      var newAnswer = new GenerateQuizAnswerDto
       {
         Name = NewAnswerNameTextBox.Text,
         IsCorrect = NewAnswerIsCorrectCheckBox.IsChecked ?? false,
@@ -62,7 +62,7 @@ namespace InterviewCrusher.Console
       Quiz.Description = QuizDescriptionTextBox.Text;
       Quiz.Difficulty = (DifficultyComboBox.SelectedItem as ComboBoxItem)?.Content.ToString();
       Quiz.Hint = HintTextBox.Text;
-      Quiz.QuizAnswers = new List<GenerateQuizAnswer>(QuizAnswers);
+      Quiz.QuizAnswers = new List<GenerateQuizAnswerDto>(QuizAnswers);
 
       // Validate Quiz data
       if (string.IsNullOrWhiteSpace(Quiz.Name))

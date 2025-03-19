@@ -16,5 +16,7 @@ namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Gene
     public float VideoLength { get; set; }
 
     public string Description { get; set; } = string.Empty;
+
+    public short ExerciseNumber { get; set; }
   }
 }

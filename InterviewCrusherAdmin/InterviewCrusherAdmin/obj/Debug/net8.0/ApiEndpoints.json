@@ -1,15 +1,31 @@
 [
   {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.ChapterController",
+    "Method": "CreateChapterRepresentation",
+    "RelativePath": "api/Chapter/CreateChapterRepresentation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chapterRepresentationDto",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.Chapter.CreateChapterAutoIncrement.CreateChapterRepresentationAutoIncrementRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
     "Method": "DeleteDocument",
-    "RelativePath": "api/Generic/DeleteGeneratedTemplate",
+    "RelativePath": "api/Generic/DeleteGeneratedTemplate/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.DeleteDocument.DeleteDocumentRequest\u00601[[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateTemplate, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -82,15 +98,57 @@
   {
     "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
     "Method": "GetDocument",
-    "RelativePath": "api/Generic/GetGeneratedTemplate",
+    "RelativePath": "api/Generic/GetGeneratedTemplate/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
+        "Name": "id",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GetAllDocuments",
+    "RelativePath": "api/Generic/GetGeneratedTemplates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "InitializeChapter",
+    "RelativePath": "api/Generic/InitializeChapter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.ChapterDto.ChapterRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.Chapter.ChapterRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "InitializeTemplate",
+    "RelativePath": "api/Generic/InitializeTemplate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.TemplateDto.TemplateRepresentation, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateTemplate, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -106,6 +164,32 @@
       {
         "Name": "request",
         "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.ReplaceDocument.ReplaceDocumentRequest\u00601[[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateTemplate, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.TemplateController",
+    "Method": "GetTemplateNames",
+    "RelativePath": "api/Template/GetTemplateNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.TemplateController",
+    "Method": "GetTemplateWithChapterNames",
+    "RelativePath": "api/Template/GetTemplateWithChapterNames/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

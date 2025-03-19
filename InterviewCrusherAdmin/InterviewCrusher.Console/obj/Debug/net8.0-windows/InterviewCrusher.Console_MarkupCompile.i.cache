@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\App.xaml
-7-154959303
+10-1975969269
 
-14456157395
-220538051332
-GenerateAlgorithmPage.xaml;GenerateChapterPage.xaml;GenerateQuizPage.xaml;GenerateTemplatePage.xaml;GenerateTemplateRoute.xaml;GenerateVideoPage.xaml.xaml;MainWindow.xaml;
+171418811286
+3631093750007
+EditGeneratedTemplate\EditGeneratedTemplateChapterSide.xaml;GenerateAlgorithmPage.xaml;GenerateChapterPage.xaml;GenerateQuizPage.xaml;GenerateTemplatePage.xaml;GenerateTemplateRoute.xaml;GenerateVideoPage.xaml.xaml;MainWindow.xaml;RepresentationPages\ChapterRepresentationPage.xaml;TemplateDropdownWindow.xaml;
 
-False
+True
 

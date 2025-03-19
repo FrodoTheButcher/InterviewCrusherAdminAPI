@@ -1,5 +1,6 @@
 ﻿using InterviewCrusherAdmin.DataAbstraction;
 using InterviewCrusherAdmin.DataAbstraction.Database;
+using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using MongoDB.Driver;
 
 namespace InterviewCrusherAdmin.Database
@@ -22,10 +23,10 @@ namespace InterviewCrusherAdmin.Database
       return _mongoDatabase;
     }
 
-    public IMongoCollection<T> GetMongoCollection<T>(string collectionName)
+    public IMongoCollection<T> GetMongoCollection<T>()
       where T : IDatabaseEntityRepresentation
     {
-      return _mongoDatabase.GetCollection<T>(collectionName);
+      return _mongoDatabase.GetCollection<T>(typeof(T).Name);
     }
   }
 }

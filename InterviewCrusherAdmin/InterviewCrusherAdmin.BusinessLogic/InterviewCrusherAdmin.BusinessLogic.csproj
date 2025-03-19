@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Domain\InterviewCrusherAdmin.Domain.csproj" />
     <ProjectReference Include="..\InterviewCrusherAdmin.CommonDomain\InterviewCrusherAdmin.CommonDomain.csproj" />
     <ProjectReference Include="..\InterviewCrusherAdmin.DataAbstraction\InterviewCrusherAdmin.DataAbstraction.csproj" />
   </ItemGroup>

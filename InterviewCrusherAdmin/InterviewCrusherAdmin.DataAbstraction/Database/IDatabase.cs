@@ -2,8 +2,11 @@
 
 namespace InterviewCrusherAdmin.DataAbstraction.Database
 {
-  public interface IDatabase
+  public interface IDatabase : IDependencyRepresentation
   {
     IMongoDatabase GetMongoDatabase();
+
+    public IMongoCollection<T> GetMongoCollection<T>()
+      where T : IDatabaseEntityRepresentation;
   }
 }

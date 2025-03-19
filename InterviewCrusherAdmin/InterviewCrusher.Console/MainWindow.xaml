@@ -20,6 +20,9 @@
         <Frame Name="MainContentFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Background="LightGray" Height="20" Grid.Row="0">
             <Button Content="Generate Template" Width="150" Height="20" Click="NavigateToGenerateTemplate"/>
+            <Button Content="Available Templates" Width="150" Height="20" Click="NavigateToViewTemplates"/>
+            <Button Content="Create Chapter Representation" Width="150" Height="20" Click="NavigateToViewChapterRepresentation"/>
+
         </StackPanel>
     </Grid>
 </Window>

@@ -1,4 +1,5 @@
-﻿using InterviewCrusher.Console.Singleton;
+﻿using InterviewCrusher.Console.RepresentationPages;
+using InterviewCrusher.Console.Singleton;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -13,7 +14,15 @@ namespace InterviewCrusher.Console
     private void NavigateToGenerateTemplate(object sender, RoutedEventArgs e)
     {
       MainContentFrame.Navigate(new GenerateTemplateRoute());
-      TemplateDataStorage templateDataStorage = TemplateDataStorage.Instance;
+    }
+
+    private void NavigateToViewChapterRepresentation(object sender, RoutedEventArgs e)
+    {
+      MainContentFrame.Navigate(new ChapterRepresentationPage());
+    }
+    private void NavigateToViewTemplates(object sender, RoutedEventArgs e)
+    {
+      MainContentFrame.Navigate(new TemplateDropdownWindow());
     }
   }
 }

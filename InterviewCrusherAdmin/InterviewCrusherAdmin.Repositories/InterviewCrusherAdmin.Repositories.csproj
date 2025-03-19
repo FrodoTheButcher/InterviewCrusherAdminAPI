@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Domain\InterviewCrusherAdmin.Domain.csproj" />
     <ProjectReference Include="..\InterviewCrusherAdmin.DataAbstraction\InterviewCrusherAdmin.DataAbstraction.csproj" />
   </ItemGroup>
 

@@ -1,5 +1,4 @@
 ﻿using InterviewCrusherAdmin.DataAbstraction;
-using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm;
 
 namespace InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm
 {
@@ -17,12 +16,12 @@ namespace InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm
 
     public string CompletedCode { get; set; } = string.Empty;
 
-    public GenerateAlgorithmSolution AlgorithmSolution { get; set; } = new GenerateAlgorithmSolution();
+    public String AlgorithmSolution { get; set; } = string.Empty;
 
-    public List<GenerateTestCase> TestCases { get; set; } = new List<GenerateTestCase>();
+    public List<GenerateTestCaseDto> TestCases { get; set; } = new List<GenerateTestCaseDto>();
 
-    public List<GenerateAlgorithmExample> Examples { get; set; } = new List<GenerateAlgorithmExample>();
+    public List<GenerateAlgorithmExampleDto> Examples { get; set; } = new List<GenerateAlgorithmExampleDto>();
 
-    public List<GenerateAlgorithmRestrictions> AlgorithmRestrictions { get; set; } = new List<GenerateAlgorithmRestrictions>();
+    public List<GenerateAlgorithmRestrictionsDto> AlgorithmRestrictions { get; set; } = new List<GenerateAlgorithmRestrictionsDto>();
   }
 }

@@ -307,6 +307,7 @@
           "FluentValidation": "11.10.0",
           "InterviewCrusherAdmin.CommonDomain": "1.0.0",
           "InterviewCrusherAdmin.DataAbstraction": "1.0.0",
+          "InterviewCrusherAdmin.Domain": "1.0.0",
           "MediatR": "12.4.1"
         },
         "runtime": {
@@ -319,8 +320,7 @@
       "InterviewCrusherAdmin.CommonDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "InterviewCrusherAdmin.DataAbstraction": "1.0.0",
-          "InterviewCrusherAdmin.Domain": "1.0.0"
+          "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
         },
         "runtime": {
           "InterviewCrusherAdmin.CommonDomain.dll": {
@@ -342,7 +342,8 @@
       },
       "InterviewCrusherAdmin.Database/1.0.0": {
         "dependencies": {
-          "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
+          "InterviewCrusherAdmin.DataAbstraction": "1.0.0",
+          "InterviewCrusherAdmin.Domain": "1.0.0"
         },
         "runtime": {
           "InterviewCrusherAdmin.Database.dll": {
@@ -353,6 +354,7 @@
       },
       "InterviewCrusherAdmin.Domain/1.0.0": {
         "dependencies": {
+          "InterviewCrusherAdmin.CommonDomain": "1.0.0",
           "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
         },
         "runtime": {
@@ -365,6 +367,7 @@
       "InterviewCrusherAdmin.Repositories/1.0.0": {
         "dependencies": {
           "InterviewCrusherAdmin.DataAbstraction": "1.0.0",
+          "InterviewCrusherAdmin.Domain": "1.0.0",
           "MongoDB.Driver": "2.29.0"
         },
         "runtime": {

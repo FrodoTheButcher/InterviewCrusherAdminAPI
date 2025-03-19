@@ -9,17 +9,17 @@ namespace InterviewCrusher.Console
 {
   public partial class GenerateAlgorithmPage : Page
   {
-    public ObservableCollection<GenerateTestCase> TestCases { get; set; }
-    public ObservableCollection<GenerateAlgorithmExample> Examples { get; set; }
-    public ObservableCollection<GenerateAlgorithmRestrictions> Restrictions { get; set; }
+    public ObservableCollection<GenerateTestCaseDto> TestCases { get; set; }
+    public ObservableCollection<GenerateAlgorithmExampleDto> Examples { get; set; }
+    public ObservableCollection<GenerateAlgorithmRestrictionsDto> Restrictions { get; set; }
 
     public GenerateAlgorithmPage()
     {
       InitializeComponent();
 
-      TestCases = new ObservableCollection<GenerateTestCase>();
-      Examples = new ObservableCollection<GenerateAlgorithmExample>();
-      Restrictions = new ObservableCollection<GenerateAlgorithmRestrictions>();
+      TestCases = new ObservableCollection<GenerateTestCaseDto>();
+      Examples = new ObservableCollection<GenerateAlgorithmExampleDto>();
+      Restrictions = new ObservableCollection<GenerateAlgorithmRestrictionsDto>();
 
       AlgoTestcasesView.ItemsSource = TestCases;
       AlgoExamplesView.ItemsSource = Examples;
@@ -28,7 +28,7 @@ namespace InterviewCrusher.Console
 
     private void AddTestCaseButton_Click(object sender, RoutedEventArgs e)
     {
-      TestCases.Add(new GenerateTestCase
+      TestCases.Add(new GenerateTestCaseDto
       {
         InputData = TestCaseInputData.Text,
         ExpectedOutput = TestCaseOutput.Text,
@@ -42,7 +42,7 @@ namespace InterviewCrusher.Console
 
     private void AddExampleButton_Click(object sender, RoutedEventArgs e)
     {
-      Examples.Add(new GenerateAlgorithmExample
+      Examples.Add(new GenerateAlgorithmExampleDto
       {
         Explanation = ExampleExplanation.Text,
         InputData = ExampleInputData.Text,
@@ -56,7 +56,7 @@ namespace InterviewCrusher.Console
 
     private void AddRestrictionButton_Click(object sender, RoutedEventArgs e)
     {
-      Restrictions.Add(new GenerateAlgorithmRestrictions
+      Restrictions.Add(new GenerateAlgorithmRestrictionsDto
       {
         RestrictionName = RestrictionName.Text,
         RestrictionDescription = RestrictionDescription.Text
@@ -71,10 +71,10 @@ namespace InterviewCrusher.Console
       TemplateDataStorage templateDataStorage = TemplateDataStorage.Instance;
       templateDataStorage.AddGeneratedAlgorithmDto(new GeneratedAlgorithmDto
       {
-        AlgorithmRestrictions = new System.Collections.Generic.List<GenerateAlgorithmRestrictions>(Restrictions),
-        Examples = new System.Collections.Generic.List<GenerateAlgorithmExample>(Examples),
-        AlgorithmSolution = new GenerateAlgorithmSolution { SolutionB64 = AlgoSolutionB64.Text },
-        TestCases = new System.Collections.Generic.List<GenerateTestCase>(TestCases),
+        AlgorithmRestrictions = new List<GenerateAlgorithmRestrictionsDto>(Restrictions),
+        Examples = new List<GenerateAlgorithmExampleDto>(Examples),
+        AlgorithmSolution = AlgoSolutionB64.Text,
+        TestCases = new List<GenerateTestCaseDto>(TestCases),
         AllLanguagesAvailable = AlLanguagesAreAvailable.IsChecked ?? false,
         Description = AlgoDescriptionTextBox.Text,
         Difficulty = DifficultyComboBox.Text,

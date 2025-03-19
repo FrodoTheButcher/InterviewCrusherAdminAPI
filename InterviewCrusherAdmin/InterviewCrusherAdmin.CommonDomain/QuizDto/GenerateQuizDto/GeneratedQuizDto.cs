@@ -1,5 +1,4 @@
 ﻿using InterviewCrusherAdmin.DataAbstraction;
-using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz;
 
 namespace InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto
 {
@@ -13,6 +12,6 @@ namespace InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto
 
     public string Hint { get; set; } = string.Empty;
 
-    public List<GenerateQuizAnswer> QuizAnswers { get; set; }
+    public List<GenerateQuizAnswerDto> QuizAnswers { get; set; }
   }
 }

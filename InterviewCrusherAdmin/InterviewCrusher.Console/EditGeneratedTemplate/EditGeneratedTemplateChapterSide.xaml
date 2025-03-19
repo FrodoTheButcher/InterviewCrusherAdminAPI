@@ -1,0 +1,43 @@
+﻿<Page x:Class="InterviewCrusher.Console.EditGeneratedTemplate.EditGeneratedTemplateChapterSide"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Edit Template">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!-- Title Section -->
+            <RowDefinition Height="Auto" />
+            <!-- Description Section -->
+            <RowDefinition Height="*" />
+            <!-- Dropdown Section -->
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <!-- Label Column -->
+            <ColumnDefinition Width="*" />
+            <!-- Input Column -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Template Title -->
+        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.ColumnSpan="2" Margin="5">
+            <TextBlock Text="Template Title:" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBox x:Name="TitleTextBox" Text="{Binding Template.Title, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10" Width="400"/>
+        </StackPanel>
+
+        <!-- Template Description -->
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.ColumnSpan="2" Margin="5">
+            <TextBlock Text="Template Description:" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBox x:Name="DescriptionTextBox" Text="{Binding Template.Description, UpdateSourceTrigger=PropertyChanged}" 
+                     Margin="0,0,0,10" Width="400" Height="100" TextWrapping="Wrap" AcceptsReturn="True"/>
+        </StackPanel>
+
+        <!-- Chapter Dropdown -->
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5">
+            <TextBlock Text="Select a Chapter:" FontWeight="Bold" Margin="0,0,0,5"/>
+            <ComboBox x:Name="ChapterDropdown" Width="300" DisplayMemberPath="ChapterName" SelectedValuePath="Id" 
+                      ItemsSource="{Binding Template.ChapterNamesDto}" />
+        </StackPanel>
+    </Grid>
+</Page>

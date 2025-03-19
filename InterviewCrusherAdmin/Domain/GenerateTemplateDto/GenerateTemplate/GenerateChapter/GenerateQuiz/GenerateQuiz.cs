@@ -13,5 +13,7 @@ namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Gene
     public string Hint { get; set; } = string.Empty;
 
     public List<GenerateQuizAnswer> QuizAnswers { get; set; }
+
+    public short ExerciseNumber { get; set; } = 0;
   }
 }

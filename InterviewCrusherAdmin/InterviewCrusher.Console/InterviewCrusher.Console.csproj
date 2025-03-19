@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\InterviewCrusherAdmin.BusinessLogic\InterviewCrusherAdmin.BusinessLogic.csproj" />
     <ProjectReference Include="..\InterviewCrusherAdmin.CommonDomain\InterviewCrusherAdmin.CommonDomain.csproj" />
+    <ProjectReference Include="..\InterviewCrusherAdmin\InterviewCrusherAdmin.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 

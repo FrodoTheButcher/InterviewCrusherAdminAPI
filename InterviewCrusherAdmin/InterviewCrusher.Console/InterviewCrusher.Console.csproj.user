@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="EditGeneratedTemplate\EditGeneratedTemplateChapterSide.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="GenerateChapterPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,8 +28,17 @@
     <Compile Update="GenerateVideoPage.xaml.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="RepresentationPages\ChapterRepresentationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TemplateDropdownWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="EditGeneratedTemplate\EditGeneratedTemplateChapterSide.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="GenerateChapterPage.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -43,6 +55,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GenerateVideoPage.xaml.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RepresentationPages\ChapterRepresentationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TemplateDropdownWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

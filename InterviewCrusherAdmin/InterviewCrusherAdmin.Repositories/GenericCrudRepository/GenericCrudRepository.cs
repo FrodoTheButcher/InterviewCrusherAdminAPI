@@ -2,6 +2,7 @@
 using InterviewCrusherAdmin.DataAbstraction.Database;
 using InterviewCrusherAdmin.DataAbstraction.Extensions;
 using InterviewCrusherAdmin.DataAbstraction.Repositories;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace InterviewCrusherAdmin.Repositories.GenericCrudRepository
@@ -34,7 +35,9 @@ namespace InterviewCrusherAdmin.Repositories.GenericCrudRepository
 
     public async Task<T>? GetAsync(string id, CancellationToken cancellationToken)
     {
-      return await this._collection.Find(Builders<T>.Filter.Eq(e => e.Id, id)).FirstOrDefaultAsync(cancellationToken);
+      var objectId = ObjectId.Parse(id);
+
+      return await this._collection.Find(Builders<T>.Filter.Eq(e => e.Id, objectId.ToString())).FirstOrDefaultAsync(cancellationToken);
     }
 
     public async Task<bool> ReplaceAsync(string id, T entity, CancellationToken cancellationToken)

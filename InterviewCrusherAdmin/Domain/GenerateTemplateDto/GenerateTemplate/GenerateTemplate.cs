@@ -15,6 +15,6 @@ namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate
 
     public int CoinsEarnedIfFinished { get; set; }
 
-    public List<GenerateChapter.GenerateChapter> Chapters { get; set; }
+    public List<GenerateChapter.GenerateChapter> Chapters { get; set; } = new List<GenerateChapter.GenerateChapter>();
   }
 }

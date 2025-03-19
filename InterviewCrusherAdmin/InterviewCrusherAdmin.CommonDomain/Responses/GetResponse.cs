@@ -8,6 +8,8 @@ namespace InterviewCrusherAdmin.CommonDomain.Responses
     where T : IDtoRepresentation
   {
     public T? Data { get; set; }
+
+    public GetResponse() { }
     public GetResponse(T data) {
     this.Data = data;
     this.StatusCode = data != null ? System.Net.HttpStatusCode.OK : System.Net.HttpStatusCode.NotFound;

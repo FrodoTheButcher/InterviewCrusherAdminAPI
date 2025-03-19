@@ -2,6 +2,7 @@
 using InterviewCrusher.Console.Singleton;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
+using InterviewCrusherAdmin.Controllers;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using System;
 using System.Collections.Generic;
@@ -70,7 +71,7 @@ namespace InterviewCrusher.Console
       insertDocumentRequest.DocumentToInsert = generateTemplateDto;
 
       GenericCall genericCall = new GenericCall();
-      await genericCall.InsertGeneric<GenerateTemplateDto, GenerateTemplate>(insertDocumentRequest, CancellationToken.None);
+      await genericCall.InsertGeneric<GenerateTemplateDto, GenerateTemplate>(insertDocumentRequest, UrlConstants.SERVER_URL + "/" + UrlConstants.GenericController.BASE_URL +  "/"+ UrlConstants.GenericController.GENERATE_TEMPLATE, CancellationToken.None);
     }
   }
 }

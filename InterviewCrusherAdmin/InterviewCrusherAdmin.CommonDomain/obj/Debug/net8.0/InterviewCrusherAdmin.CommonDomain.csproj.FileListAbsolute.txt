@@ -14,5 +14,3 @@ C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCr
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin.CommonDomain\obj\Debug\net8.0\refint\InterviewCrusherAdmin.CommonDomain.dll
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin.CommonDomain\obj\Debug\net8.0\InterviewCrusherAdmin.CommonDomain.pdb
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin.CommonDomain\obj\Debug\net8.0\ref\InterviewCrusherAdmin.CommonDomain.dll
-C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin.CommonDomain\bin\Debug\net8.0\InterviewCrusherAdmin.Domain.dll
-C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin.CommonDomain\bin\Debug\net8.0\InterviewCrusherAdmin.Domain.pdb
