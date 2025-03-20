@@ -131,7 +131,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.ChapterDto.ChapterRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.Chapter.ChapterRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[ChapterRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.Chapter.ChapterRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

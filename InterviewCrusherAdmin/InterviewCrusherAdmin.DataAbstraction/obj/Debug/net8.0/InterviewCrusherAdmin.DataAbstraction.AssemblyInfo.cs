@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterviewCrusherAdmin.DataAbstraction")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a694e831854a061c249665524db9de8423bd701b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96de2d5fbf502d372931fe7fa07f14f0e35357a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterviewCrusherAdmin.DataAbstraction")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterviewCrusherAdmin.DataAbstraction")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

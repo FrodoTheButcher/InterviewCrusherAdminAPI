@@ -5,14 +5,15 @@ using InterviewCrusherAdmin.DataAbstraction;
 using MongoDB.Bson.IO;
 using System.IO;
 using System.Net.Http;
-using Newtonsoft.Json;
 using System.Net.Http.Json;
+using static System.Net.WebRequestMethods;
+using System.Text;
 
 namespace InterviewCrusher.Console.Controller.Generic
 {
   internal class GenericCall
   {
-    public async Task<Response> InsertGeneric<TDto, TDb>(InsertDocumentRequest<TDto, TDb> request, string path,  CancellationToken token)
+    public async Task<Response> InsertGeneric<TDto, TDb>(InsertDocumentRequest<TDto, TDb> request, string path, CancellationToken token)
       where TDto : IDtoRepresentation
       where TDb : IDatabaseEntityRepresentation
     {
@@ -41,9 +42,27 @@ namespace InterviewCrusher.Console.Controller.Generic
       {
         using (var httpClient = new HttpClient())
         {
-          var dataresponse = await httpClient.PostAsJsonAsync(path, request);
-          response = await dataresponse.Content.ReadFromJsonAsync<CreateResponse>();
+          var json = Newtonsoft.Json.JsonConvert.SerializeObject(request);
+          var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+          var dataResponse = await httpClient.PostAsync(path, content);
+
+          if (dataResponse.StatusCode == System.Net.HttpStatusCode.BadRequest)
+          {
+            var errorResponse = await dataResponse.Content.ReadAsStringAsync();
+            var validatorResponse = await dataResponse.Content.ReadFromJsonAsync<AbstractValidatorResponse>();
+            response = new CreateResponse(string.Empty)
+            {
+              Id = string.Empty,
+              IsCreated = false,
+              Message = validatorResponse?.GetMessagesList() ?? "Unknown error",
+              StatusCode = System.Net.HttpStatusCode.BadRequest
+            };
+            return response;
+          }
+          response = await dataResponse.Content.ReadFromJsonAsync<CreateResponse>();
           return response;
+
         }
       }
       catch (Exception ex)
@@ -56,15 +75,15 @@ namespace InterviewCrusher.Console.Controller.Generic
     public async Task<TResponse> GetAllGeneric<TResponse>(string path, CancellationToken token)
       where TResponse : Response
     {
-        using (var httpClient = new HttpClient())
-        {
+      using (var httpClient = new HttpClient())
+      {
 
         var dataresponse = await httpClient.GetAsync(path);
         string rawJson = await dataresponse.Content.ReadAsStringAsync();
 
         var response = Newtonsoft.Json.JsonConvert.DeserializeObject<TResponse>(rawJson);
         return response;
-        }      
+      }
     }
   }
 }
