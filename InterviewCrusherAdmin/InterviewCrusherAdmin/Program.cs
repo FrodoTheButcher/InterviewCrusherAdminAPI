@@ -3,6 +3,7 @@ using AutoMapper;
 using FluentValidation.AspNetCore;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetAllDocuments;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocument;
+using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocumentsByTemplateId;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto;
@@ -52,6 +53,8 @@ namespace InterviewCrusherAdmin
       builder.Services.AddScoped<ITemplateRepository, TemplateRepository>();
 
       builder.Services.AddTransient<IRequestHandler<InsertAutoIncrementDocumentRequest<ChapterRepresentationDto, ChapterRepresentation>, InsertAutoIncrementDocumentResponse>, InsertAutoIncrementDocumentHandler<ChapterRepresentationDto, ChapterRepresentation>>();
+      builder.Services.AddTransient<IRequestHandler<GetDocumentsByTemplateIdRequest<ChapterRepresentation>, GetDocumentsByTemplateIdResponse>, GetDocumentsByTemplateIdHandler<ChapterRepresentation>>();
+
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GeneratedVideoDto, GenerateVideo>, InsertDocumentResponse>, InsertDocumentHandler<GeneratedVideoDto, GenerateVideo>>();
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate>, InsertDocumentResponse>, InsertDocumentHandler<GenerateTemplateDto, GenerateTemplate>>();
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<TemplateRepresentation, GenerateTemplate>, InsertDocumentResponse>, InsertDocumentHandler<TemplateRepresentation, GenerateTemplate>>();
@@ -61,6 +64,7 @@ namespace InterviewCrusherAdmin
       builder.Services.AddTransient<IRequestHandler<GetDocumentRequest<GenerateTemplateDto, GenerateTemplate>, GetDocumentResponse<GenerateTemplateDto>>, GetDocumentHandler<GenerateTemplateDto, GenerateTemplate>>();
       builder.Services.AddTransient<IRequestHandler<GetAllDocumentsRequest<GenerateTemplateDto, GenerateTemplate>, GetAllDocumentsResponse<GenerateTemplateDto>>, GetAllDocumentsHandler<GenerateTemplateDto, GenerateTemplate>>();
 
+      
       var mapper = AutoMapperWrapper.ConfigureMapper();
       builder.Services.AddSingleton<IMapper>(mapper);
       builder.Services.AddSingleton<AutoMapperWrapper>(sp => new AutoMapperWrapper(sp.GetRequiredService<IMapper>()));

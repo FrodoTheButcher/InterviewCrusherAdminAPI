@@ -3,7 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocumentsbytemplateid\\getdocumentsbytemplateidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocumentsbytemplateid\\getdocumentsbytemplateidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\controllers\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:controllers\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\controllers\\urlconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:controllers\\urlconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocumentsbytemplateid\\getdocumentsbytemplateidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocumentsbytemplateid\\getdocumentsbytemplateidvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41386EFB-B2F7-44EA-9C5F-7BDCF932C449}|..\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.dataabstraction\\iautoincrementrepository\\autoincremententityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65ADFC3-8F3F-48DE-B5AA-4D8368BF2BC2}|..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.commondomain\\responses\\getallresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F6B28F-72C6-403F-82AC-0E4D4A067968}|..\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.repositories\\autoincrementrepository\\autoincrementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertautoincrementdocument\\insertautoincrementdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getalldocuments\\getalldocumentsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertdocument\\insertdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getalldocuments\\getalldocumentsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7BDA6D-6B6E-479A-9360-B5FD6B7E3856}|..\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.database\\interviewcrusheradmin.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getalldocuments\\getalldocumentshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocument\\getdocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocument\\getdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocument\\getdocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertdocument\\insertdocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertdocument\\insertdocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertdocument\\insertdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertautoincrementdocument\\insertautoincrementdocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41386EFB-B2F7-44EA-9C5F-7BDCF932C449}|..\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.dataabstraction\\iautoincrementrepository\\iautoincrementdatabaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocument\\getdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertautoincrementdocument\\insertautoincrementdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648A8131-5C18-4A93-BB3E-B61D03558C9E}|..\\Domain\\InterviewCrusherAdmin.Domain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\domain\\chapter\\chapterrepresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41386EFB-B2F7-44EA-9C5F-7BDCF932C449}|..\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.dataabstraction\\iautoincrementrepository\\iautoincrementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -12,50 +97,10 @@
       "AbsoluteMoniker": "D:0:0:{41386EFB-B2F7-44EA-9C5F-7BDCF932C449}|..\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.dataabstraction\\extensions\\dependencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\controllers\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:controllers\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\controllers\\urlconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:controllers\\urlconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertdocument\\insertdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertautoincrementdocument\\insertautoincrementdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertautoincrementdocument\\insertautoincrementdocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertautoincrementdocument\\insertautoincrementdocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{648A8131-5C18-4A93-BB3E-B61D03558C9E}|..\\Domain\\InterviewCrusherAdmin.Domain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\domain\\chapter\\chapterrepresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41386EFB-B2F7-44EA-9C5F-7BDCF932C449}|..\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.dataabstraction\\iautoincrementrepository\\iautoincrement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertdocument\\insertdocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertdocument\\insertdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F65ADFC3-8F3F-48DE-B5AA-4D8368BF2BC2}|..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.commondomain\\requests\\insertrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\insertdocument\\insertdocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\replacedocument\\replacedocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -68,9 +113,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC7BDA6D-6B6E-479A-9360-B5FD6B7E3856}|..\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.database\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7F6B28F-72C6-403F-82AC-0E4D4A067968}|..\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.repositories\\autoincrementrepository\\autoincrementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{001A95A3-1A7F-4D60-9A4C-D411CB03AF7A}|..\\InterviewCrusher.Console\\InterviewCrusher.Console.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusher.console\\controller\\generic\\genericcall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -130,9 +172,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin\\controllers\\templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FC2D09-2ACC-4817-AFA8-7F1421EFF86E}|InterviewCrusherAdmin.csproj|solutionrelative:controllers\\templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getalldocuments\\getalldocumentshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{648A8131-5C18-4A93-BB3E-B61D03558C9E}|..\\Domain\\InterviewCrusherAdmin.Domain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\domain\\automapperwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -197,25 +236,7 @@
       "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\replacedocument\\replacedocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocument\\getdocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocument\\getdocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocument\\getdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getdocument\\getdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getalldocuments\\getalldocumentsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getalldocuments\\getalldocumentsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\getalldocuments\\getalldocumentsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\genericcrud\\deletedocument\\deletedocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -314,9 +335,6 @@
       "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\template\\gettemplatenames\\gettemplatenamesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F65ADFC3-8F3F-48DE-B5AA-4D8368BF2BC2}|..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.commondomain\\responses\\getallresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{625BE3DD-569F-4827-9041-C435603D6826}|..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.businesslogic\\template\\gettemplatenames\\gettemplatenamesvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -375,9 +393,6 @@
       "AbsoluteMoniker": "D:0:0:{F65ADFC3-8F3F-48DE-B5AA-4D8368BF2BC2}|..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.commondomain\\requests\\deleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC7BDA6D-6B6E-479A-9360-B5FD6B7E3856}|..\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.database\\interviewcrusheradmin.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateRepresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -390,23 +405,23 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 104,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 135,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAutoIncrementRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
-              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
-              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
-              "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AutoIncrementEntityResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
+              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:40:45.373Z",
+              "WhenOpened": "2025-03-23T17:08:11.726Z",
               "EditorCaption": ""
             },
             {
@@ -426,6 +441,58 @@
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetDocumentsByTemplateIdResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs",
+              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs*",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:45:29.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetDocumentsByTemplateIdValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdValidator.cs",
+              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdValidator.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdValidator.cs",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:45:22.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetDocumentsByTemplateIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdHandler.cs",
+              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdHandler.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdHandler.cs",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:45:16.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetDocumentsByTemplateIdRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs",
+              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs*",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:45:06.424Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
@@ -435,7 +502,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
+              "Title": "IAutoIncrementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
+              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:40:45.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "InsertAutoIncrementDocumentResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentResponse.cs",
@@ -448,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 30,
               "Title": "InsertAutoIncrementDocumentValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentValidator.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentValidator.cs",
@@ -461,20 +541,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 26,
               "Title": "InsertAutoIncrementDocumentHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentHandler.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentHandler.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentHandler.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T14:43:21.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "InsertAutoIncrementDocumentRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentRequest.cs",
@@ -487,33 +567,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IAutoIncrement.cs",
-              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrement.cs",
-              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrement.cs",
-              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrement.cs",
-              "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "IAutoIncrementDatabaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementDatabaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementDatabaseEntity.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementDatabaseEntity.cs",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementDatabaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T08:59:40.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 10,
               "Title": "AutoIncrementRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\AutoIncrementRepository\\AutoIncrementRepository.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.Repositories\\AutoIncrementRepository\\AutoIncrementRepository.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\AutoIncrementRepository\\AutoIncrementRepository.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.Repositories\\AutoIncrementRepository\\AutoIncrementRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T08:26:53.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 128,
               "Title": "AbstractValidatorResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\Controller\\AbstractValidatorResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\Controller\\AbstractValidatorResponse.cs",
@@ -525,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "ChapterRepresentationPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\RepresentationPages\\ChapterRepresentationPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\RepresentationPages\\ChapterRepresentationPage.xaml.cs",
@@ -537,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "MainWindow.g.i.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
@@ -549,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "ChapterRepresentationPage.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\RepresentationPages\\ChapterRepresentationPage.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\RepresentationPages\\ChapterRepresentationPage.xaml",
@@ -573,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 58,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\Class1.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.Database\\Class1.cs",
@@ -585,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 53,
               "Title": "IChapterRepresentationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\Chapter\\IChapterRepresentationRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Chapter\\IChapterRepresentationRepository.cs",
@@ -597,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 56,
               "Title": "CustomMapping.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\Mapping\\CustomMapping.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.Database\\Mapping\\CustomMapping.cs",
@@ -609,20 +689,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "ChapterRepresentation.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\Chapter\\ChapterRepresentation.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Chapter\\ChapterRepresentation.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\Chapter\\ChapterRepresentation.cs",
               "RelativeToolTip": "..\\Domain\\Chapter\\ChapterRepresentation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T14:51:38.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 65,
               "Title": "GetTemplateChaptersHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateChapters\\GetTemplateChaptersHandler.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateChapters\\GetTemplateChaptersHandler.cs",
@@ -634,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 129,
               "Title": "ChapterRepresentationDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\ChapterDto\\ChapterRepresentationDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\ChapterDto\\ChapterRepresentationDto.cs",
@@ -646,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 127,
               "Title": "TemplateRepresentation.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateRepresentation.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateRepresentation.cs",
@@ -658,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 73,
               "Title": "ReplaceDocumentValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentValidator.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentValidator.cs",
@@ -670,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 32,
               "Title": "ReplaceDocumentResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentResponse.cs",
@@ -683,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "ReplaceDocumentRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentRequest.cs",
@@ -696,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 75,
               "Title": "GetAllDocumentsValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsValidator.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsValidator.cs",
@@ -708,43 +788,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 14,
               "Title": "GetAllDocumentsResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsResponse.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsResponse.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:37:21.907Z"
+              "WhenOpened": "2025-01-27T23:37:21.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 12,
               "Title": "GetAllDocumentsRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsRequest.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsRequest.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:37:21.098Z"
+              "WhenOpened": "2025-01-27T23:37:21.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 16,
               "Title": "GetAllDocumentsHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsHandler.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsHandler.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsHandler.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:37:20.381Z"
+              "WhenOpened": "2025-01-27T23:37:20.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "TemplateDropdownWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\TemplateDropdownWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\TemplateDropdownWindow.xaml.cs",
@@ -756,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 88,
               "Title": "Microsoft.WinFX.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
@@ -768,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 84,
               "Title": "ChapterNamesDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateWithChapterNames\\ChapterNamesDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateWithChapterNames\\ChapterNamesDto.cs",
@@ -780,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 52,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\App.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\App.xaml",
@@ -791,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -803,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 83,
               "Title": "EditGeneratedTemplateChapterSide.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\EditGeneratedTemplate\\EditGeneratedTemplateChapterSide.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\EditGeneratedTemplate\\EditGeneratedTemplateChapterSide.xaml.cs",
@@ -815,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 82,
               "Title": "EditGeneratedTemplateChapterSide.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\EditGeneratedTemplate\\EditGeneratedTemplateChapterSide.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\EditGeneratedTemplate\\EditGeneratedTemplateChapterSide.xaml",
@@ -826,31 +909,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 19,
               "Title": "GetDocumentResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentResponse.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentResponse.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T16:52:48.428Z"
+              "WhenOpened": "2024-12-30T16:52:48.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 18,
               "Title": "GetDocumentRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentRequest.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentRequest.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T16:52:42.716Z"
+              "WhenOpened": "2024-12-30T16:52:42.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 44,
               "Title": "TemplateDropdownWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\TemplateDropdownWindow.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\TemplateDropdownWindow.xaml",
@@ -861,20 +946,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "UrlConstants.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\Controllers\\UrlConstants.cs",
               "RelativeDocumentMoniker": "Controllers\\UrlConstants.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\Controllers\\UrlConstants.cs",
               "RelativeToolTip": "Controllers\\UrlConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T13:27:23.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 95,
               "Title": "IDtoRepresentation.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IDtoRepresentation.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IDtoRepresentation.cs",
@@ -886,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 68,
               "Title": "IDatabaseEntitySerializer.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IDatabaseEntitySerializer.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IDatabaseEntitySerializer.cs",
@@ -898,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 74,
               "Title": "ReplaceDocumentHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentHandler.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentHandler.cs",
@@ -910,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 99,
               "Title": "GenerateQuizAnswer.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateQuiz\\GenerateQuizAnswer.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateQuiz\\GenerateQuizAnswer.cs",
@@ -922,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 98,
               "Title": "GenerateQuizAnswerDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\QuizDto\\GenerateQuizDto\\GenerateQuizAnswerDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\QuizDto\\GenerateQuizDto\\GenerateQuizAnswerDto.cs",
@@ -934,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 55,
               "Title": "AutoMapperWrapper.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\AutoMapperWrapper.cs",
               "RelativeDocumentMoniker": "..\\Domain\\AutoMapperWrapper.cs",
@@ -946,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 102,
               "Title": "GenerateAlgorithmRestrictionDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\AlgorithmDto\\GeneratedAlgorithm\\GenerateAlgorithmRestrictionDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\AlgorithmDto\\GeneratedAlgorithm\\GenerateAlgorithmRestrictionDto.cs",
@@ -958,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 94,
               "Title": "GenerateAlgorithmRestrictions.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateAlgorithmRestrictions.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateAlgorithmRestrictions.cs",
@@ -970,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 103,
               "Title": "GenerateAlgorithmSolution.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateAlgorithmSolution.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateAlgorithmSolution.cs",
@@ -982,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 100,
               "Title": "GenerateAlgorithmExampleDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\AlgorithmDto\\GeneratedAlgorithm\\GenerateAlgorithmExampleDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\AlgorithmDto\\GeneratedAlgorithm\\GenerateAlgorithmExampleDto.cs",
@@ -994,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 104,
               "Title": "GenerateAlgorithmExample.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateAlgorithmExample.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateAlgorithmExample.cs",
@@ -1006,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 105,
               "Title": "GenerateTestCaseDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\AlgorithmDto\\GeneratedAlgorithm\\GenerateTestCaseDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\AlgorithmDto\\GeneratedAlgorithm\\GenerateTestCaseDto.cs",
@@ -1018,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 106,
               "Title": "GenerateTestCase.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateTestCase.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateTestCase.cs",
@@ -1030,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 54,
               "Title": "TemplateController.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\Controllers\\TemplateController.cs",
               "RelativeDocumentMoniker": "Controllers\\TemplateController.cs",
@@ -1042,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 64,
               "Title": "TemplateRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\Template\\TemplateRepository.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.Repositories\\Template\\TemplateRepository.cs",
@@ -1054,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 67,
               "Title": "TemplateName.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateName.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateName.cs",
@@ -1066,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 62,
               "Title": "ITemplateRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\Template\\ITemplateRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Template\\ITemplateRepository.cs",
@@ -1078,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 96,
               "Title": "GetTemplateNamesHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateNames\\GetTemplateNamesHandler.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateNames\\GetTemplateNamesHandler.cs",
@@ -1090,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 108,
               "Title": "GetTemplateNamesValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateNames\\GetTemplateNamesValidator.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateNames\\GetTemplateNamesValidator.cs",
@@ -1102,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 107,
               "Title": "GetTemplateNamesRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateNames\\GetTemplateNamesRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateNames\\GetTemplateNamesRequest.cs",
@@ -1114,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 109,
               "Title": "GetAllRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Requests\\GetAllRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Requests\\GetAllRequest.cs",
@@ -1126,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 111,
               "Title": "GetRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Requests\\GetRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Requests\\GetRequest.cs",
@@ -1138,19 +1223,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 9,
               "Title": "GetAllResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Responses\\GetAllResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Responses\\GetAllResponse.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Responses\\GetAllResponse.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.CommonDomain\\Responses\\GetAllResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T11:26:42.716Z"
+              "WhenOpened": "2024-12-30T11:26:42.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 69,
               "Title": "GetTemplateNamesResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateNames\\GetTemplateNamesResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\Template\\GetTemplateNames\\GetTemplateNamesResponse.cs",
@@ -1162,7 +1248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 116,
               "Title": "StyleHelper.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\AppData\\Local\\Temp\\.vsdbgsrc\\58fd2a6661b00642cfb2cc5619d685735c60f07e5ae4bc8e01b59b95cd4905a2\\StyleHelper.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\58fd2a6661b00642cfb2cc5619d685735c60f07e5ae4bc8e01b59b95cd4905a2\\StyleHelper.cs",
@@ -1175,7 +1261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 86,
               "Title": "GenerateAlgorithmPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateAlgorithmPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateAlgorithmPage.xaml.cs",
@@ -1187,7 +1273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 66,
               "Title": "GeneratedChapterDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\ChapterDto\\GeneratedChapterDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\ChapterDto\\GeneratedChapterDto.cs",
@@ -1199,7 +1285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 114,
               "Title": "GenerateChapter.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateChapter.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateChapter.cs",
@@ -1211,7 +1297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 119,
               "Title": "GeneratedVideoDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\VideosDto\\GeneratedVideo\\GeneratedVideoDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\VideosDto\\GeneratedVideo\\GeneratedVideoDto.cs",
@@ -1223,7 +1309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 118,
               "Title": "TemplateDataStorage.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\Singleton\\TemplateDataStorage.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\Singleton\\TemplateDataStorage.cs",
@@ -1235,7 +1321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\AssemblyInfo.cs",
@@ -1247,7 +1333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 47,
               "Title": "GenerateTemplateRoute.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateTemplateRoute.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateTemplateRoute.xaml.cs",
@@ -1259,7 +1345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 89,
               "Title": "GenerateTemplateRoute.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateTemplateRoute.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateTemplateRoute.xaml",
@@ -1270,7 +1356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 57,
               "Title": "GenerateTemplate.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateTemplate.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateTemplate.cs",
@@ -1282,31 +1368,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 25,
               "Title": "GetDocumentHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentHandler.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentHandler.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentHandler.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T23:11:48.148Z"
+              "WhenOpened": "2024-12-18T23:11:48.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 17,
               "Title": "GetDocumentValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentValidator.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentValidator.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentValidator.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T09:13:12.395Z"
+              "WhenOpened": "2024-12-15T09:13:12.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 61,
               "Title": "IDatabase.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\Database\\IDatabase.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\Database\\IDatabase.cs",
@@ -1318,7 +1406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 122,
               "Title": "InterviewCrusherAdmin.DataAbstraction.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj",
@@ -1331,7 +1419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "GenericCall.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\Controller\\Generic\\GenericCall.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\Controller\\Generic\\GenericCall.cs",
@@ -1344,7 +1432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "GenerateTemplatePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateTemplatePage.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateTemplatePage.xaml.cs",
@@ -1356,7 +1444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 90,
               "Title": "GenerateTemplatePage.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateTemplatePage.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateTemplatePage.xaml",
@@ -1367,7 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "GenerateChapterPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateChapterPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateChapterPage.xaml.cs",
@@ -1379,7 +1467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 91,
               "Title": "GenerateChapterPage.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateChapterPage.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateChapterPage.xaml",
@@ -1390,7 +1478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 93,
               "Title": "GenerateQuizPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateQuizPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateQuizPage.xaml.cs",
@@ -1402,7 +1490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 85,
               "Title": "GenerateAlgorithmPage.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateAlgorithmPage.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateAlgorithmPage.xaml",
@@ -1413,7 +1501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 115,
               "Title": "GenerateQuizPage.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateQuizPage.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateQuizPage.xaml",
@@ -1424,7 +1512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 92,
               "Title": "GenerateVideoPage.xaml.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateVideoPage.xaml.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateVideoPage.xaml.xaml.cs",
@@ -1436,7 +1524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 117,
               "Title": "GenerateVideoPage.xaml.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\GenerateVideoPage.xaml.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\GenerateVideoPage.xaml.xaml",
@@ -1447,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 49,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\MainWindow.xaml",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\MainWindow.xaml",
@@ -1458,7 +1546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 48,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\MainWindow.xaml.cs",
@@ -1470,7 +1558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 63,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\Repositories\\IRepository.cs",
@@ -1482,7 +1570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 87,
               "Title": "IDependencyRepresentation.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IDependencyRepresentation.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IDependencyRepresentation.cs",
@@ -1494,7 +1582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 29,
               "Title": "DependencyException.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\Extensions\\DependencyException.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\Extensions\\DependencyException.cs",
@@ -1507,7 +1595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 124,
               "Title": "HttpStatusCodeExtension.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\Extensions\\HttpStatusCodeExtension.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\Extensions\\HttpStatusCodeExtension.cs",
@@ -1519,7 +1607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 123,
               "Title": "DeleteResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Responses\\DeleteResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Responses\\DeleteResponse.cs",
@@ -1531,7 +1619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 78,
               "Title": "DeleteDocumentRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\DeleteDocument\\DeleteDocumentRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\DeleteDocument\\DeleteDocumentRequest.cs",
@@ -1543,7 +1631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 77,
               "Title": "DeleteDocumentResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\DeleteDocument\\DeleteDocumentResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\DeleteDocument\\DeleteDocumentResponse.cs",
@@ -1555,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 59,
               "Title": "DeleteDocumentHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\DeleteDocument\\DeleteDocumentHandler.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\DeleteDocument\\DeleteDocumentHandler.cs",
@@ -1567,7 +1655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 70,
               "Title": "GenerateTemplateDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\GenerateTemplateDto\\GenerateTemplateDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\GenerateTemplateDto\\GenerateTemplateDto.cs",
@@ -1579,7 +1667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 79,
               "Title": "GenerateQuiz.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateQuiz\\GenerateQuiz.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateQuiz\\GenerateQuiz.cs",
@@ -1591,7 +1679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 97,
               "Title": "GeneratedQuizDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\QuizDto\\GenerateQuizDto\\GeneratedQuizDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\QuizDto\\GenerateQuizDto\\GeneratedQuizDto.cs",
@@ -1603,7 +1691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 113,
               "Title": "GenerateAlgorithm.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateAlgorithm.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateAlgorithm\\GenerateAlgorithm.cs",
@@ -1615,7 +1703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 101,
               "Title": "GeneratedAlgorithmDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\AlgorithmDto\\GeneratedAlgorithm\\GeneratedAlgorithmDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\AlgorithmDto\\GeneratedAlgorithm\\GeneratedAlgorithmDto.cs",
@@ -1627,7 +1715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "CreateResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Responses\\CreateResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Responses\\CreateResponse.cs",
@@ -1639,7 +1727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Responses\\Response.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Responses\\Response.cs",
@@ -1651,20 +1739,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "InsertDocumentResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentResponse.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentResponse.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T08:21:41.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "InsertDocumentValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentValidator.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentValidator.cs",
@@ -1677,7 +1765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 72,
               "Title": "InterviewCrusherAdmin.http",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.http",
               "RelativeDocumentMoniker": "InterviewCrusherAdmin.http",
@@ -1689,7 +1777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 125,
               "Title": "DatabaseConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\Database\\DatabaseConfiguration.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.Database\\Database\\DatabaseConfiguration.cs",
@@ -1701,7 +1789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 35,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\Database\\Database.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.Database\\Database\\Database.cs",
@@ -1714,7 +1802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 71,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -1732,14 +1820,14 @@
               "RelativeDocumentMoniker": "Controllers\\GenericController.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\Controllers\\GenericController.cs",
               "RelativeToolTip": "Controllers\\GenericController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAIwEcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwFIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T07:47:46.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 121,
               "Title": "ControllerBaseExtension.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\ControllerBaseExtension.cs",
               "RelativeDocumentMoniker": "ControllerBaseExtension.cs",
@@ -1751,7 +1839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 110,
               "Title": "Request.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Requests\\Request.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Requests\\Request.cs",
@@ -1763,7 +1851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "InsertRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Requests\\InsertRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Requests\\InsertRequest.cs",
@@ -1776,7 +1864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 126,
               "Title": "DeleteRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Requests\\DeleteRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Requests\\DeleteRequest.cs",
@@ -1788,7 +1876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 76,
               "Title": "DeleteDocumentValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\DeleteDocument\\DeleteDocumentValidator.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\DeleteDocument\\DeleteDocumentValidator.cs",
@@ -1800,7 +1888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 120,
               "Title": "GenerateVideo.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateVideo.cs",
               "RelativeDocumentMoniker": "..\\Domain\\GenerateTemplateDto\\GenerateTemplate\\GenerateChapter\\GenerateVideo.cs",
@@ -1812,7 +1900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 112,
               "Title": "GetResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\Responses\\GetResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\Responses\\GetResponse.cs",
@@ -1824,25 +1912,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "InsertDocumentHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentHandler.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentHandler.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentHandler.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T08:31:03.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "InterviewCrusherAdmin.BusinessLogic.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
-              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
-              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj*",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-12T07:40:44.904Z",
@@ -1850,20 +1938,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "InsertDocumentRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentRequest.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentRequest.cs",
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T08:21:40.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 34,
               "Title": "IDatabaseEntityRepresentation.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IDatabaseEntityRepresentation.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IDatabaseEntityRepresentation.cs",
@@ -1876,7 +1964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 60,
               "Title": "GenericCrudRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\GenericCrudRepository\\GenericCrudRepository.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.Repositories\\GenericCrudRepository\\GenericCrudRepository.cs",
@@ -1888,7 +1976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 15,
               "Title": "InterviewCrusherAdmin.Database.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj",
@@ -1901,7 +1989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "InterviewCrusherAdmin.CommonDomain.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
@@ -1914,7 +2002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "InterviewCrusherAdmin.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj",
               "RelativeDocumentMoniker": "InterviewCrusherAdmin.csproj",
@@ -1927,13 +2015,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwCkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T20:36:04.777Z",
               "EditorCaption": ""

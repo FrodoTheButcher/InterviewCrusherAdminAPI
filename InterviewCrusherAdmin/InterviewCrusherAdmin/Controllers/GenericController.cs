@@ -1,6 +1,7 @@
 ﻿using InterviewCrusherAdmin.BusinessLogic.GenericCrud.DeleteDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetAllDocuments;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocument;
+using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocumentsByTemplateId;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.ReplaceDocument;
@@ -71,6 +72,14 @@ namespace InterviewCrusherAdmin.Controllers
     {
         var response = await this.mediator.Send(request);
         return this.ToActionResult(response);
+    }
+
+    [HttpPost(UrlConstants.GenericController.GET_CHAPTERS_BY_TEMPLATE_ID + "/{id}")]
+    public async Task<IActionResult> GetChaptersByTemplateId(string id, CancellationToken cancellationToken)
+    {
+      GetDocumentsByTemplateIdRequest<ChapterRepresentation> request = new() { Id = id };
+      var response = await this.mediator.Send(request);
+      return this.ToActionResult(response);
     }
 
     [HttpPost(UrlConstants.GenericController.INITIALIZE_CHAPTER)]

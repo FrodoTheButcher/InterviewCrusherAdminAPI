@@ -17,6 +17,7 @@ namespace InterviewCrusherAdmin.Controllers
       public const string INITIALIZE_CHAPTER = "InitializeChapter";
 
       public const string INSERT_AUTO_INCREMENT_CHAPTER = "InsertAutoIncrementChapter";
+      public const string GET_CHAPTERS_BY_TEMPLATE_ID = "GetChaptersByTemplateId";
 
       public const string DELETE_GENERATED_TEMPLATE = "DeleteGeneratedTemplate";
       public const string GET_GENERATED_TEMPLATE = "GetGeneratedTemplate";
@@ -24,12 +25,14 @@ namespace InterviewCrusherAdmin.Controllers
       public const string REPLACE_GENERATED_TEMPLATE = "ReplaceGeneratedTemplate";
 
       public string BASE_URL_PATH => BASE_URL;
-      public string GENERATE_VIDEO_UR =>  GENERATE_VIDEO;
+      public string GENERATE_VIDEO_UR => GENERATE_VIDEO;
       public string GENERATE_ALGORITHM_URL => GENERATE_ALGORITHM;
       public string ENERATE_QUIZ => GENERATE_QUIZ;
       public string GENERATED_TEMPLATE => GENERATE_TEMPLATE;
       public string INITIALIZED_TEMPLATE => INITIALIZE_TEMPLATE;
       public string DELETE_GENERATED_TEMPLATE_URL(string id) => $"{DELETE_GENERATED_TEMPLATE}/{id}";
+
+      public static string GET_CHAPTER_NAMES_BY_TEMPLATE_ID_FULL_URL(string id) => $"{SERVER_URL}/{BASE_URL}/{GET_CHAPTERS_BY_TEMPLATE_ID}/{id}";
 
       public string GET_GENERATED_TEMPLATE_URL(string id) => $"{GET_GENERATED_TEMPLATE}/{id}";
 
@@ -53,7 +56,6 @@ namespace InterviewCrusherAdmin.Controllers
       public const string CREATE_CHAPTER_REPRESENTATION = "CreateChapterRepresentation";
 
       public static string CREATE_CHAPTER_REPRESENTATION_FULL_URL() => $"{SERVER_URL}/{BASE_URL}/{CREATE_CHAPTER_REPRESENTATION}";
-
     }
   }
 }
