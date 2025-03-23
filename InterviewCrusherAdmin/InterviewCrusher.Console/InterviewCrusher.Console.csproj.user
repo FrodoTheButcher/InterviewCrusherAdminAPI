@@ -31,6 +31,9 @@
     <Compile Update="RepresentationPages\ChapterRepresentationPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="RepresentationPages\VideoRepresentation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="TemplateDropdownWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -58,6 +61,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="RepresentationPages\ChapterRepresentationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RepresentationPages\VideoRepresentation.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TemplateDropdownWindow.xaml">

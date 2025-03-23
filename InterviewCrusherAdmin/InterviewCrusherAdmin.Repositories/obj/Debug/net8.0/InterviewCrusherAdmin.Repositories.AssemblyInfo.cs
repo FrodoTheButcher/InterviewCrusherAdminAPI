@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterviewCrusherAdmin.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96de2d5fbf502d372931fe7fa07f14f0e35357a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce96c4d2450952a3a60d050227d1c99f16ce7b9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterviewCrusherAdmin.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterviewCrusherAdmin.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
