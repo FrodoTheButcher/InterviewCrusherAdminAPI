@@ -83,3 +83,5 @@ C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCr
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\EditGeneratedTemplate\EditGeneratedTemplateChapterSide.baml
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\RepresentationPages\ChapterRepresentationPage.g.cs
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\RepresentationPages\ChapterRepresentationPage.baml
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\RepresentationPages\VideoRepresentation.g.cs
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\RepresentationPages\VideoRepresentation.baml

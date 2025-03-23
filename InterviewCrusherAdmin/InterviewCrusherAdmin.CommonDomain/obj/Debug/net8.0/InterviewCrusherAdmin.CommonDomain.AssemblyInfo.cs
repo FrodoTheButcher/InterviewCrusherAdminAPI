@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterviewCrusherAdmin.CommonDomain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce96c4d2450952a3a60d050227d1c99f16ce7b9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bc345d55d7800ed901b1193980a1540cd25ff72")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterviewCrusherAdmin.CommonDomain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterviewCrusherAdmin.CommonDomain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

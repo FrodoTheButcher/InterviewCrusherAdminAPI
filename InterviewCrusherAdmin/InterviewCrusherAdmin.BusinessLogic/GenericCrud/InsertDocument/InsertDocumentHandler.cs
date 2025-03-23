@@ -14,7 +14,6 @@ namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument
   {
     private readonly IRepository<DbEntityRepresentation> _repository;
     private readonly AutoMapperWrapper autoMapperWrapper;
-    //blabla
     public InsertDocumentHandler(IRepository<DbEntityRepresentation> repository, AutoMapperWrapper mapper)
     {
       _repository = repository ?? throw new DependencyException<IRepository<DbEntityRepresentation>>();

@@ -1,6 +1,7 @@
 ﻿using InterviewCrusherAdmin.BusinessLogic.GenericCrud.DeleteDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetAllDocuments;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocument;
+using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.ReplaceDocument;
 using InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm;
@@ -54,46 +55,25 @@ namespace InterviewCrusherAdmin.Controllers
     [HttpPost(UrlConstants.GenericController.GENERATE_TEMPLATE)]
     public async Task<IActionResult> GenerateTemplate([FromBody] InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate> request, CancellationToken cancellationToken)
     {
-      try
-      {
-        var response = await this.mediator.Send(request);
-        return this.ToActionResult(response);
-      }
-      catch (Exception e)
-      {
-        return this.Ok();
-      }
-
+      var response = await this.mediator.Send(request);
+      return this.ToActionResult(response);
     }
 
     [HttpPost(UrlConstants.GenericController.INITIALIZE_TEMPLATE)]
     public async Task<IActionResult> InitializeTemplate([FromBody] InsertDocumentRequest<TemplateRepresentation, GenerateTemplate> request, CancellationToken cancellationToken)
     {
-      try
-      {
         var response = await this.mediator.Send(request);
         return this.ToActionResult(response);
-      }
-      catch (Exception e)
-      {
-        return this.Ok();
-      }
+    }
+
+    [HttpPost(UrlConstants.GenericController.INSERT_AUTO_INCREMENT_CHAPTER)]
+    public async Task<IActionResult> InitializeChapter([FromBody] InsertAutoIncrementDocumentRequest<ChapterRepresentationDto, ChapterRepresentation> request, CancellationToken cancellationToken)
+    {
+        var response = await this.mediator.Send(request);
+        return this.ToActionResult(response);
     }
 
     [HttpPost(UrlConstants.GenericController.INITIALIZE_CHAPTER)]
-    public async Task<IActionResult> InitializeChapter([FromBody] InsertDocumentRequest<ChapterRepresentationDto, ChapterRepresentation> request, CancellationToken cancellationToken)
-    {
-      try
-      {
-        var response = await this.mediator.Send(request);
-        return this.ToActionResult(response);
-      }
-      catch (Exception e)
-      {
-        return this.Ok();
-      }
-
-    }
 
     [HttpDelete(UrlConstants.GenericController.DELETE_GENERATED_TEMPLATE + "/{id}")]
     public async Task<IActionResult> DeleteDocument(string id, CancellationToken cancellationToken)

@@ -7,7 +7,7 @@ using MongoDB.Driver;
 namespace InterviewCrusherAdmin.Repositories.AutoIncrementRepository
 {
     public class AutoIncrementRepository<T> : IAutoIncrementRepository<T>
-    where T : IDatabaseEntityRepresentation, IAutoIncrement
+    where T : IDatabaseEntityRepresentation, IAutoIncrementDatabaseEntity
   {
     private readonly IMongoCollection<T> _collection;
 

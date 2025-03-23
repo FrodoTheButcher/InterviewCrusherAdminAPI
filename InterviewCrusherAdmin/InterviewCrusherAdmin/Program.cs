@@ -3,26 +3,24 @@ using AutoMapper;
 using FluentValidation.AspNetCore;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetAllDocuments;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocument;
+using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
-using InterviewCrusherAdmin.CommonDomain;
-using InterviewCrusherAdmin.CommonDomain.ChapterDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
 using InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo;
 using InterviewCrusherAdmin.DataAbstraction.Database;
+using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
 using InterviewCrusherAdmin.DataAbstraction.Repositories;
-using InterviewCrusherAdmin.Database;
 using InterviewCrusherAdmin.Database.DatabaseConfiguration;
 using InterviewCrusherAdmin.Domain;
 using InterviewCrusherAdmin.Domain.Chapter;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter;
 using InterviewCrusherAdmin.Domain.Template;
-using InterviewCrusherAdmin.Repositories.ChapterRepresentationRepository;
+using InterviewCrusherAdmin.Repositories.AutoIncrementRepository;
 using InterviewCrusherAdmin.Repositories.GenericCrudRepository;
 using InterviewCrusherAdmin.Repositories.Template;
 using MediatR;
-using MongoDB.Bson.Serialization;
 using System.Reflection;
 
 namespace InterviewCrusherAdmin
@@ -50,9 +48,10 @@ namespace InterviewCrusherAdmin
         return new Database.Database(databaseConfig);
       });
       builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericCrudRepository<>));
+      builder.Services.AddScoped(typeof(IAutoIncrementRepository<>), typeof(AutoIncrementRepository<>));
       builder.Services.AddScoped<ITemplateRepository, TemplateRepository>();
-      builder.Services.AddScoped<IChapterRepresentationRepository, ChapterRepresentationRepository>();
 
+      builder.Services.AddTransient<IRequestHandler<InsertAutoIncrementDocumentRequest<ChapterRepresentationDto, ChapterRepresentation>, InsertAutoIncrementDocumentResponse>, InsertAutoIncrementDocumentHandler<ChapterRepresentationDto, ChapterRepresentation>>();
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GeneratedVideoDto, GenerateVideo>, InsertDocumentResponse>, InsertDocumentHandler<GeneratedVideoDto, GenerateVideo>>();
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate>, InsertDocumentResponse>, InsertDocumentHandler<GenerateTemplateDto, GenerateTemplate>>();
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<TemplateRepresentation, GenerateTemplate>, InsertDocumentResponse>, InsertDocumentHandler<TemplateRepresentation, GenerateTemplate>>();

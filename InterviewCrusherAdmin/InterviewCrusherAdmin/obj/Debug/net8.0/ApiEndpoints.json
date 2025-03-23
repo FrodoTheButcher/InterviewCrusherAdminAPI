@@ -1,21 +1,5 @@
 [
   {
-    "ContainingType": "InterviewCrusherAdmin.Controllers.ChapterController",
-    "Method": "CreateChapterRepresentation",
-    "RelativePath": "api/Chapter/CreateChapterRepresentation",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "chapterRepresentationDto",
-        "Type": "InterviewCrusherAdmin.BusinessLogic.Chapter.CreateChapterAutoIncrement.CreateChapterRepresentationAutoIncrementRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
     "Method": "DeleteDocument",
     "RelativePath": "api/Generic/DeleteGeneratedTemplate/{id}",
@@ -123,18 +107,12 @@
   },
   {
     "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
-    "Method": "InitializeChapter",
+    "Method": "DeleteDocument",
     "RelativePath": "api/Generic/InitializeChapter",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[ChapterRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.Chapter.ChapterRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -148,6 +126,22 @@
       {
         "Name": "request",
         "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument.InsertDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.TemplateDto.TemplateRepresentation, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateTemplate, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "InitializeChapter",
+    "RelativePath": "api/Generic/InsertAutoIncrementChapter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument.InsertAutoIncrementDocumentRequest\u00602[[ChapterRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.Chapter.ChapterRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

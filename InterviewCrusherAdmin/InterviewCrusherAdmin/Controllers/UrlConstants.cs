@@ -16,6 +16,8 @@ namespace InterviewCrusherAdmin.Controllers
       public const string INITIALIZE_TEMPLATE = "InitializeTemplate";
       public const string INITIALIZE_CHAPTER = "InitializeChapter";
 
+      public const string INSERT_AUTO_INCREMENT_CHAPTER = "InsertAutoIncrementChapter";
+
       public const string DELETE_GENERATED_TEMPLATE = "DeleteGeneratedTemplate";
       public const string GET_GENERATED_TEMPLATE = "GetGeneratedTemplate";
       public const string GET_GENERATED_TEMPLATES = "GetGeneratedTemplates";
@@ -42,6 +44,7 @@ namespace InterviewCrusherAdmin.Controllers
       public const string GET_TEMPLATE_WITH_CHAPTER_NAMES = "GetTemplateWithChapterNames";
 
       public static string GET_TEMPLATE_WITH_CHAPTER_NAMES_FULL_URL(string id) => $"{SERVER_URL}/{BASE_URL}/{GET_TEMPLATE_WITH_CHAPTER_NAMES}/{id}";
+
     }
 
     public static class ChapterController
