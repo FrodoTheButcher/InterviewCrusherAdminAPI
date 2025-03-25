@@ -16,6 +16,7 @@ using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz;
+using InterviewCrusherAdmin.Domain.Quiz;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -74,6 +75,13 @@ namespace InterviewCrusherAdmin.Controllers
         return this.ToActionResult(response);
     }
 
+    [HttpPost(UrlConstants.GenericController.INSERT_AUTO_INCREMENT_QUIZ)]
+    public async Task<IActionResult> InitializeQuiz([FromBody] InsertAutoIncrementDocumentRequest<QuizRepresentation, QuizRepresentation> request, CancellationToken cancellationToken)
+    {
+      var response = await this.mediator.Send(request);
+      return this.ToActionResult(response);
+    }
+
     [HttpPost(UrlConstants.GenericController.GET_CHAPTERS_BY_TEMPLATE_ID + "/{id}")]
     public async Task<IActionResult> GetChaptersByTemplateId(string id, CancellationToken cancellationToken)
     {
@@ -81,8 +89,6 @@ namespace InterviewCrusherAdmin.Controllers
       var response = await this.mediator.Send(request);
       return this.ToActionResult(response);
     }
-
-    [HttpPost(UrlConstants.GenericController.INITIALIZE_CHAPTER)]
 
     [HttpDelete(UrlConstants.GenericController.DELETE_GENERATED_TEMPLATE + "/{id}")]
     public async Task<IActionResult> DeleteDocument(string id, CancellationToken cancellationToken)

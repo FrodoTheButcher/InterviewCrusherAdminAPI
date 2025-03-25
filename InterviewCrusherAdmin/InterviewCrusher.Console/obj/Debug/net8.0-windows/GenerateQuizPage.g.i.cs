@@ -116,7 +116,7 @@ namespace InterviewCrusher.Console {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/InterviewCrusher.Console;V1.0.0.0;component/generatequizpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InterviewCrusher.Console;component/generatequizpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GenerateQuizPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

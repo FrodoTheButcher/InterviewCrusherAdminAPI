@@ -393,13 +393,13 @@
       "AbsoluteMoniker": "D:0:0:{F65ADFC3-8F3F-48DE-B5AA-4D8368BF2BC2}|..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.commondomain\\requests\\deleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateRepresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{001A95A3-1A7F-4D60-9A4C-D411CB03AF7A}|..\\InterviewCrusher.Console\\InterviewCrusher.Console.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusher.console\\controller\\abstractvalidatorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\Controller\\AbstractValidatorResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F65ADFC3-8F3F-48DE-B5AA-4D8368BF2BC2}|..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.commondomain\\chapterdto\\chapterrepresentationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\ChapterDto\\ChapterRepresentationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F65ADFC3-8F3F-48DE-B5AA-4D8368BF2BC2}|..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj|c:\\users\\robi\\desktop\\interviewcrusheradmin\\interviewcrusheradminapi\\interviewcrusheradmin\\interviewcrusheradmin.commondomain\\templatedto\\templaterepresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -409,21 +409,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 135,
+          "SelectedChildIndex": 133,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AutoIncrementEntityResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
-              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
-              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
-              "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:08:11.726Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -442,16 +429,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutoIncrementEntityResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
+              "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\AutoIncrementEntityResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:08:11.726Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GetDocumentsByTemplateIdResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs",
-              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs*",
-              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs*",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:45:29.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T16:45:29.238Z"
             },
             {
               "$type": "Document",
@@ -463,8 +461,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:45:22.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T16:45:22.954Z"
             },
             {
               "$type": "Document",
@@ -476,8 +473,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:45:16.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T16:45:16.322Z"
             },
             {
               "$type": "Document",
@@ -485,20 +481,11 @@
               "Title": "GetDocumentsByTemplateIdRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs",
-              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs*",
-              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs*",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocumentsByTemplateId\\GetDocumentsByTemplateIdRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:45:06.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "WhenOpened": "2025-03-23T16:45:06.424Z"
             },
             {
               "$type": "Document",
@@ -510,8 +497,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:40:45.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:40:45.373Z"
             },
             {
               "$type": "Document",
@@ -523,8 +509,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:43:43.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T14:43:43.07Z"
             },
             {
               "$type": "Document",
@@ -536,8 +521,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:43:27.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T14:43:27.696Z"
             },
             {
               "$type": "Document",
@@ -549,8 +533,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentHandler.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:43:21.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T14:43:21.867Z"
             },
             {
               "$type": "Document",
@@ -562,8 +545,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertAutoIncrementDocument\\InsertAutoIncrementDocumentRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:43:15.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T14:43:15.988Z"
             },
             {
               "$type": "Document",
@@ -575,8 +557,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IAutoIncrementRepository\\IAutoIncrementDatabaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T08:59:40.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T08:59:40.336Z"
             },
             {
               "$type": "Document",
@@ -588,12 +569,11 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.Repositories\\AutoIncrementRepository\\AutoIncrementRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T08:26:53.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T08:26:53.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 127,
               "Title": "AbstractValidatorResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusher.Console\\Controller\\AbstractValidatorResponse.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusher.Console\\Controller\\AbstractValidatorResponse.cs",
@@ -648,8 +628,7 @@
               "RelativeToolTip": "Controllers\\ChapterController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T16:32:26.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T16:32:26.692Z"
             },
             {
               "$type": "Document",
@@ -697,8 +676,7 @@
               "RelativeToolTip": "..\\Domain\\Chapter\\ChapterRepresentation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T14:51:38.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T14:51:38.735Z"
             },
             {
               "$type": "Document",
@@ -714,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 128,
               "Title": "ChapterRepresentationDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\ChapterDto\\ChapterRepresentationDto.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\ChapterDto\\ChapterRepresentationDto.cs",
@@ -726,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 129,
               "Title": "TemplateRepresentation.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateRepresentation.cs",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.CommonDomain\\TemplateDto\\TemplateRepresentation.cs",
@@ -758,8 +736,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:37:31.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T23:37:31.501Z"
             },
             {
               "$type": "Document",
@@ -771,8 +748,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\ReplaceDocument\\ReplaceDocumentRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:37:30.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T23:37:30.915Z"
             },
             {
               "$type": "Document",
@@ -796,8 +772,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:37:21.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T23:37:21.907Z"
             },
             {
               "$type": "Document",
@@ -809,8 +784,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:37:21.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T23:37:21.098Z"
             },
             {
               "$type": "Document",
@@ -822,8 +796,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetAllDocuments\\GetAllDocumentsHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:37:20.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T23:37:20.381Z"
             },
             {
               "$type": "Document",
@@ -917,8 +890,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T16:52:48.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T16:52:48.428Z"
             },
             {
               "$type": "Document",
@@ -930,8 +902,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T16:52:42.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T16:52:42.716Z"
             },
             {
               "$type": "Document",
@@ -954,8 +925,7 @@
               "RelativeToolTip": "Controllers\\UrlConstants.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T13:27:23.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T13:27:23.362Z"
             },
             {
               "$type": "Document",
@@ -1231,8 +1201,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.CommonDomain\\Responses\\GetAllResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T11:26:42.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T11:26:42.716Z"
             },
             {
               "$type": "Document",
@@ -1376,8 +1345,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T23:11:48.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T23:11:48.148Z"
             },
             {
               "$type": "Document",
@@ -1389,8 +1357,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\GetDocument\\GetDocumentValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T09:13:12.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T09:13:12.395Z"
             },
             {
               "$type": "Document",
@@ -1414,8 +1381,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-17T11:26:07.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T11:26:07.777Z"
             },
             {
               "$type": "Document",
@@ -1427,8 +1393,7 @@
               "RelativeToolTip": "..\\InterviewCrusher.Console\\Controller\\Generic\\GenericCall.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAqwDsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T18:40:56.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T18:40:56.733Z"
             },
             {
               "$type": "Document",
@@ -1590,8 +1555,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\Extensions\\DependencyException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T09:39:51.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T09:39:51.794Z"
             },
             {
               "$type": "Document",
@@ -1747,8 +1711,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T08:21:41.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T08:21:41.396Z"
             },
             {
               "$type": "Document",
@@ -1760,8 +1723,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T08:21:35.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T08:21:35.007Z"
             },
             {
               "$type": "Document",
@@ -1797,8 +1759,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.Database\\Database\\Database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T07:55:58.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T07:55:58.056Z"
             },
             {
               "$type": "Document",
@@ -1822,8 +1783,7 @@
               "RelativeToolTip": "Controllers\\GenericController.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAcwFIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T07:47:46.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T07:47:46.686Z"
             },
             {
               "$type": "Document",
@@ -1859,8 +1819,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.CommonDomain\\Requests\\InsertRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T07:44:30.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T07:44:30.835Z"
             },
             {
               "$type": "Document",
@@ -1920,8 +1879,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T08:31:03.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T08:31:03.087Z"
             },
             {
               "$type": "Document",
@@ -1929,12 +1887,11 @@
               "Title": "InterviewCrusherAdmin.BusinessLogic.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
               "RelativeDocumentMoniker": "..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
-              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj*",
-              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj*",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
+              "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-12T07:40:44.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T07:40:44.904Z"
             },
             {
               "$type": "Document",
@@ -1946,8 +1903,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.BusinessLogic\\GenericCrud\\InsertDocument\\InsertDocumentRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T08:21:40.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T08:21:40.794Z"
             },
             {
               "$type": "Document",
@@ -1959,8 +1915,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.DataAbstraction\\IDatabaseEntityRepresentation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T07:23:00.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T07:23:00.153Z"
             },
             {
               "$type": "Document",
@@ -1984,8 +1939,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-12T07:20:38.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T07:20:38.629Z"
             },
             {
               "$type": "Document",
@@ -1997,8 +1951,7 @@
               "RelativeToolTip": "..\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-12T07:20:38.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T07:20:38.545Z"
             },
             {
               "$type": "Document",
@@ -2010,8 +1963,7 @@
               "RelativeToolTip": "InterviewCrusherAdmin.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-12T07:20:37.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T07:20:37.769Z"
             },
             {
               "$type": "Document",
@@ -2021,10 +1973,18 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwCkAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwEAAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T20:36:04.777Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             }
           ]
         }

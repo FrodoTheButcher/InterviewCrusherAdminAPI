@@ -17,6 +17,7 @@ namespace InterviewCrusherAdmin.Controllers
       public const string INITIALIZE_CHAPTER = "InitializeChapter";
 
       public const string INSERT_AUTO_INCREMENT_CHAPTER = "InsertAutoIncrementChapter";
+      public const string INSERT_AUTO_INCREMENT_QUIZ = "InsertAutoIncrementQuiz";
       public const string GET_CHAPTERS_BY_TEMPLATE_ID = "GetChaptersByTemplateId";
 
       public const string DELETE_GENERATED_TEMPLATE = "DeleteGeneratedTemplate";
