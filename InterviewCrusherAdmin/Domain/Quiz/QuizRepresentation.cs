@@ -1,12 +1,12 @@
 ﻿using InterviewCrusherAdmin.DataAbstraction;
+using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz;
 
 namespace InterviewCrusherAdmin.Domain.Quiz
 {
-  public class QuizRepresentation : IDatabaseEntityRepresentation
+  public class QuizRepresentation : IDatabaseEntityRepresentation, IAutoIncrementEntity
   {
     public string ChapterId { get; set; } = string.Empty;
-    public string Name { get; set; } = string.Empty;
 
     public string Description { get; set; } = string.Empty;
 
@@ -15,7 +15,8 @@ namespace InterviewCrusherAdmin.Domain.Quiz
     public string Hint { get; set; } = string.Empty;
 
     public List<GenerateQuizAnswer> QuizAnswers { get; set; } = new List<GenerateQuizAnswer>();
-
-    public short ExerciseNumber { get; set; } = 0;
+    public string ParentId { get; set; } = string.Empty;
+    public string Title {  get; set; } = string.Empty;
+    public ushort ExerciseNumber { get; set; }
   }
 }

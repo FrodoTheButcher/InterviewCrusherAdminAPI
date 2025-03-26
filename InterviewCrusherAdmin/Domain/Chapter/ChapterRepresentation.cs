@@ -6,10 +6,10 @@ using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
 
 namespace InterviewCrusherAdmin.Domain.Chapter
 {
-  public class ChapterRepresentation : IDatabaseEntityRepresentation, IAutoIncrementDatabaseEntity
+  public class ChapterRepresentation : IDatabaseEntityRepresentation, IAutoIncrementEntity
   {
     [BsonRepresentation(BsonType.ObjectId)]
-    public string TemplateId { get; set; } = string.Empty;
+    public string ParentId { get; set; } = string.Empty;
     public string Title { get; set; } = string.Empty;
     public ushort ExerciseNumber { get; set; }
     public string Description { get; set; } = string.Empty;

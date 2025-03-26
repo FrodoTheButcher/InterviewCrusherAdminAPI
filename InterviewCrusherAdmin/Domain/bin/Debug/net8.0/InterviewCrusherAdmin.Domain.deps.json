@@ -212,10 +212,7 @@
           "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
         },
         "runtime": {
-          "InterviewCrusherAdmin.CommonDomain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "InterviewCrusherAdmin.CommonDomain.dll": {}
         }
       },
       "InterviewCrusherAdmin.DataAbstraction/1.0.0": {
@@ -223,10 +220,7 @@
           "MongoDB.Driver": "2.29.0"
         },
         "runtime": {
-          "InterviewCrusherAdmin.DataAbstraction.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "InterviewCrusherAdmin.DataAbstraction.dll": {}
         }
       }
     }

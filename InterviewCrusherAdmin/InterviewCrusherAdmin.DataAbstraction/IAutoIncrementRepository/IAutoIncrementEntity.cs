@@ -1,8 +1,8 @@
 ﻿namespace InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository
 {
-  public interface IAutoIncrementDatabaseEntity
+  public interface IAutoIncrementEntity
   {
-    public string TemplateId { get; set; }
+    public string ParentId { get; set; }
 
     public ushort ExerciseNumber {  get; set; }
 

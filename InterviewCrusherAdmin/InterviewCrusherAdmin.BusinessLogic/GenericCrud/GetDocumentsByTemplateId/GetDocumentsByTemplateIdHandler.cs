@@ -7,7 +7,7 @@ using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
 namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocumentsByTemplateId
 {
   public class GetDocumentsByTemplateIdHandler<DatabaseEntityRepresentation> : IRequestHandler<GetDocumentsByTemplateIdRequest<DatabaseEntityRepresentation>, GetDocumentsByTemplateIdResponse>
-      where DatabaseEntityRepresentation : IDatabaseEntityRepresentation, IAutoIncrementDatabaseEntity
+      where DatabaseEntityRepresentation : IDatabaseEntityRepresentation, IAutoIncrementEntity
   {
     private readonly IAutoIncrementRepository<DatabaseEntityRepresentation> repository;
 

@@ -1,4 +1,6 @@
 ﻿using InterviewCrusherAdmin.DataAbstraction;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
 using System.Text.Json.Serialization;
 
 public class ChapterRepresentationDto : IDtoRepresentation
@@ -8,7 +10,7 @@ public class ChapterRepresentationDto : IDtoRepresentation
   public ChapterRepresentationDto(string title, string templateId, string description, string sourceLink, string sourceCode)
   {
     this.Title = title;
-    this.TemplateId = templateId;
+    this.ParentId = templateId;
     this.Description = description;
     this.SourceLink = sourceLink;
     this.SourceCode = sourceCode;
@@ -18,7 +20,8 @@ public class ChapterRepresentationDto : IDtoRepresentation
   public string Title { get; set; } = string.Empty;
 
   [JsonPropertyName("templateId")]
-  public string TemplateId { get; set; } = string.Empty;
+  [BsonRepresentation(BsonType.ObjectId)]
+  public string ParentId { get; set; } = string.Empty;
 
   [JsonPropertyName("description")]
   public string Description { get; set; } = string.Empty;

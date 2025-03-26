@@ -63,3 +63,14 @@ C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCr
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\ref\InterviewCrusherAdmin.dll
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\bin\Debug\net8.0\InterviewCrusherAdmin.Repositories.dll
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\bin\Debug\net8.0\InterviewCrusherAdmin.Repositories.pdb
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.csproj.AssemblyReference.cache
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.AssemblyInfoInputs.cache
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.AssemblyInfo.cs
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.csproj.CoreCompileInputs.cache
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.sourcelink.json
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.dll
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\refint\InterviewCrusherAdmin.dll
+C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.pdb

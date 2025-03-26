@@ -1,8 +1,9 @@
-﻿namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter
+﻿using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
+
+namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter
 {
-  public class GenerateChapter
+  public class GenerateChapter : IAutoIncrementEntity
   {
-    public short ChapterNumber { get; set; }
     public string Title { get; set; } = string.Empty;
 
     public string Description { get; set; } = string.Empty;
@@ -12,5 +13,7 @@
     public List<GenerateQuiz.GenerateQuiz> GenerateQuizzes { get; set; } = new List<GenerateQuiz.GenerateQuiz>();
 
     public List<GenerateVideo> GenerateVideos { get; set; } = new List<GenerateVideo>();
+    public string ParentId { get; set; } = string.Empty;
+    public ushort ExerciseNumber {  get; set; } = ushort.MinValue;
   }
 }

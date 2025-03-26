@@ -7,9 +7,11 @@ using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.ReplaceDocument;
 using InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm;
 using InterviewCrusherAdmin.CommonDomain.ChapterDto;
+using InterviewCrusherAdmin.CommonDomain.QuizDto;
 using InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
+using InterviewCrusherAdmin.CommonDomain.VideosDto;
 using InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo;
 using InterviewCrusherAdmin.Domain.Chapter;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
@@ -17,6 +19,7 @@ using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Generate
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz;
 using InterviewCrusherAdmin.Domain.Quiz;
+using InterviewCrusherAdmin.Domain.VideoRepresentation;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -64,19 +67,33 @@ namespace InterviewCrusherAdmin.Controllers
     [HttpPost(UrlConstants.GenericController.INITIALIZE_TEMPLATE)]
     public async Task<IActionResult> InitializeTemplate([FromBody] InsertDocumentRequest<TemplateRepresentation, GenerateTemplate> request, CancellationToken cancellationToken)
     {
-        var response = await this.mediator.Send(request);
-        return this.ToActionResult(response);
+      var response = await this.mediator.Send(request);
+      return this.ToActionResult(response);
     }
 
     [HttpPost(UrlConstants.GenericController.INSERT_AUTO_INCREMENT_CHAPTER)]
-    public async Task<IActionResult> InitializeChapter([FromBody] InsertAutoIncrementDocumentRequest<ChapterRepresentationDto, ChapterRepresentation> request, CancellationToken cancellationToken)
+    public async Task<IActionResult> InitializeChapterRepresentationAutoIncrement([FromBody] InsertAutoIncrementDocumentRequest<ChapterRepresentationDto, ChapterRepresentation> request, CancellationToken cancellationToken)
     {
-        var response = await this.mediator.Send(request);
-        return this.ToActionResult(response);
+      var response = await this.mediator.Send(request);
+      return this.ToActionResult(response);
     }
 
     [HttpPost(UrlConstants.GenericController.INSERT_AUTO_INCREMENT_QUIZ)]
-    public async Task<IActionResult> InitializeQuiz([FromBody] InsertAutoIncrementDocumentRequest<QuizRepresentation, QuizRepresentation> request, CancellationToken cancellationToken)
+    public async Task<IActionResult> InitializeQuizRepresentationAutoIncrement([FromBody] InsertAutoIncrementDocumentRequest<QuizRepresentationDto, QuizRepresentation> request, CancellationToken cancellationToken)
+    {
+      var response = await this.mediator.Send(request);
+      return this.ToActionResult(response);
+    }
+
+    [HttpPost(UrlConstants.GenericController.INSERT_AUTO_INCREMENT_VIDEO)]
+    public async Task<IActionResult> InitializeVideoRepresentationAutoIncrement([FromBody] InsertAutoIncrementDocumentRequest<VideoRepresentationDto, VideoRepresentation> request, CancellationToken cancellationToken)
+    {
+      var response = await this.mediator.Send(request);
+      return this.ToActionResult(response);
+    }
+
+    [HttpPost(UrlConstants.GenericController.INSERT_AUTO_INCREMENT_ALGORITHM)]
+    public async Task<IActionResult> InitializeAlgorithmRepresentationAutoIncrement([FromBody] InsertAutoIncrementDocumentRequest<VideoRepresentationDto, VideoRepresentation> request, CancellationToken cancellationToken)
     {
       var response = await this.mediator.Send(request);
       return this.ToActionResult(response);

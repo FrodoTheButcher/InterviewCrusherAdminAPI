@@ -58,14 +58,14 @@ namespace InterviewCrusher.Console
     private void SubmitQuizButton_Click(object sender, RoutedEventArgs e)
     {
       // Populate the Quiz object with user inputs
-      Quiz.Name = QuizNameTextBox.Text;
+      Quiz.Title = QuizNameTextBox.Text;
       Quiz.Description = QuizDescriptionTextBox.Text;
       Quiz.Difficulty = (DifficultyComboBox.SelectedItem as ComboBoxItem)?.Content.ToString();
       Quiz.Hint = HintTextBox.Text;
       Quiz.QuizAnswers = new List<GenerateQuizAnswerDto>(QuizAnswers);
 
       // Validate Quiz data
-      if (string.IsNullOrWhiteSpace(Quiz.Name))
+      if (string.IsNullOrWhiteSpace(Quiz.Title))
       {
         MessageBox.Show("Quiz name cannot be empty.");
         return;
@@ -80,7 +80,7 @@ namespace InterviewCrusher.Console
       TemplateDataStorage templateDataStorage = TemplateDataStorage.Instance;
       templateDataStorage.AddGeneratedQuizDto(Quiz);
       // Show a success message or handle the submitted Quiz object
-      MessageBox.Show($"Quiz '{Quiz.Name}' submitted with {Quiz.QuizAnswers.Count} answers.");
+      MessageBox.Show($"Quiz '{Quiz.Title}' submitted with {Quiz.QuizAnswers.Count} answers.");
     }
   }
 }

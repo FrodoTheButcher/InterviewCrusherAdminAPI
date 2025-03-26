@@ -1,15 +1,12 @@
 ﻿using InterviewCrusherAdmin.DataAbstraction;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
+using InterviewCrusherAdmin.Domain.Chapter;
 
 namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter
 {
-  public class GenerateVideo : IDatabaseEntityRepresentation
+  public class GenerateVideo : IDatabaseEntityRepresentation, IAutoIncrementEntity
   {
-    public string Name { get; set; } = string.Empty;
+    public string Title { get; set; } = string.Empty;
 
     public string Url { get; set; } = string.Empty;
 
@@ -17,6 +14,7 @@ namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Gene
 
     public string Description { get; set; } = string.Empty;
 
-    public short ExerciseNumber { get; set; }
+    public string ParentId { get; set; } = string.Empty;
+    public ushort ExerciseNumber { get; set; } = ushort.MinValue;
   }
 }

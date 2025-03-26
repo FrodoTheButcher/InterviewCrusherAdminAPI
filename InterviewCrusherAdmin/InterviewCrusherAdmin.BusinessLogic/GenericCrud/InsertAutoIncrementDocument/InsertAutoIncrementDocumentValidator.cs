@@ -6,7 +6,7 @@ namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDoc
 {
   public class InsertAutoIncrementDocumentValidator<DtoRepresentation, DbEntityRepresentation> : AbstractValidator<InsertAutoIncrementDocumentRequest<DtoRepresentation, DbEntityRepresentation>>
     where DtoRepresentation : IDtoRepresentation
-    where DbEntityRepresentation : IDatabaseEntityRepresentation , IAutoIncrementDatabaseEntity
+    where DbEntityRepresentation : IDatabaseEntityRepresentation , IAutoIncrementEntity
   {
     public InsertAutoIncrementDocumentValidator()
     {

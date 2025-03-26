@@ -1,11 +1,11 @@
 ﻿using InterviewCrusherAdmin.DataAbstraction;
+using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
 
 namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm
 {
-  public class GenerateAlgorithm : IDatabaseEntityRepresentation
+  public class GenerateAlgorithm : IDatabaseEntityRepresentation ,IAutoIncrementEntity
   {
-    public short ExerciseNumber { get; set; } = 0;
-    public string Name { get; set; } = string.Empty;
+    public string Title { get; set; } = string.Empty;
 
     public string Description { get; set; } = string.Empty;
 
@@ -21,8 +21,8 @@ namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Gene
 
     public List<GenerateTestCase> TestCases { get; set; } = new List<GenerateTestCase>();
 
-    public List<GenerateAlgorithmExample> Examples { get; set; } = new List<GenerateAlgorithmExample>();
-
     public List<GenerateAlgorithmRestrictions> AlgorithmRestrictions { get; set; } = new List<GenerateAlgorithmRestrictions>();
+    public string ParentId { get; set; } = string.Empty;
+    public ushort ExerciseNumber {  get; set; } = ushort.MinValue;
   }
 }

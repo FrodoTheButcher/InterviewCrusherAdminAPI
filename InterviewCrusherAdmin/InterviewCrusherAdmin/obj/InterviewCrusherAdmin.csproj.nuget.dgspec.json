@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj": {}
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj",
-        "projectName": "InterviewCrusherAdmin.Domain",
-        "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj",
-        "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\obj\\",
+        "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj",
+        "projectName": "InterviewCrusher.AbstractDomain",
+        "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj",
+        "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,19 +25,16 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
-              },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
               }
             }
           }
@@ -72,24 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj": {
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
-        "projectName": "InterviewCrusherAdmin.BusinessLogic",
-        "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\obj\\",
+        "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj",
+        "projectName": "InterviewCrusherAdmin.Domain",
+        "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj",
+        "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,22 +94,97 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
+        "projectName": "InterviewCrusherAdmin.BusinessLogic",
+        "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
+              },
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
+              },
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
               }
             }
           }
@@ -161,24 +233,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
+        "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
         "projectName": "InterviewCrusherAdmin.CommonDomain",
-        "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
-        "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\obj\\",
+        "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj",
+        "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -186,16 +258,19 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj"
+              },
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
               }
             }
           }
@@ -236,24 +311,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj",
+        "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj",
         "projectName": "InterviewCrusherAdmin.DataAbstraction",
-        "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj",
-        "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\obj\\",
+        "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj",
+        "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -261,9 +336,9 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -307,24 +382,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj": {
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj",
+        "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj",
         "projectName": "InterviewCrusherAdmin.Database",
-        "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj",
-        "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\obj\\",
+        "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj",
+        "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -332,19 +407,19 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
               }
             }
           }
@@ -379,24 +454,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj": {
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj",
         "projectName": "InterviewCrusherAdmin.Repositories",
-        "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj",
-        "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\obj\\",
+        "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj",
+        "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -404,19 +479,19 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
               }
             }
           }
@@ -457,24 +532,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj": {
+    "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj",
+        "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj",
         "projectName": "InterviewCrusherAdmin",
-        "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj",
-        "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\obj\\",
+        "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\InterviewCrusherAdmin.csproj",
+        "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -482,31 +557,31 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Database\\InterviewCrusherAdmin.Database.csproj"
               },
-              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj": {
-                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj"
+              "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.Repositories\\InterviewCrusherAdmin.Repositories.csproj"
               }
             }
           }
@@ -570,7 +645,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -16,8 +16,6 @@ namespace InterviewCrusherAdmin.CommonDomain.ChapterDto
 
     public string Description { get; set; } = string.Empty;
     
-    public short ChapterNumber { get; set; }
-
     public GeneratedChapterDto()
     {
 

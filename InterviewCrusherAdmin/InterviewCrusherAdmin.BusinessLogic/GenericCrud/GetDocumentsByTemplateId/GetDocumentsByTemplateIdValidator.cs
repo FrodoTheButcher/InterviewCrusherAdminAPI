@@ -6,7 +6,7 @@ using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
 namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocumentsByTemplateId
 {
   public class GetDocumentsByTemplateIdValidator<DatabaseEntityRepresentation> : AbstractValidator<GetDocumentsByTemplateIdRequest<DatabaseEntityRepresentation>>
-    where DatabaseEntityRepresentation : IDatabaseEntityRepresentation, IAutoIncrementDatabaseEntity
+    where DatabaseEntityRepresentation : IDatabaseEntityRepresentation, IAutoIncrementEntity
   {
     public GetDocumentsByTemplateIdValidator()
     {

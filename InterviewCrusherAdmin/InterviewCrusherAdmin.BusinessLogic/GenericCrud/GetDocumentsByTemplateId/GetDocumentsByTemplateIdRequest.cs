@@ -9,7 +9,7 @@ using MediatR;
 namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocumentsByTemplateId
 {
   public class GetDocumentsByTemplateIdRequest<DatabaseEntityRepresentation> : GetRequest, IRequest<GetDocumentsByTemplateIdResponse>
-    where DatabaseEntityRepresentation : IDatabaseEntityRepresentation , IAutoIncrementDatabaseEntity
+    where DatabaseEntityRepresentation : IDatabaseEntityRepresentation , IAutoIncrementEntity
   {
   }
 }

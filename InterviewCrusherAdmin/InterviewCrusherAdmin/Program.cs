@@ -6,18 +6,25 @@ using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocumentsByTemplateId;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
+using InterviewCrusherAdmin.CommonDomain.AlgorithmDto;
+using InterviewCrusherAdmin.CommonDomain.AlgorithmDto.AlgorithmRepresentation;
+using InterviewCrusherAdmin.CommonDomain.QuizDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
+using InterviewCrusherAdmin.CommonDomain.VideosDto;
 using InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo;
 using InterviewCrusherAdmin.DataAbstraction.Database;
 using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
 using InterviewCrusherAdmin.DataAbstraction.Repositories;
 using InterviewCrusherAdmin.Database.DatabaseConfiguration;
 using InterviewCrusherAdmin.Domain;
+using InterviewCrusherAdmin.Domain.Algorithm;
 using InterviewCrusherAdmin.Domain.Chapter;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter;
+using InterviewCrusherAdmin.Domain.Quiz;
 using InterviewCrusherAdmin.Domain.Template;
+using InterviewCrusherAdmin.Domain.VideoRepresentation;
 using InterviewCrusherAdmin.Repositories.AutoIncrementRepository;
 using InterviewCrusherAdmin.Repositories.GenericCrudRepository;
 using InterviewCrusherAdmin.Repositories.Template;
@@ -52,7 +59,11 @@ namespace InterviewCrusherAdmin
       builder.Services.AddScoped(typeof(IAutoIncrementRepository<>), typeof(AutoIncrementRepository<>));
       builder.Services.AddScoped<ITemplateRepository, TemplateRepository>();
 
+      builder.Services.AddTransient<IRequestHandler<InsertAutoIncrementDocumentRequest<VideoRepresentationDto, VideoRepresentation>, InsertAutoIncrementDocumentResponse>, InsertAutoIncrementDocumentHandler<VideoRepresentationDto, VideoRepresentation>>();
       builder.Services.AddTransient<IRequestHandler<InsertAutoIncrementDocumentRequest<ChapterRepresentationDto, ChapterRepresentation>, InsertAutoIncrementDocumentResponse>, InsertAutoIncrementDocumentHandler<ChapterRepresentationDto, ChapterRepresentation>>();
+      builder.Services.AddTransient<IRequestHandler<InsertAutoIncrementDocumentRequest<QuizRepresentationDto, QuizRepresentation>, InsertAutoIncrementDocumentResponse>, InsertAutoIncrementDocumentHandler<QuizRepresentationDto, QuizRepresentation>>();
+      builder.Services.AddTransient<IRequestHandler<InsertAutoIncrementDocumentRequest<AlgorithmRepresentationDto, AlgorithmRepresentation>, InsertAutoIncrementDocumentResponse>, InsertAutoIncrementDocumentHandler<AlgorithmRepresentationDto, AlgorithmRepresentation>>();
+
       builder.Services.AddTransient<IRequestHandler<GetDocumentsByTemplateIdRequest<ChapterRepresentation>, GetDocumentsByTemplateIdResponse>, GetDocumentsByTemplateIdHandler<ChapterRepresentation>>();
 
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GeneratedVideoDto, GenerateVideo>, InsertDocumentResponse>, InsertDocumentHandler<GeneratedVideoDto, GenerateVideo>>();
@@ -64,7 +75,7 @@ namespace InterviewCrusherAdmin
       builder.Services.AddTransient<IRequestHandler<GetDocumentRequest<GenerateTemplateDto, GenerateTemplate>, GetDocumentResponse<GenerateTemplateDto>>, GetDocumentHandler<GenerateTemplateDto, GenerateTemplate>>();
       builder.Services.AddTransient<IRequestHandler<GetAllDocumentsRequest<GenerateTemplateDto, GenerateTemplate>, GetAllDocumentsResponse<GenerateTemplateDto>>, GetAllDocumentsHandler<GenerateTemplateDto, GenerateTemplate>>();
 
-      
+
       var mapper = AutoMapperWrapper.ConfigureMapper();
       builder.Services.AddSingleton<IMapper>(mapper);
       builder.Services.AddSingleton<AutoMapperWrapper>(sp => new AutoMapperWrapper(sp.GetRequiredService<IMapper>()));

@@ -1,9 +1,9 @@
-﻿namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm
-{
-  public class GenerateAlgorithmRestrictions
-  {
-    public string RestrictionName { get; set; } = string.Empty;
+﻿using AbstractDomain.Algorithm;
 
-    public string RestrictionDescription { get; set; } = string.Empty;
+namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm
+{
+  public class GenerateAlgorithmRestrictions : BaseAlgorithmRestriction
+  {
+  
   }
 }

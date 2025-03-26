@@ -1,11 +1,10 @@
-﻿namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz
+﻿using AbstractDomain.Quiz;
+using InterviewCrusherAdmin.CommonDomain.QuizDto;
+
+namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz
 {
-  public class GenerateQuizAnswer
+  public class GenerateQuizAnswer : BaseQuizAnswer
   {
-    public string Name { get; set; } = string.Empty;
-
-    public bool IsCorrect { get; set; } = false;
-
-    public string Explanation { get; set; } = string.Empty;
+ 
   }
 }

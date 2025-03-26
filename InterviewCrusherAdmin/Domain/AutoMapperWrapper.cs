@@ -1,16 +1,21 @@
 ﻿using AutoMapper;
+using InterviewCrusherAdmin.CommonDomain.AlgorithmDto.AlgorithmRepresentation;
 using InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm;
 using InterviewCrusherAdmin.CommonDomain.ChapterDto;
+using InterviewCrusherAdmin.CommonDomain.QuizDto;
 using InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
+using InterviewCrusherAdmin.CommonDomain.VideosDto;
 using InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo;
 using InterviewCrusherAdmin.DataAbstraction;
+using InterviewCrusherAdmin.Domain.Algorithm;
 using InterviewCrusherAdmin.Domain.Chapter;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateAlgorithm;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz;
+using InterviewCrusherAdmin.Domain.Quiz;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -39,6 +44,9 @@ namespace InterviewCrusherAdmin.Domain
         cfg.CreateMap<GenerateQuiz, GeneratedQuizDto>().ReverseMap();
         cfg.CreateMap<TemplateRepresentation, GenerateTemplate>();
         cfg.CreateMap<ChapterRepresentationDto, ChapterRepresentation>().ReverseMap();
+        cfg.CreateMap<QuizRepresentationDto, QuizRepresentation>().ReverseMap();
+        cfg.CreateMap<AlgorithmRepresentationDto, AlgorithmRepresentation>().ReverseMap();
+        cfg.CreateMap<VideoRepresentationDto, VideoRepresentation.VideoRepresentation>().ReverseMap();
 
         cfg.CreateMap<InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto.GenerateTemplateDto, GenerateTemplate>()
         .AfterMap((dto, doc) =>
@@ -59,11 +67,11 @@ namespace InterviewCrusherAdmin.Domain
                Difficulty = algo.Difficulty,
                Examples = algo.Examples.Select(example => new GenerateAlgorithmExample { ExpectedOutput = example.ExpectedOutput, Explanation = example.Explanation, InputData = example.InputData }).ToList(),
                Hint = algo.Hint,
-               Name = algo.Name,
+               Title = algo.Name,
                TestCases = algo.TestCases.Select(test => new GenerateTestCase { ExpectedOutput = test.ExpectedOutput, InputData = test.InputData, Tip = test.Tip }).ToList()
              };
            }).ToList(),
-           ChapterNumber = chapter.ChapterNumber,
+           ParentNumber = chapter.ChapterNumber,
            GenerateQuizzes = chapter.GeneratedQuizesDtos.Select(quiz =>
            {
              return new GenerateQuiz
@@ -71,7 +79,7 @@ namespace InterviewCrusherAdmin.Domain
                QuizAnswers = quiz.QuizAnswers.Select(answ => new GenerateQuizAnswer { IsCorrect = answ.IsCorrect, Explanation = answ.Explanation, Name = answ.Name }).ToList(),
                Description = quiz.Description,
                Difficulty = quiz.Difficulty,
-               Name = quiz.Name,
+               Title = quiz.Title,
                Hint = quiz.Hint
              };
            }).ToList(),
@@ -80,7 +88,7 @@ namespace InterviewCrusherAdmin.Domain
            GenerateVideos = chapter.GeneratedVideosDtos.Select(video => new GenerateVideo
            {
              Description = video.Description,
-             Name = video.Name,
+             Title = video.Name,
              Url = video.Url,
              Deleted = false,
              VideoLength = video.VideoLength
@@ -117,7 +125,7 @@ namespace InterviewCrusherAdmin.Domain
             InputData = example.InputData
           }).ToList(),
           Hint = algo.Hint,
-          Name = algo.Name,
+          Name = algo.Title,
           TestCases = algo.TestCases.Select(test => new GenerateTestCaseDto
           {
             ExpectedOutput = test.ExpectedOutput,
@@ -126,7 +134,7 @@ namespace InterviewCrusherAdmin.Domain
           }).ToList()
         };
       }).ToList(),
-      ChapterNumber = chapter.ChapterNumber,
+      ChapterNumber = chapter.ParentNumber,
       GeneratedQuizesDtos = chapter.GenerateQuizzes.Select(quiz =>
       {
         return new GeneratedQuizDto
@@ -139,7 +147,7 @@ namespace InterviewCrusherAdmin.Domain
           }).ToList(),
           Description = quiz.Description,
           Difficulty = quiz.Difficulty,
-          Name = quiz.Name,
+          Title = quiz.Title,
           Hint = quiz.Hint
         };
       }).ToList(),
@@ -149,7 +157,7 @@ namespace InterviewCrusherAdmin.Domain
       GeneratedVideosDtos = chapter.GenerateVideos.Select(video => new GeneratedVideoDto
       {
         Description = video.Description,
-        Name = video.Name,
+        Name = video.Title,
         Url = video.Url,
         VideoLength = video.VideoLength
       }).ToList()

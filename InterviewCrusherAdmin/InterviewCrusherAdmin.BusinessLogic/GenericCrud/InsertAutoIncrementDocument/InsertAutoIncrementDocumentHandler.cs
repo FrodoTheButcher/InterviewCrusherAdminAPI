@@ -15,7 +15,7 @@ namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDoc
 {
   public class InsertAutoIncrementDocumentHandler<DtoRepresentation, DbEntityRepresentation> : IRequestHandler<InsertAutoIncrementDocumentRequest<DtoRepresentation, DbEntityRepresentation>, InsertAutoIncrementDocumentResponse>
    where DtoRepresentation : IDtoRepresentation
-   where DbEntityRepresentation : IDatabaseEntityRepresentation, IAutoIncrementDatabaseEntity
+   where DbEntityRepresentation : IDatabaseEntityRepresentation, IAutoIncrementEntity
   {
     private readonly IAutoIncrementRepository<DbEntityRepresentation> _repository;
     private readonly AutoMapperWrapper autoMapperWrapper;

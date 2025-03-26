@@ -3,7 +3,7 @@
 namespace InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository
 {
   public interface IAutoIncrementRepository<T> : IDependencyRepresentation
-    where T : IDatabaseEntityRepresentation, IAutoIncrementDatabaseEntity
+    where T : IDatabaseEntityRepresentation, IAutoIncrementEntity
   {
     public Task<string> CreateAutoIncrementAsync(T entity, CancellationToken cancellationToken);
     public Task<List<AutoIncrementEntityResponse>> GetByTemplateIdSortedByNumber(string templateId, CancellationToken cancellationToken);
