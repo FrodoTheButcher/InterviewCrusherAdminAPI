@@ -5,7 +5,6 @@ using InterviewCrusherAdmin.CommonDomain.ChapterDto;
 using InterviewCrusherAdmin.CommonDomain.QuizDto;
 using InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto;
-using InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto;
 using InterviewCrusherAdmin.CommonDomain.VideosDto;
 using InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo;
 using InterviewCrusherAdmin.DataAbstraction;
@@ -65,13 +64,11 @@ namespace InterviewCrusherAdmin.Domain
                CompletedCode = algo.CompletedCode,
                Description = algo.Description,
                Difficulty = algo.Difficulty,
-               Examples = algo.Examples.Select(example => new GenerateAlgorithmExample { ExpectedOutput = example.ExpectedOutput, Explanation = example.Explanation, InputData = example.InputData }).ToList(),
                Hint = algo.Hint,
                Title = algo.Name,
                TestCases = algo.TestCases.Select(test => new GenerateTestCase { ExpectedOutput = test.ExpectedOutput, InputData = test.InputData, Tip = test.Tip }).ToList()
              };
            }).ToList(),
-           ParentNumber = chapter.ChapterNumber,
            GenerateQuizzes = chapter.GeneratedQuizesDtos.Select(quiz =>
            {
              return new GenerateQuiz
@@ -84,7 +81,7 @@ namespace InterviewCrusherAdmin.Domain
              };
            }).ToList(),
            Description = chapter.Description,
-           Title = chapter.Name,
+           Title = chapter.Title,
            GenerateVideos = chapter.GeneratedVideosDtos.Select(video => new GenerateVideo
            {
              Description = video.Description,
@@ -108,7 +105,7 @@ namespace InterviewCrusherAdmin.Domain
       {
         return new GeneratedAlgorithmDto
         {
-          AlgorithmRestrictions = algo.AlgorithmRestrictions.Select(restriction => new GenerateAlgorithmRestrictionsDto
+          AlgorithmRestrictions = algo.AlgorithmRestrictions.Select(restriction => new CommonDomain.AlgorithmDto.GeneratedAlgorithm.GenerateAlgorithmRestrictionsDto
           {
             RestrictionDescription = restriction.RestrictionDescription,
             RestrictionName = restriction.RestrictionName
@@ -118,15 +115,9 @@ namespace InterviewCrusherAdmin.Domain
           CompletedCode = algo.CompletedCode,
           Description = algo.Description,
           Difficulty = algo.Difficulty,
-          Examples = algo.Examples.Select(example => new GenerateAlgorithmExampleDto
-          {
-            ExpectedOutput = example.ExpectedOutput,
-            Explanation = example.Explanation,
-            InputData = example.InputData
-          }).ToList(),
           Hint = algo.Hint,
           Name = algo.Title,
-          TestCases = algo.TestCases.Select(test => new GenerateTestCaseDto
+          TestCases = algo.TestCases.Select(test => new CommonDomain.AlgorithmDto.GeneratedAlgorithm.GenerateTestCaseDto
           {
             ExpectedOutput = test.ExpectedOutput,
             InputData = test.InputData,
@@ -134,7 +125,6 @@ namespace InterviewCrusherAdmin.Domain
           }).ToList()
         };
       }).ToList(),
-      ChapterNumber = chapter.ParentNumber,
       GeneratedQuizesDtos = chapter.GenerateQuizzes.Select(quiz =>
       {
         return new GeneratedQuizDto
@@ -153,7 +143,7 @@ namespace InterviewCrusherAdmin.Domain
       }).ToList(),
 
       Description = chapter.Description,
-      Name = chapter.Title,
+      Title = chapter.Title,
       GeneratedVideosDtos = chapter.GenerateVideos.Select(video => new GeneratedVideoDto
       {
         Description = video.Description,

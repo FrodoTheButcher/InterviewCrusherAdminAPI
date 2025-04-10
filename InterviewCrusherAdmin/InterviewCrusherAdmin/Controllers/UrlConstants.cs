@@ -7,7 +7,7 @@ namespace InterviewCrusherAdmin.Controllers
     public const string SERVER_URL = "https://localhost:7235";
     public class GenericController
     {
-      public const string BASE_URL = "api/Generic/";
+      public const string BASE_URL = "api/Generic";
       public const string GENERATE_VIDEO = "GenerateVideo";
       public const string GENERATE_ALGORITHM = "GenerateAlgorithm";
       public const string GENERATE_QUIZ = "GenerateQuiz";
@@ -38,6 +38,11 @@ namespace InterviewCrusherAdmin.Controllers
       public static string GET_CHAPTER_NAMES_BY_TEMPLATE_ID_FULL_URL(string id) => $"{SERVER_URL}/{BASE_URL}/{GET_CHAPTERS_BY_TEMPLATE_ID}/{id}";
 
       public string GET_GENERATED_TEMPLATE_URL(string id) => $"{GET_GENERATED_TEMPLATE}/{id}";
+
+      public static string INSERT_AUTO_INCREMENT_CHAPTER_FULL_URL()=> $"{SERVER_URL}/{BASE_URL}/{INSERT_AUTO_INCREMENT_CHAPTER}";
+      public static string INSERT_AUTO_INCREMENT_VIDEO_FULL_URL() => $"{SERVER_URL}/{BASE_URL}/{INSERT_AUTO_INCREMENT_VIDEO}";
+      public static string INSERT_AUTO_INCREMENT_QUIZ_FULL_URL() => $"{SERVER_URL}/{BASE_URL}/{INSERT_AUTO_INCREMENT_QUIZ}";
+
 
       public string REPLACE_GENERATED_TEMPLATE_URL => REPLACE_GENERATED_TEMPLATE;
 

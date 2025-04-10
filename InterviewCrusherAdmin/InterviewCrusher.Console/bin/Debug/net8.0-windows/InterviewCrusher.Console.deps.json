@@ -693,6 +693,14 @@
           }
         }
       },
+      "InterviewCrusher.AbstractDomain/1.0.0": {
+        "runtime": {
+          "InterviewCrusher.AbstractDomain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "InterviewCrusherAdmin/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
@@ -734,6 +742,7 @@
       "InterviewCrusherAdmin.CommonDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "InterviewCrusher.AbstractDomain": "1.0.0",
           "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
         },
         "runtime": {
@@ -1379,6 +1388,11 @@
       "sha512": "sha512-U9Ix4l4cl58Kzz1rJzj5hoVTjmbx1qGMwzAcbv1j/d3NzrFaESIurQyg+ow4mivCgkE3S413y+U9k4WdnEIkRA==",
       "path": "zstdsharp.port/0.7.3",
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
+    },
+    "InterviewCrusher.AbstractDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "InterviewCrusherAdmin/1.0.0": {
       "type": "project",

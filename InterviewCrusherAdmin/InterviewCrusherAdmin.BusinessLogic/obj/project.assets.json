@@ -414,9 +414,6 @@
       "InterviewCrusher.AbstractDomain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/InterviewCrusher.AbstractDomain.dll": {}
         },
@@ -456,7 +453,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "InterviewCrusher.AbstractDomain": "1.0.0",
           "InterviewCrusherAdmin.CommonDomain": "1.0.0",
           "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
         },
@@ -1099,8 +1095,8 @@
     },
     "InterviewCrusher.AbstractDomain/1.0.0": {
       "type": "project",
-      "path": "../AbstractDomain/InterviewCrusher.AbstractDomain.csproj",
-      "msbuildProject": "../AbstractDomain/InterviewCrusher.AbstractDomain.csproj"
+      "path": "../../../../InterviewCrusherAdminAPI/InterviewCrusherAdmin/AbstractDomain/InterviewCrusher.AbstractDomain.csproj",
+      "msbuildProject": "../../../../InterviewCrusherAdminAPI/InterviewCrusherAdmin/AbstractDomain/InterviewCrusher.AbstractDomain.csproj"
     },
     "InterviewCrusherAdmin.CommonDomain/1.0.0": {
       "type": "project",
@@ -1129,23 +1125,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fodor\\.nuget\\packages\\": {},
+    "C:\\Users\\Robi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
       "projectName": "InterviewCrusherAdmin.BusinessLogic",
-      "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
-      "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\obj\\",
+      "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\InterviewCrusherAdmin.BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1153,22 +1149,22 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
-              "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
+            "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj": {
+              "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\Domain\\InterviewCrusherAdmin.Domain.csproj"
             },
-            "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
-              "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
+            "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
+              "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
             },
-            "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
-              "projectPath": "C:\\Users\\fodor\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+            "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+              "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
             }
           }
         }
@@ -1217,16 +1213,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://proget.cbwg.local/nuget/DevServices/v3/index.json."
-    }
-  ]
+  }
 }

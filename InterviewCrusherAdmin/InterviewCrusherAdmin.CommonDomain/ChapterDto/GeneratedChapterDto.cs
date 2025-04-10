@@ -1,10 +1,11 @@
 ﻿using InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm;
 using InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto;
 using InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo;
+using InterviewCrusherAdmin.DataAbstraction.IAutoIncrementRepository;
 
 namespace InterviewCrusherAdmin.CommonDomain.ChapterDto
 {
-  public class GeneratedChapterDto
+  public class GeneratedChapterDto : IAutoIncrementEntity
   {
     public List<GeneratedAlgorithmDto> GeneratedAlgorithmsDtos { get; set; } = new List<GeneratedAlgorithmDto>();
 
@@ -12,10 +13,12 @@ namespace InterviewCrusherAdmin.CommonDomain.ChapterDto
 
     public List<GeneratedQuizDto> GeneratedQuizesDtos { get; set; } = new List<GeneratedQuizDto>();
 
-    public string Name { get; set; } = string.Empty;
+    public string Title { get; set; } = string.Empty;
 
     public string Description { get; set; } = string.Empty;
-    
+    public string ParentId {  get; set; }
+    public ushort ExerciseNumber {  get; set; }
+
     public GeneratedChapterDto()
     {
 
@@ -23,7 +26,7 @@ namespace InterviewCrusherAdmin.CommonDomain.ChapterDto
 
     public GeneratedChapterDto(string name, string description)
     {
-      Name = name;
+      Title = name;
       Description = description;
     }
 
@@ -32,7 +35,7 @@ namespace InterviewCrusherAdmin.CommonDomain.ChapterDto
       GeneratedAlgorithmsDtos = generatedAlgorithmsDtos;
       GeneratedVideosDtos = generatedVideosDtos;
       GeneratedQuizesDtos = generatedQuizesDtos;
-      Name = name;
+      Title = name;
       Description = description;
     }
   }

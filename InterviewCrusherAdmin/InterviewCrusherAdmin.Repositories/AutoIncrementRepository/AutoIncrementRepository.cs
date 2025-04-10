@@ -19,7 +19,7 @@ namespace InterviewCrusherAdmin.Repositories.AutoIncrementRepository
     {
       var filter = Builders<T>.Filter.Eq(x => x.ParentId, entity.ParentId);
       var size = await this._collection.CountDocumentsAsync(filter, cancellationToken: cancellationToken);
-
+      entity.Id = string.Empty;
       if (size > ushort.MaxValue)
       {
           //Custom exception

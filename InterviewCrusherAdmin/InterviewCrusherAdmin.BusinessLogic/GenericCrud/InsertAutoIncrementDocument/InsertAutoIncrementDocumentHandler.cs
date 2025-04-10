@@ -26,8 +26,16 @@ namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDoc
     }
     public async Task<InsertAutoIncrementDocumentResponse> Handle(InsertAutoIncrementDocumentRequest<DtoRepresentation, DbEntityRepresentation> request, CancellationToken cancellationToken)
     {
-      var insertResult = await _repository.CreateAutoIncrementAsync(this.autoMapperWrapper.Mapper.Map<DbEntityRepresentation>(request.DocumentToInsert), cancellationToken);
-      return new InsertAutoIncrementDocumentResponse(insertResult);
+      try
+      {
+        var insertResult = await _repository.CreateAutoIncrementAsync(this.autoMapperWrapper.Mapper.Map<DbEntityRepresentation>(request.DocumentToInsert), cancellationToken);
+        return new InsertAutoIncrementDocumentResponse(insertResult);
+      }
+      catch(Exception e)
+      {
+        return new InsertAutoIncrementDocumentResponse(null);
+
+      }
     }
   }
 }

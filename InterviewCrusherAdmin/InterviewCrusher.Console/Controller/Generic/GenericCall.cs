@@ -42,8 +42,8 @@ namespace InterviewCrusher.Console.Controller.Generic
       {
         using (var httpClient = new HttpClient())
         {
-          var json = Newtonsoft.Json.JsonConvert.SerializeObject(request);
-          var content = new StringContent(json, Encoding.UTF8, "application/json");
+          var DocumentToInsert = Newtonsoft.Json.JsonConvert.SerializeObject(request);
+          var content = new StringContent(DocumentToInsert, Encoding.UTF8, "application/json");
 
           var dataResponse = await httpClient.PostAsync(path, content);
 

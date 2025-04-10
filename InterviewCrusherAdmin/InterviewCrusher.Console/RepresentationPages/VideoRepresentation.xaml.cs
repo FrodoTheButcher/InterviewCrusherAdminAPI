@@ -1,4 +1,10 @@
-﻿using System;
+﻿using InterviewCrusher.Console.Controller.Generic;
+using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
+using InterviewCrusherAdmin.BusinessLogic.Template.GetTemplateNames;
+using InterviewCrusherAdmin.CommonDomain.TemplateDto;
+using InterviewCrusherAdmin.Controllers;
+using InterviewCrusherAdmin.Domain.Chapter;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +26,35 @@ namespace InterviewCrusher.Console.RepresentationPages
   /// </summary>
   public partial class VideoRepresentation : Page
   {
+    private TemplateNameDto TemplateNameDto;
     public VideoRepresentation()
     {
       InitializeComponent();
+      Helper.LoadTemplates(this.TemplateDropdown, this.TemplateNameDto);
+    }
+   
+    private async void SaveButton_Click(object sender, RoutedEventArgs e)
+    {
+      if (this.TemplateNameDto == null)
+      {
+        MessageBox.Show("Template not selected");
+        return;
+      }
+      string title = this.TitleTextBox.Text;
+      string description = this.DescriptionTextBox.Text;
+      string templateId = this.TemplateNameDto.Id;
+      string sourceLink = this.SourceLinkTextBox.Text;
+      string sourceCode = this.VideoLength.Text;
+
+      ChapterRepresentationDto chapterRepresentationDto = new ChapterRepresentationDto(title, templateId, description, sourceLink, sourceCode); ;
+      GenericCall genericCall = new GenericCall();
+      InsertAutoIncrementDocumentRequest<ChapterRepresentationDto, ChapterRepresentation> request = new();
+      request.DocumentToInsert = chapterRepresentationDto;
+      var response = await genericCall.InsertGeneric(request, UrlConstants.GenericController.INSERT_AUTO_INCREMENT_VIDEO_FULL_URL(), CancellationToken.None);
+      if (response != null)
+      {
+        MessageBox.Show(response.Message);
+      }
     }
   }
 }

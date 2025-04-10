@@ -17,11 +17,13 @@
 
 
         <!-- Main content area where pages will load -->
-        <Frame Name="MainContentFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
+        <Frame Name="MainContentFrame" NavigationUIVisibility="Hidden" Grid.Row="1" Navigated="MainContentFrame_Navigated"/>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Background="LightGray" Height="20" Grid.Row="0">
             <Button Content="Generate Template" Width="150" Height="20" Click="NavigateToGenerateTemplate"/>
             <Button Content="Available Templates" Width="150" Height="20" Click="NavigateToViewTemplates"/>
             <Button Content="Create Chapter Representation" Width="150" Height="20" Click="NavigateToViewChapterRepresentation"/>
+            <Button Content="Create Video Representation" Width="150" Height="20" Click="NavigateToViewVideoRepresentation"/>
+            <Button Content="Create Quiz Representation" Width="150" Height="20" Click="NavigateToViewQuizRepresentation"/>
 
         </StackPanel>
     </Grid>

@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewCrusherAdmin.Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewCrusherAdmin.CommonDomain", "..\InterviewCrusherAdmin.CommonDomain\InterviewCrusherAdmin.CommonDomain.csproj", "{F65ADFC3-8F3F-48DE-B5AA-4D8368BF2BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewCrusher.Console", "..\InterviewCrusher.Console\InterviewCrusher.Console.csproj", "{001A95A3-1A7F-4D60-9A4C-D411CB03AF7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewCrusher.Console", "..\InterviewCrusher.Console\InterviewCrusher.Console.csproj", "{001A95A3-1A7F-4D60-9A4C-D411CB03AF7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewCrusher.AbstractDomain", "..\..\..\..\InterviewCrusherAdminAPI\InterviewCrusherAdmin\AbstractDomain\InterviewCrusher.AbstractDomain.csproj", "{364DC764-5D2F-42A5-8539-F8B83EF44EDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{001A95A3-1A7F-4D60-9A4C-D411CB03AF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{001A95A3-1A7F-4D60-9A4C-D411CB03AF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{001A95A3-1A7F-4D60-9A4C-D411CB03AF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{364DC764-5D2F-42A5-8539-F8B83EF44EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364DC764-5D2F-42A5-8539-F8B83EF44EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364DC764-5D2F-42A5-8539-F8B83EF44EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364DC764-5D2F-42A5-8539-F8B83EF44EDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

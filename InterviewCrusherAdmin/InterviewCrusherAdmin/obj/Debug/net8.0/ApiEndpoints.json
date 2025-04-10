@@ -123,16 +123,6 @@
   },
   {
     "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
-    "Method": "DeleteDocument",
-    "RelativePath": "api/Generic/InitializeChapter",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
     "Method": "InitializeTemplate",
     "RelativePath": "api/Generic/InitializeTemplate",
     "HttpMethod": "POST",
@@ -149,7 +139,23 @@
   },
   {
     "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
-    "Method": "InitializeChapter",
+    "Method": "InitializeAlgorithmRepresentationAutoIncrement",
+    "RelativePath": "api/Generic/InsertAutoIncrementAlgorithm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument.InsertAutoIncrementDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.VideosDto.VideoRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.VideoRepresentation.VideoRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "InitializeChapterRepresentationAutoIncrement",
     "RelativePath": "api/Generic/InsertAutoIncrementChapter",
     "HttpMethod": "POST",
     "IsController": true,
@@ -158,6 +164,38 @@
       {
         "Name": "request",
         "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument.InsertAutoIncrementDocumentRequest\u00602[[ChapterRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.Chapter.ChapterRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "InitializeQuizRepresentationAutoIncrement",
+    "RelativePath": "api/Generic/InsertAutoIncrementQuiz",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument.InsertAutoIncrementDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.QuizDto.QuizRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.Quiz.QuizRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "InitializeVideoRepresentationAutoIncrement",
+    "RelativePath": "api/Generic/InsertAutoIncrementVideo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument.InsertAutoIncrementDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.VideosDto.VideoRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.VideoRepresentation.VideoRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

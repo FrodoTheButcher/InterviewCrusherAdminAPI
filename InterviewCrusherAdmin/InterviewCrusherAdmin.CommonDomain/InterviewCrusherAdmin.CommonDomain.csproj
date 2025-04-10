@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\InterviewCrusherAdminAPI\InterviewCrusherAdmin\AbstractDomain\InterviewCrusher.AbstractDomain.csproj" />
     <ProjectReference Include="..\InterviewCrusherAdmin.DataAbstraction\InterviewCrusherAdmin.DataAbstraction.csproj" />
   </ItemGroup>
 

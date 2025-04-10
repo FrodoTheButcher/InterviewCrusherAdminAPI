@@ -24,5 +24,21 @@ namespace InterviewCrusher.Console
     {
       MainContentFrame.Navigate(new TemplateDropdownWindow());
     }
+
+    private void NavigateToViewVideoRepresentation(object sender, RoutedEventArgs e)
+    {
+      MainContentFrame.Navigate(new VideoRepresentation());
+
+    }
+
+    private void MainContentFrame_Navigated(object sender, System.Windows.Navigation.NavigationEventArgs e)
+    {
+
+    }
+
+    private void NavigateToViewQuizRepresentation(object sender, RoutedEventArgs e)
+    {
+      MainContentFrame.Navigate(new QuizRepresentation());
+    }
   }
 }

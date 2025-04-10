@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\
 InterviewCrusher.Console
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\fodor\Desktop\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\App.xaml
-111922899830
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\App.xaml
+1236542442
 
-171435623583
-3631583128566
-EditGeneratedTemplate\EditGeneratedTemplateChapterSide.xaml;GenerateAlgorithmPage.xaml;GenerateChapterPage.xaml;GenerateQuizPage.xaml;GenerateTemplatePage.xaml;GenerateTemplateRoute.xaml;GenerateVideoPage.xaml.xaml;MainWindow.xaml;RepresentationPages\ChapterRepresentationPage.xaml;RepresentationPages\VideoRepresentation.xaml;TemplateDropdownWindow.xaml;
+19-1269697809
+36436187765
+EditGeneratedTemplate\EditGeneratedTemplateChapterSide.xaml;GenerateAlgorithmPage.xaml;GenerateChapterPage.xaml;GenerateQuizPage.xaml;GenerateTemplatePage.xaml;GenerateTemplateRoute.xaml;GenerateVideoPage.xaml.xaml;MainWindow.xaml;RepresentationPages\ChapterRepresentationPage.xaml;RepresentationPages\QuizRepresentation.xaml;RepresentationPages\VideoRepresentation.xaml;TemplateDropdownWindow.xaml;
 
-True
+False
 

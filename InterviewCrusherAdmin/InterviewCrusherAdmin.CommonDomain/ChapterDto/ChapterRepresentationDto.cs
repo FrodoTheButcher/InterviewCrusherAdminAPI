@@ -19,7 +19,7 @@ public class ChapterRepresentationDto : IDtoRepresentation
   [JsonPropertyName("title")]
   public string Title { get; set; } = string.Empty;
 
-  [JsonPropertyName("templateId")]
+  [JsonPropertyName("parentId")]
   [BsonRepresentation(BsonType.ObjectId)]
   public string ParentId { get; set; } = string.Empty;
 
