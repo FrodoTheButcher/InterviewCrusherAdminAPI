@@ -16,5 +16,6 @@
     Task<bool> ReplaceAsync(string id, T entity, CancellationToken cancellationToken);
 
     Task<bool> RestoreAsync(string id, CancellationToken cancellationToken);
+
   }
 }

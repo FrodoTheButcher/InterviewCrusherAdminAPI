@@ -24,6 +24,7 @@
             <Button Content="Create Chapter Representation" Width="150" Height="20" Click="NavigateToViewChapterRepresentation"/>
             <Button Content="Create Video Representation" Width="150" Height="20" Click="NavigateToViewVideoRepresentation"/>
             <Button Content="Create Quiz Representation" Width="150" Height="20" Click="NavigateToViewQuizRepresentation"/>
+            <Button Content="Create Algo Representation" Width="150" Height="20" Click="NavigateToViewAlgoRepresentation"/>
 
         </StackPanel>
     </Grid>

@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.DataAbstraction\\InterviewCrusherAdmin.DataAbstraction.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -98,6 +102,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj": {
+                "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\AbstractDomain\\InterviewCrusher.AbstractDomain.csproj"
+              },
               "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj": {
                 "projectPath": "C:\\Users\\Robi\\Desktop\\InterviewCrusherAdmin\\InterviewCrusherAdminAPI\\InterviewCrusherAdmin\\InterviewCrusherAdmin.CommonDomain\\InterviewCrusherAdmin.CommonDomain.csproj"
               },

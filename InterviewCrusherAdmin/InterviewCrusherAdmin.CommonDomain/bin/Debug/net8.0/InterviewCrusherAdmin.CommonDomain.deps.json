@@ -208,6 +208,9 @@
         }
       },
       "InterviewCrusher.AbstractDomain/1.0.0": {
+        "dependencies": {
+          "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
+        },
         "runtime": {
           "InterviewCrusher.AbstractDomain.dll": {
             "assemblyVersion": "1.0.0",

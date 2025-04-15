@@ -1,6 +1,7 @@
 ﻿using InterviewCrusher.Console.Controller.Generic;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
 using InterviewCrusherAdmin.CommonDomain;
+using InterviewCrusherAdmin.CommonDomain.AbstractImplementations;
 using InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto;
 using InterviewCrusherAdmin.Controllers;
@@ -21,7 +22,6 @@ namespace InterviewCrusher.Console.RepresentationPages
   public partial class QuizRepresentation : Page
   {
     private ObservableCollection<GenerateQuizAnswerDto> QuizAnswers { get; set; } = new();
-    private TemplateNameDto TemplateNameDto;
     public List<string> Difficulties { get; set; }
 
     public QuizRepresentation()
@@ -30,7 +30,7 @@ namespace InterviewCrusher.Console.RepresentationPages
 
       QuizAnswersList.ItemsSource = QuizAnswers;
 
-      Helper.LoadTemplates(this.TemplateDropdown, this.TemplateNameDto);
+      Helper.LoadChapters(this.ChapterDropdown);
       LoadDifficulties();
     }
 
@@ -51,14 +51,13 @@ namespace InterviewCrusher.Console.RepresentationPages
         Description = DescriptionTextBox.Text,
         Difficulty = this.DifficultyComboBox.Text,
         Hint = HintTextBox.Text,
-        ExerciseNumber = ushort.TryParse(ExerciseNumberTextBox.Text, out var num) ? num : (ushort)0,
         QuizAnswers = QuizAnswers.ToList(),
-        ParentId = TemplateNameDto?.Id ?? string.Empty
+        ParentId = this.ChapterDropdown.SelectedValue.ToString()
       };
       GenericCall genericCall = new GenericCall();
       InsertAutoIncrementDocumentRequest<GeneratedQuizDto, GenerateQuiz> request = new();
       request.DocumentToInsert = quiz;
-      var response = await genericCall.InsertGeneric(request, UrlConstants.GenericController.INSERT_AUTO_INCREMENT_VIDEO_FULL_URL(), CancellationToken.None);
+      var response = await genericCall.InsertGeneric(request, UrlConstants.GenericController.INSERT_AUTO_INCREMENT_QUIZ_FULL_URL(), CancellationToken.None);
       if (response != null)
       {
         MessageBox.Show(response.Message);

@@ -1,9 +1,9 @@
-﻿namespace InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm
-{
-  public class GenerateAlgorithmRestrictionsDto
-  {
-    public string RestrictionName { get; set; } = string.Empty;
+﻿using AbstractDomain.Algorithm;
 
-    public string RestrictionDescription { get; set; } = string.Empty;
+namespace InterviewCrusherAdmin.CommonDomain.AlgorithmDto.GeneratedAlgorithm
+{
+  public class GenerateAlgorithmRestrictionsDto : BaseAlgorithmRestriction
+  {
+  
   }
 }

@@ -7,6 +7,7 @@ namespace InterviewCrusherAdmin.Controllers
     public const string SERVER_URL = "https://localhost:7235";
     public class GenericController
     {
+      //todo -> only allow using functions to external docs
       public const string BASE_URL = "api/Generic";
       public const string GENERATE_VIDEO = "GenerateVideo";
       public const string GENERATE_ALGORITHM = "GenerateAlgorithm";
@@ -21,6 +22,12 @@ namespace InterviewCrusherAdmin.Controllers
       public const string INSERT_AUTO_INCREMENT_VIDEO = "InsertAutoIncrementVideo";
       public const string INSERT_AUTO_INCREMENT_ALGORITHM = "InsertAutoIncrementAlgorithm";
       public const string GET_CHAPTERS_BY_TEMPLATE_ID = "GetChaptersByTemplateId";
+
+      public const string GET_TEMPLATE_NAMES = "GetTemplateNames";
+      public const string GET_CHAPTER_NAMES = "GetChapterNames";
+      public const string GET_QUIZ_NAMES = "GetQuizNames";
+      public const string GET_VIDEO_NAMES = "GetVideoNames";
+      public const string GET_ALGO_NAMES = "GetAlgorithmNames";
 
       public const string DELETE_GENERATED_TEMPLATE = "DeleteGeneratedTemplate";
       public const string GET_GENERATED_TEMPLATE = "GetGeneratedTemplate";
@@ -43,6 +50,7 @@ namespace InterviewCrusherAdmin.Controllers
       public static string INSERT_AUTO_INCREMENT_VIDEO_FULL_URL() => $"{SERVER_URL}/{BASE_URL}/{INSERT_AUTO_INCREMENT_VIDEO}";
       public static string INSERT_AUTO_INCREMENT_QUIZ_FULL_URL() => $"{SERVER_URL}/{BASE_URL}/{INSERT_AUTO_INCREMENT_QUIZ}";
 
+      public static string INSERT_AUTO_INCREMENT_ALGO_FULL_URL() => $"{SERVER_URL}/{BASE_URL}/{INSERT_AUTO_INCREMENT_ALGORITHM}";
 
       public string REPLACE_GENERATED_TEMPLATE_URL => REPLACE_GENERATED_TEMPLATE;
 

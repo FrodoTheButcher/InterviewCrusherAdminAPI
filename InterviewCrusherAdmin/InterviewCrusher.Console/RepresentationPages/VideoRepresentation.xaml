@@ -44,8 +44,8 @@
         <TextBox Grid.Row="3" Grid.Column="1" Name="VideoLength" Height="30" VerticalContentAlignment="Center" Margin="5"/>
 
         <!-- Template Selection -->
-        <Label Grid.Row="4" Grid.Column="0" Content="Select a Template:" FontWeight="Bold" FontSize="14" VerticalAlignment="Center" Margin="5"/>
-        <ComboBox Grid.Row="4" Grid.Column="1" Name="TemplateDropdown" Width="200" Height="30" DisplayMemberPath="Title" SelectedValuePath="Id" Margin="5"/>
+        <Label Grid.Row="4" Grid.Column="0" Content="Select a chapter:" FontWeight="Bold" FontSize="14" VerticalAlignment="Center" Margin="5"/>
+        <ComboBox Grid.Row="4" Grid.Column="1" Name="ChapterDropdown" Width="200" Height="30" DisplayMemberPath="Title" SelectedValuePath="Id" Margin="5"/>
 
         <!-- Template Description -->
         <TextBlock Grid.Row="5" Grid.Column="1" Name="SelectedTemplateText" FontSize="14" Margin="5" Foreground="Gray"/>

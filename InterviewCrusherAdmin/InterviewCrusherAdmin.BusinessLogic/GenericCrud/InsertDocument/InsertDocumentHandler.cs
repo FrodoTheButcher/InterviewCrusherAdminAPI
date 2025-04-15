@@ -12,11 +12,11 @@ namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument
     where DtoRepresentation : IDtoRepresentation
     where DbEntityRepresentation : IDatabaseEntityRepresentation
   {
-    private readonly IRepository<DbEntityRepresentation> _repository;
+    private readonly IGenericCrudRepository<DbEntityRepresentation> _repository;
     private readonly AutoMapperWrapper autoMapperWrapper;
-    public InsertDocumentHandler(IRepository<DbEntityRepresentation> repository, AutoMapperWrapper mapper)
+    public InsertDocumentHandler(IGenericCrudRepository<DbEntityRepresentation> repository, AutoMapperWrapper mapper)
     {
-      _repository = repository ?? throw new DependencyException<IRepository<DbEntityRepresentation>>();
+      _repository = repository ?? throw new DependencyException<IGenericCrudRepository<DbEntityRepresentation>>();
       this.autoMapperWrapper = mapper ?? throw new DependencyException<AutoMapperWrapper>();
     }
     public async Task<InsertDocumentResponse> Handle(InsertDocumentRequest<DtoRepresentation, DbEntityRepresentation> request, CancellationToken cancellationToken)

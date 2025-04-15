@@ -1,0 +1,90 @@
+﻿<Page x:Class="InterviewCrusher.Console.RepresentationPages.AlgorithmRepresentation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d"
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="AlgorithmRepresentation">
+
+    <ScrollViewer>
+        <Grid Margin="20">
+            <StackPanel Orientation="Vertical" Width="700">
+
+                <!-- Chapter -->
+                <Label Content="Select a Chapter:"/>
+                <ComboBox Name="ChapterDropdown"
+                          Width="400"
+                          DisplayMemberPath="Title"
+                          SelectedValuePath="Id"
+                          Margin="0,0,0,10"/>
+
+                <!-- Title -->
+                <Label Content="Title:"/>
+                <TextBox Name="TitleTextBox" Width="400" Margin="0,0,0,10"/>
+
+                <!-- Description -->
+                <Label Content="Description:"/>
+                <TextBox Name="DescriptionTextBox" Width="400" Height="60" TextWrapping="Wrap" AcceptsReturn="True" Margin="0,0,0,10"/>
+
+                <!-- Difficulty -->
+                <Label Content="Difficulty:"/>
+                <ComboBox Name="DifficultyComboBox" Width="400" Margin="0,0,0,10"/>
+
+                <!-- Hint -->
+                <Label Content="Hint:"/>
+                <TextBox Name="HintTextBox" Width="400" Margin="0,0,0,10"/>
+
+                <!-- Completed Code -->
+                <Label Content="Completed Code:"/>
+                <TextBox Name="CompletedCodeTextBox" Width="400" Height="60" TextWrapping="Wrap" AcceptsReturn="True" Margin="0,0,0,10"/>
+
+                <!-- Solution B64 -->
+                <Label Content="Solution (Base64):"/>
+                <TextBox Name="SolutionTextBox" Width="400" Height="60" TextWrapping="Wrap" AcceptsReturn="True" Margin="0,0,0,10"/>
+
+                <!-- All Languages Checkbox -->
+                <CheckBox Name="AllLanguagesCheckbox" Content="All Languages Available" Margin="0,0,0,10"/>
+
+                <!-- Test Cases -->
+                <Label Content="Test Cases:" FontWeight="Bold"/>
+                <ItemsControl Name="TestCasesList">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="0,0,0,10" >
+                                <Label Content="Input:"/>
+                                <TextBox Text="{Binding InputData}" Width="350"/>
+                                <Label Content="Expected Output:"/>
+                                <TextBox Text="{Binding ExpectedOutput}" Width="350"/>
+                                <Label Content="Tip:"/>
+                                <TextBox Text="{Binding Tip}" Width="350"/>
+                                <Label Content="Is Test Case:"/>
+                                <CheckBox IsChecked="{Binding IsTestCase}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <Button Content="Add Test Case" Click="AddTestCase_Click" Width="150" Margin="0,0,0,10"/>
+
+                <!-- Restrictions -->
+                <Label Content="Algorithm Restrictions:" FontWeight="Bold"/>
+                <ItemsControl Name="RestrictionsList">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="0,0,0,10" >
+                                <Label Content="Name:"/>
+                                <TextBox Text="{Binding RestrictionName}" Width="350"/>
+                                <Label Content="Description:"/>
+                                <TextBox Text="{Binding RestrictionDescription}" Width="350"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <Button Content="Add Restriction" Click="AddRestriction_Click" Width="150" Margin="0,0,0,10"/>
+
+                <!-- Save -->
+                <Button Content="Save Algorithm" Click="SaveAlgorithm_Click" Width="150" Background="LightGreen"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

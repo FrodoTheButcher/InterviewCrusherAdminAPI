@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterviewCrusher.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61af2d94e0a4b0d8e626a5698d33b9351e04c50b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aa1a3dcb891cf6b122f6489fdef1d3fd4f1f0b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterviewCrusher.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterviewCrusher.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

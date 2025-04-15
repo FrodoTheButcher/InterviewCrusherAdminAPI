@@ -44,8 +44,24 @@ namespace InterviewCrusherAdmin.Domain
         cfg.CreateMap<TemplateRepresentation, GenerateTemplate>();
         cfg.CreateMap<ChapterRepresentationDto, ChapterRepresentation>().ReverseMap();
         cfg.CreateMap<QuizRepresentationDto, QuizRepresentation>().ReverseMap();
+        cfg.CreateMap<QuizAnswersDto, GenerateQuizAnswer>().ReverseMap();
         cfg.CreateMap<AlgorithmRepresentationDto, AlgorithmRepresentation>().ReverseMap();
+        cfg.CreateMap<SolutionB64Dto, GenerateAlgorithmSolution>().ReverseMap();
+        cfg.CreateMap<GenerateTestCaseRepresentationDto, GenerateTestCase>().ReverseMap();
+        cfg.CreateMap<GenerateAlgorithmRestrictionsRepresentationDto, GenerateAlgorithmRestrictions>().ReverseMap();
+
         cfg.CreateMap<VideoRepresentationDto, VideoRepresentation.VideoRepresentation>().ReverseMap();
+        cfg.CreateMap<SolutionB64Dto, GenerateAlgorithmSolution>()
+   .ForMember(dest => dest.SolutionB64, opt => opt.MapFrom(src => src.SolutionB64));
+
+        cfg.CreateMap<GenerateAlgorithmRestrictionsDto, GenerateAlgorithmRestrictions>()
+           .ForMember(dest => dest.RestrictionName, opt => opt.MapFrom(src => src.RestrictionName))
+           .ForMember(dest => dest.RestrictionDescription, opt => opt.MapFrom(src => src.RestrictionDescription));
+
+        cfg.CreateMap<GenerateTestCaseDto, GenerateTestCase>()
+           .ForMember(dest => dest.InputData, opt => opt.MapFrom(src => src.InputData))
+           .ForMember(dest => dest.ExpectedOutput, opt => opt.MapFrom(src => src.ExpectedOutput))
+           .ForMember(dest => dest.Tip, opt => opt.MapFrom(src => src.Tip));
 
         cfg.CreateMap<InterviewCrusherAdmin.CommonDomain.TemplateDto.GenerateTemplateDto.GenerateTemplateDto, GenerateTemplate>()
         .AfterMap((dto, doc) =>

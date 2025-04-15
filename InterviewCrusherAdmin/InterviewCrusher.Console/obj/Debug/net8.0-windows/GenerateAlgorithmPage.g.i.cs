@@ -196,7 +196,7 @@ namespace InterviewCrusher.Console {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/InterviewCrusher.Console;component/generatealgorithmpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InterviewCrusher.Console;V1.0.0.0;component/generatealgorithmpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GenerateAlgorithmPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

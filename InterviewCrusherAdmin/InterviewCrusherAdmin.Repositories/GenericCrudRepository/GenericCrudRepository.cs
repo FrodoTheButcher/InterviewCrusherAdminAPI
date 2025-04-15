@@ -1,4 +1,5 @@
-﻿using InterviewCrusherAdmin.DataAbstraction;
+﻿using InterviewCrusherAdmin.CommonDomain.AbstractImplementations;
+using InterviewCrusherAdmin.DataAbstraction;
 using InterviewCrusherAdmin.DataAbstraction.Database;
 using InterviewCrusherAdmin.DataAbstraction.Extensions;
 using InterviewCrusherAdmin.DataAbstraction.Repositories;
@@ -7,7 +8,7 @@ using MongoDB.Driver;
 
 namespace InterviewCrusherAdmin.Repositories.GenericCrudRepository
 {
-  public class GenericCrudRepository<T> : IRepository<T>
+  public class GenericCrudRepository<T> : IGenericCrudRepository<T>
       where T : IDatabaseEntityRepresentation
   {
     private readonly IMongoCollection<T> _collection;
@@ -39,6 +40,21 @@ namespace InterviewCrusherAdmin.Repositories.GenericCrudRepository
 
       return await this._collection.Find(Builders<T>.Filter.Eq(e => e.Id, objectId.ToString())).FirstOrDefaultAsync(cancellationToken);
     }
+
+    public async Task<List<IBaseDataEntity>> GetBaseDatas(CancellationToken cancellationToken)
+    {
+      return (await this._collection
+          .Aggregate()
+          .Match(c => c.Deleted == false)
+          .As<BaseDataEntity>()
+          .Project<BaseDataEntity>(Builders<BaseDataEntity>.Projection
+              .Include(x => x.Id)
+              .Include(x => x.Title))
+          .ToListAsync(cancellationToken))
+          .Cast<IBaseDataEntity>()
+          .ToList();
+    }
+
 
     public async Task<bool> ReplaceAsync(string id, T entity, CancellationToken cancellationToken)
     {

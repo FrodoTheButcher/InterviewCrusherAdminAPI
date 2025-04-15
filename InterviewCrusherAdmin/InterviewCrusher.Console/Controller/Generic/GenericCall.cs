@@ -2,11 +2,8 @@
 using InterviewCrusherAdmin.CommonDomain;
 using InterviewCrusherAdmin.CommonDomain.Responses;
 using InterviewCrusherAdmin.DataAbstraction;
-using MongoDB.Bson.IO;
-using System.IO;
 using System.Net.Http;
 using System.Net.Http.Json;
-using static System.Net.WebRequestMethods;
 using System.Text;
 
 namespace InterviewCrusher.Console.Controller.Generic

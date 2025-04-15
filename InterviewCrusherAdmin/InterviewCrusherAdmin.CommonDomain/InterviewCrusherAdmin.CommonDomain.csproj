@@ -15,8 +15,4 @@
     <ProjectReference Include="..\InterviewCrusherAdmin.DataAbstraction\InterviewCrusherAdmin.DataAbstraction.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="AlgorithmDto\NewFolder\" />
-  </ItemGroup>
-
 </Project>

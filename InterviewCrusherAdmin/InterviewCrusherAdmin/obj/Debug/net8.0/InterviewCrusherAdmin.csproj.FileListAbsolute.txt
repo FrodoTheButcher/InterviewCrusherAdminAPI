@@ -61,7 +61,6 @@ C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCr
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\bin\Debug\net8.0\InterviewCrusherAdmin.Database.pdb
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\bin\Debug\net8.0\InterviewCrusherAdmin.Repositories.pdb
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\bin\Debug\net8.0\InterviewCrusher.AbstractDomain.pdb
-C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\staticwebassets\msbuild.InterviewCrusherAdmin.Microsoft.AspNetCore.StaticWebAssets.props
@@ -76,3 +75,4 @@ C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCr
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.pdb
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.genruntimeconfig.cache
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\ref\InterviewCrusherAdmin.dll
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin\obj\Debug\net8.0\InterviewCrusherAdmin.MvcApplicationPartsAssemblyInfo.cs

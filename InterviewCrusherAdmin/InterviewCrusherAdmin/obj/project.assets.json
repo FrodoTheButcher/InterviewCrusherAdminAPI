@@ -551,6 +551,9 @@
       "InterviewCrusher.AbstractDomain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/InterviewCrusher.AbstractDomain.dll": {}
         },
@@ -622,6 +625,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "InterviewCrusher.AbstractDomain": "1.0.0",
           "InterviewCrusherAdmin.CommonDomain": "1.0.0",
           "InterviewCrusherAdmin.DataAbstraction": "1.0.0"
         },

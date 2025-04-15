@@ -1,9 +1,7 @@
 ﻿using InterviewCrusherAdmin.DataAbstraction;
-using MongoDB.Bson.Serialization.Attributes;
-using MongoDB.Bson;
-using System.Text.Json.Serialization;
+using InterviewCrusher.AbstractDomain.Chapter;
 
-public class ChapterRepresentationDto : IDtoRepresentation
+public class ChapterRepresentationDto : BaseChapterDto, IDtoRepresentation
 {
   public ChapterRepresentationDto() { }
 
@@ -16,19 +14,4 @@ public class ChapterRepresentationDto : IDtoRepresentation
     this.SourceCode = sourceCode;
   }
 
-  [JsonPropertyName("title")]
-  public string Title { get; set; } = string.Empty;
-
-  [JsonPropertyName("parentId")]
-  [BsonRepresentation(BsonType.ObjectId)]
-  public string ParentId { get; set; } = string.Empty;
-
-  [JsonPropertyName("description")]
-  public string Description { get; set; } = string.Empty;
-
-  [JsonPropertyName("sourceLink")]
-  public string SourceLink { get; set; } = string.Empty;
-
-  [JsonPropertyName("sourceCode")]
-  public string SourceCode { get; set; } = string.Empty;
 }

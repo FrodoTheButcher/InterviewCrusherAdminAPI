@@ -4,19 +4,14 @@ using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Generate
 
 namespace InterviewCrusherAdmin.Domain.Quiz
 {
-  public class QuizRepresentation : IDatabaseEntityRepresentation, IAutoIncrementEntity
+  using InterviewCrusher.AbstractDomain.Quiz;
+  using MongoDB.Bson.Serialization.Attributes;
+  using MongoDB.Bson;
+
+  public class QuizRepresentation : BaseQuiz, IAutoIncrementEntity
   {
-    public string ChapterId { get; set; } = string.Empty;
-
-    public string Description { get; set; } = string.Empty;
-
-    public string Difficulty { get; set; } = string.Empty;
-
-    public string Hint { get; set; } = string.Empty;
 
     public List<GenerateQuizAnswer> QuizAnswers { get; set; } = new List<GenerateQuizAnswer>();
-    public string ParentId { get; set; } = string.Empty;
-    public string Title {  get; set; } = string.Empty;
-    public ushort ExerciseNumber { get; set; }
+   
   }
 }

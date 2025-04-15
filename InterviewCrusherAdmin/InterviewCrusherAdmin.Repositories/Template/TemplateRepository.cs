@@ -1,5 +1,6 @@
 ﻿using InterviewCrusherAdmin.CommonDomain.TemplateDto;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto.TemplateWithChapterNames;
+using InterviewCrusherAdmin.DataAbstraction;
 using InterviewCrusherAdmin.DataAbstraction.Database;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate;
 using InterviewCrusherAdmin.Domain.Template;
@@ -31,6 +32,11 @@ namespace InterviewCrusherAdmin.Repositories.Template
     }
 
     public Task<GenerateTemplate?> GetAsync(string id, CancellationToken cancellationToken)
+    {
+      throw new NotImplementedException();
+    }
+
+    public Task<IBaseDataEntity> GetBaseData(CancellationToken cancellationToken)
     {
       throw new NotImplementedException();
     }

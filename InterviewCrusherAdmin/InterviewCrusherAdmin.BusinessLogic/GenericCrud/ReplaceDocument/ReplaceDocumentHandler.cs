@@ -11,10 +11,10 @@ namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.ReplaceDocument
     : IRequestHandler<ReplaceDocumentRequest<DatabaseEntityRepresentation>, ReplaceDocumentResponse>
     where DatabaseEntityRepresentation : IDatabaseEntityRepresentation
   {
-    private readonly IRepository<DatabaseEntityRepresentation> repository;
-    public ReplaceDocumentHandler(IRepository<DatabaseEntityRepresentation> repository, AutoMapperWrapper mapper)
+    private readonly IGenericCrudRepository<DatabaseEntityRepresentation> repository;
+    public ReplaceDocumentHandler(IGenericCrudRepository<DatabaseEntityRepresentation> repository, AutoMapperWrapper mapper)
     {
-      this.repository = repository ?? throw new DependencyException<IRepository<DatabaseEntityRepresentation>>();
+      this.repository = repository ?? throw new DependencyException<IGenericCrudRepository<DatabaseEntityRepresentation>>();
     }
 
     public async Task<ReplaceDocumentResponse> Handle(ReplaceDocumentRequest<DatabaseEntityRepresentation> request, CancellationToken cancellationToken)

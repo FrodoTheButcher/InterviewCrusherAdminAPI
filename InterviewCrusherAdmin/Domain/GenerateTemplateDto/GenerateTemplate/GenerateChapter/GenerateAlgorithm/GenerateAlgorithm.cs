@@ -24,5 +24,6 @@ namespace InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.Gene
     public List<GenerateAlgorithmRestrictions> AlgorithmRestrictions { get; set; } = new List<GenerateAlgorithmRestrictions>();
     public string ParentId { get; set; } = string.Empty;
     public ushort ExerciseNumber {  get; set; } = ushort.MinValue;
+
   }
 }

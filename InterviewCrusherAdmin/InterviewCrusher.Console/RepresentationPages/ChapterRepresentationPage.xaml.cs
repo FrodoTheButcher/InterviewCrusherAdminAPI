@@ -1,6 +1,7 @@
 ﻿using InterviewCrusher.Console.Controller.Generic;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
 using InterviewCrusherAdmin.BusinessLogic.Template.GetTemplateNames;
+using InterviewCrusherAdmin.CommonDomain.AbstractImplementations;
 using InterviewCrusherAdmin.CommonDomain.TemplateDto;
 using InterviewCrusherAdmin.Controllers;
 using InterviewCrusherAdmin.Domain.Chapter;
@@ -14,23 +15,17 @@ namespace InterviewCrusher.Console.RepresentationPages
   /// </summary>
   public partial class ChapterRepresentationPage : Page
   {
-    private TemplateNameDto TemplateNameDto;
     public ChapterRepresentationPage()
     {
       InitializeComponent();
-      Helper.LoadTemplates(this.TemplateDropdown, this.TemplateNameDto);
+      Helper.LoadTemplates(this.TemplateDropdown);
     }
    
     private async void SaveButton_Click(object sender, RoutedEventArgs e)
     {
-      if(this.TemplateNameDto == null)
-      {
-        MessageBox.Show("Template not selected");
-        return;
-      }
       string title = this.TitleTextBox.Text;
       string description = this.DescriptionTextBox.Text;
-      string templateId = this.TemplateNameDto.Id;
+      string templateId = this.TemplateDropdown.SelectedValue.ToString();
       string sourceLink = this.SourceLinkTextBox.Text;
       string sourceCode = this.SourceCodeTextBox.Text;
 

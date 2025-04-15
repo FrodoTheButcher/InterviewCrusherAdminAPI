@@ -4,6 +4,7 @@ using FluentValidation.AspNetCore;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetAllDocuments;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocumentsByTemplateId;
+using InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetDocumentsName;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument;
 using InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertDocument;
 using InterviewCrusherAdmin.CommonDomain.AlgorithmDto;
@@ -55,7 +56,7 @@ namespace InterviewCrusherAdmin
       {
         return new Database.Database(databaseConfig);
       });
-      builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericCrudRepository<>));
+      builder.Services.AddScoped(typeof(IGenericCrudRepository<>), typeof(GenericCrudRepository<>));
       builder.Services.AddScoped(typeof(IAutoIncrementRepository<>), typeof(AutoIncrementRepository<>));
       builder.Services.AddScoped<ITemplateRepository, TemplateRepository>();
 
@@ -65,6 +66,12 @@ namespace InterviewCrusherAdmin
       builder.Services.AddTransient<IRequestHandler<InsertAutoIncrementDocumentRequest<AlgorithmRepresentationDto, AlgorithmRepresentation>, InsertAutoIncrementDocumentResponse>, InsertAutoIncrementDocumentHandler<AlgorithmRepresentationDto, AlgorithmRepresentation>>();
 
       builder.Services.AddTransient<IRequestHandler<GetDocumentsByTemplateIdRequest<ChapterRepresentation>, GetDocumentsByTemplateIdResponse>, GetDocumentsByTemplateIdHandler<ChapterRepresentation>>();
+
+      builder.Services.AddTransient<IRequestHandler<GetDocumentsNameRequest<GenerateTemplate>, GetDocumentsNameResponse>, GetDocumentsNameHandler<GenerateTemplate>>();
+      builder.Services.AddTransient<IRequestHandler<GetDocumentsNameRequest<ChapterRepresentation>, GetDocumentsNameResponse>, GetDocumentsNameHandler<ChapterRepresentation>>();
+      builder.Services.AddTransient<IRequestHandler<GetDocumentsNameRequest<QuizRepresentation>, GetDocumentsNameResponse>, GetDocumentsNameHandler<QuizRepresentation>>();
+      builder.Services.AddTransient<IRequestHandler<GetDocumentsNameRequest<VideoRepresentation>, GetDocumentsNameResponse>, GetDocumentsNameHandler<VideoRepresentation>>();
+      builder.Services.AddTransient<IRequestHandler<GetDocumentsNameRequest<AlgorithmRepresentation>, GetDocumentsNameResponse>, GetDocumentsNameHandler<AlgorithmRepresentation>>();
 
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GeneratedVideoDto, GenerateVideo>, InsertDocumentResponse>, InsertDocumentHandler<GeneratedVideoDto, GenerateVideo>>();
       builder.Services.AddTransient<IRequestHandler<InsertDocumentRequest<GenerateTemplateDto, GenerateTemplate>, InsertDocumentResponse>, InsertDocumentHandler<GenerateTemplateDto, GenerateTemplate>>();

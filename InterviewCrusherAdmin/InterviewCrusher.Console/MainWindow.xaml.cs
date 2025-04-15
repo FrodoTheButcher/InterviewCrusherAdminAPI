@@ -40,5 +40,12 @@ namespace InterviewCrusher.Console
     {
       MainContentFrame.Navigate(new QuizRepresentation());
     }
+
+    private void NavigateToViewAlgoRepresentation(object sender, RoutedEventArgs e)
+    {
+
+      MainContentFrame.Navigate(new AlgorithmRepresentation());
+
+    }
   }
 }

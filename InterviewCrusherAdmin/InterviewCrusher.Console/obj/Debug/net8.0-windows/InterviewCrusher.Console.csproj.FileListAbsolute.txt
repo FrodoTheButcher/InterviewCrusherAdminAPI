@@ -111,3 +111,5 @@ C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCr
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\ref\InterviewCrusher.Console.dll
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\RepresentationPages\QuizRepresentation.g.cs
 C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\RepresentationPages\QuizRepresentation.baml
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\RepresentationPages\AlgorithmRepresentation.baml
+C:\Users\Robi\Desktop\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusher.Console\obj\Debug\net8.0-windows\RepresentationPages\AlgorithmRepresentation.g.cs

@@ -77,7 +77,7 @@ namespace InterviewCrusher.Console {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/InterviewCrusher.Console;component/generatechapterpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InterviewCrusher.Console;V1.0.0.0;component/generatechapterpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GenerateChapterPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

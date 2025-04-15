@@ -2,8 +2,8 @@
 
 namespace InterviewCrusherAdmin.CommonDomain.AlgorithmDto.AlgorithmRepresentation
 {
-  public class GenerateAlgorithmRestrictionsDto : BaseAlgorithmRestriction
+  public class GenerateTestCaseRepresentationDto : BaseAlgorithmTestCase
   {
- 
+
   }
 }

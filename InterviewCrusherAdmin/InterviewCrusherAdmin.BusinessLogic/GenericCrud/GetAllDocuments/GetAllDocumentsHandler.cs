@@ -10,12 +10,12 @@ namespace InterviewCrusherAdmin.BusinessLogic.GenericCrud.GetAllDocuments
       where DtoRepresentation : IDtoRepresentation
       where DatabaseEntityRepresentation : IDatabaseEntityRepresentation
   {
-    private readonly IRepository<DatabaseEntityRepresentation> repository;
+    private readonly IGenericCrudRepository<DatabaseEntityRepresentation> repository;
     private readonly AutoMapperWrapper mapWrapper;
 
-    public GetAllDocumentsHandler(IRepository<DatabaseEntityRepresentation> repository, AutoMapperWrapper mapper)
+    public GetAllDocumentsHandler(IGenericCrudRepository<DatabaseEntityRepresentation> repository, AutoMapperWrapper mapper)
     {
-      this.repository = repository ?? throw new DependencyException<IRepository<DatabaseEntityRepresentation>>();
+      this.repository = repository ?? throw new DependencyException<IGenericCrudRepository<DatabaseEntityRepresentation>>();
       this.mapWrapper = mapper ?? throw new DependencyException<AutoMapperWrapper>();
     }
     public async Task<GetAllDocumentsResponse<DtoRepresentation>> Handle(GetAllDocumentsRequest<DtoRepresentation, DatabaseEntityRepresentation> request, CancellationToken cancellationToken)

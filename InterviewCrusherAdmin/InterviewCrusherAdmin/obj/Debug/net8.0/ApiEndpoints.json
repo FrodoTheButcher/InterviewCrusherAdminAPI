@@ -81,6 +81,26 @@
   },
   {
     "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GetDataBasicNamesForAlgorithms",
+    "RelativePath": "api/Generic/GetAlgorithmNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GetDataBasicNamesForChapters",
+    "RelativePath": "api/Generic/GetChapterNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
     "Method": "GetChaptersByTemplateId",
     "RelativePath": "api/Generic/GetChaptersByTemplateId/{id}",
     "HttpMethod": "POST",
@@ -123,6 +143,36 @@
   },
   {
     "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GetDataBasicNamesForQuizez",
+    "RelativePath": "api/Generic/GetQuizNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GetDataBasicNamesForTemplate",
+    "RelativePath": "api/Generic/GetTemplateNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
+    "Method": "GetDataBasicNamesForVideos",
+    "RelativePath": "api/Generic/GetVideoNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterviewCrusherAdmin.Controllers.GenericController",
     "Method": "InitializeTemplate",
     "RelativePath": "api/Generic/InitializeTemplate",
     "HttpMethod": "POST",
@@ -147,7 +197,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument.InsertAutoIncrementDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.VideosDto.VideoRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.VideoRepresentation.VideoRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "InterviewCrusherAdmin.BusinessLogic.GenericCrud.InsertAutoIncrementDocument.InsertAutoIncrementDocumentRequest\u00602[[InterviewCrusherAdmin.CommonDomain.AlgorithmDto.AlgorithmRepresentation.AlgorithmRepresentationDto, InterviewCrusherAdmin.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[InterviewCrusherAdmin.Domain.Algorithm.AlgorithmRepresentation, InterviewCrusherAdmin.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],
