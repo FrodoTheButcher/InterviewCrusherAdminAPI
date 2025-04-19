@@ -81,7 +81,7 @@ namespace InterviewCrusherAdmin.Domain
                Description = algo.Description,
                Difficulty = algo.Difficulty,
                Hint = algo.Hint,
-               Title = algo.Name,
+               Title = algo.Title,
                TestCases = algo.TestCases.Select(test => new GenerateTestCase { ExpectedOutput = test.ExpectedOutput, InputData = test.InputData, Tip = test.Tip }).ToList()
              };
            }).ToList(),
@@ -101,7 +101,7 @@ namespace InterviewCrusherAdmin.Domain
            GenerateVideos = chapter.GeneratedVideosDtos.Select(video => new GenerateVideo
            {
              Description = video.Description,
-             Title = video.Name,
+             Title = video.Title,
              Url = video.Url,
              Deleted = false,
              VideoLength = video.VideoLength
@@ -132,7 +132,7 @@ namespace InterviewCrusherAdmin.Domain
           Description = algo.Description,
           Difficulty = algo.Difficulty,
           Hint = algo.Hint,
-          Name = algo.Title,
+          Title = algo.Title,
           TestCases = algo.TestCases.Select(test => new CommonDomain.AlgorithmDto.GeneratedAlgorithm.GenerateTestCaseDto
           {
             ExpectedOutput = test.ExpectedOutput,
@@ -163,7 +163,7 @@ namespace InterviewCrusherAdmin.Domain
       GeneratedVideosDtos = chapter.GenerateVideos.Select(video => new GeneratedVideoDto
       {
         Description = video.Description,
-        Name = video.Title,
+        Title = video.Title,
         Url = video.Url,
         VideoLength = video.VideoLength
       }).ToList()

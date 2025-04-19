@@ -79,7 +79,7 @@ namespace InterviewCrusher.Console
         Description = AlgoDescriptionTextBox.Text,
         Difficulty = DifficultyComboBox.Text,
         Hint = AlgoHint.Text,
-        Name = AlgoNameTextBox.Text
+        Title = AlgoNameTextBox.Text
 
       });
       MessageBox.Show("Algorithm added successfully!");

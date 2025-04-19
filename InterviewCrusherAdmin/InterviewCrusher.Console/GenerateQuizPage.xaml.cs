@@ -1,7 +1,9 @@
 ﻿using InterviewCrusher.Console.Singleton;
 using InterviewCrusherAdmin.CommonDomain.QuizDto.GenerateQuizDto;
 using InterviewCrusherAdmin.Domain.GenerateTemplateDto.GenerateTemplate.GenerateChapter.GenerateQuiz;
+using Microsoft.Win32;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -11,22 +13,22 @@ namespace InterviewCrusher.Console
   {
     public GeneratedQuizDto Quiz { get; set; }
     public ObservableCollection<GenerateQuizAnswerDto> QuizAnswers { get; set; }
+    public ObservableCollection<string> QuizImages { get; set; }
 
     public GenerateQuizPage()
     {
       InitializeComponent();
 
-      // Initialize Quiz DTO and the Answers collection
       Quiz = new GeneratedQuizDto();
       QuizAnswers = new ObservableCollection<GenerateQuizAnswerDto>();
+      QuizImages = new ObservableCollection<string>();
 
-      // Bind the Answers collection to the ListView
       AnswersListView.ItemsSource = QuizAnswers;
+      ImagesListBox.ItemsSource = QuizImages;
     }
 
     private void AddAnswerButton_Click(object sender, RoutedEventArgs e)
     {
-      // Validate inputs
       if (string.IsNullOrWhiteSpace(NewAnswerNameTextBox.Text))
       {
         MessageBox.Show("Answer name cannot be empty.");
@@ -39,7 +41,6 @@ namespace InterviewCrusher.Console
         return;
       }
 
-      // Add a new answer to the collection
       var newAnswer = new GenerateQuizAnswerDto
       {
         Name = NewAnswerNameTextBox.Text,
@@ -49,22 +50,40 @@ namespace InterviewCrusher.Console
 
       QuizAnswers.Add(newAnswer);
 
-      // Clear input fields
       NewAnswerNameTextBox.Text = string.Empty;
       NewAnswerExplanationTextBox.Text = string.Empty;
       NewAnswerIsCorrectCheckBox.IsChecked = false;
     }
 
+    private void AddImageButton_Click(object sender, RoutedEventArgs e)
+    {
+      var openFileDialog = new OpenFileDialog
+      {
+        Filter = "Image Files (*.png;*.jpg;*.jpeg;*.bmp)|*.png;*.jpg;*.jpeg;*.bmp",
+        Multiselect = true
+      };
+
+      if (openFileDialog.ShowDialog() == true)
+      {
+        foreach (string filename in openFileDialog.FileNames)
+        {
+          if (!QuizImages.Contains(filename))
+          {
+            QuizImages.Add(filename);
+          }
+        }
+      }
+    }
+
     private void SubmitQuizButton_Click(object sender, RoutedEventArgs e)
     {
-      // Populate the Quiz object with user inputs
       Quiz.Title = QuizNameTextBox.Text;
       Quiz.Description = QuizDescriptionTextBox.Text;
       Quiz.Difficulty = (DifficultyComboBox.SelectedItem as ComboBoxItem)?.Content.ToString();
       Quiz.Hint = HintTextBox.Text;
       Quiz.QuizAnswers = new List<GenerateQuizAnswerDto>(QuizAnswers);
+      Quiz.Images = new List<string>(QuizImages); // Add image paths
 
-      // Validate Quiz data
       if (string.IsNullOrWhiteSpace(Quiz.Title))
       {
         MessageBox.Show("Quiz name cannot be empty.");
@@ -79,8 +98,7 @@ namespace InterviewCrusher.Console
 
       TemplateDataStorage templateDataStorage = TemplateDataStorage.Instance;
       templateDataStorage.AddGeneratedQuizDto(Quiz);
-      // Show a success message or handle the submitted Quiz object
-      MessageBox.Show($"Quiz '{Quiz.Title}' submitted with {Quiz.QuizAnswers.Count} answers.");
+      MessageBox.Show($"Quiz '{Quiz.Title}' submitted with {Quiz.QuizAnswers.Count} answers and {Quiz.Images.Count} images.");
     }
   }
 }

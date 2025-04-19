@@ -1,16 +1,10 @@
-﻿using InterviewCrusherAdmin.DataAbstraction;
+﻿using InterviewCrusher.AbstractDomain.Video;
+using InterviewCrusherAdmin.DataAbstraction;
 
 namespace InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo
 {
-  public class GeneratedVideoDto : IDtoRepresentation
+  public class GeneratedVideoDto : BaseVideoDto, IDtoRepresentation
   {
-    public string Name { get; set; } = string.Empty;
-
-    public string Url { get; set; } = string.Empty;
-
-    public float VideoLength { get; set; }
-
-    public string Description { get; set; } = string.Empty;
 
     public GeneratedVideoDto()
     {
@@ -18,7 +12,7 @@ namespace InterviewCrusherAdmin.CommonDomain.VideosDto.GeneratedVideo
 
     public GeneratedVideoDto(string name, string url, float videoLength, string description)
     {
-      Name = name;
+      Title = name;
       Url = url;
       VideoLength = videoLength;
       Description = description;
