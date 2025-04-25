@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\InterviewCrusherAdmin\InterviewCrusherAdminAPI\InterviewCrusherAdmin\InterviewCrusherAdmin.DataAbstraction\InterviewCrusherAdmin.DataAbstraction.csproj" />
+  </ItemGroup>
+
 </Project>
